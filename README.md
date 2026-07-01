@@ -1,19 +1,27 @@
 # OLL-Quiz
 
-Korrigierte Git/Vercel-Version.
+Interaktive Vite/React-Lernapp für den OLL-Fragenkatalog.
 
-## Korrekturen in dieser Version
+## Inhalt
 
-- VorgV-Frage angepasst: Vorrangreihenfolge bei konkurrierenden Vorgesetztenverhältnissen = § 5 → § 3 → § 1 → § 2 → § 4; § 6.
-- § 2-VorgV-Frage angepasst: Schießausbilder ist nicht automatisch Fachvorgesetzter; Fachvorgesetztenstellung muss tatsächlich bestehen.
+- 290 Fragen aus der Word-Datei `Fragen_Vorlagen.docx`
+- Single-Choice und Mehrfachauswahl
+- Lernmodus
+- Prüfungsmodus
+- Themenfilter
+- Sofortauswertung mit Begründung
+- Fehlertrainer über `localStorage`
 
-## GitHub aktualisieren
+## GitHub/Vercel
 
 1. ZIP entpacken.
-2. Im GitHub-Repository `OLL-Quiz` alle Dateien hochladen und vorhandene ersetzen:
-   - `index.html`
-   - `package.json`
-   - `README.md`
-   - kompletter Ordner `src`
-3. **Commit changes** klicken.
+2. Im GitHub-Repository alle Dateien ersetzen.
+3. Commit changes.
 4. Vercel deployt automatisch neu.
+
+## Lokal testen
+
+```bash
+npm install
+npm run dev
+```
