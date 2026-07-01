@@ -2,6 +2,17 @@ import React, { useMemo, useState, useEffect } from "react";
 import { Check, X, RotateCcw, ChevronRight, ChevronLeft, BookOpen, ShieldCheck, GraduationCap, ListChecks } from "lucide-react";
 import { QUESTIONS } from "./data/questions.js";
 
+const TOPIC_ORDER = [
+  "Soldatische Pflichten",
+  "Vorgesetztenverordnung",
+  "Befehlsrecht",
+  "WDO",
+  "WBO",
+  "Wehrstrafgesetz",
+  "Komplexe Prüfungsfälle",
+  "Prüfungssimulationen"
+];
+
 function shuffle(array) {
   const a = [...array];
   for (let i = a.length - 1; i > 0; i--) {
@@ -15,13 +26,16 @@ function sameSet(a, b) {
   return a.length === b.length && a.every(x => b.includes(x));
 }
 
-function topicLabel(topic) {
-  if (!topic) return "Allgemein";
-  return topic.replace("Block 1 – ", "").replace("Block 2 – ", "").trim();
+function letter(i) {
+  return String.fromCharCode(65 + i);
 }
 
 export default function App() {
-  const topics = useMemo(() => Array.from(new Set(QUESTIONS.map(q => q.topic))).filter(Boolean), []);
+  const topics = useMemo(() => {
+    const set = new Set(QUESTIONS.map(q => q.topic));
+    return TOPIC_ORDER.filter(t => set.has(t)).concat([...set].filter(t => !TOPIC_ORDER.includes(t)));
+  }, []);
+
   const [screen, setScreen] = useState("start");
   const [mode, setMode] = useState("learn");
   const [selectedTopics, setSelectedTopics] = useState(topics);
@@ -43,8 +57,7 @@ export default function App() {
 
   function startQuiz(useWrongOnly = false) {
     let base = useWrongOnly ? QUESTIONS.filter(q => wrongIds.includes(q.id)) : available;
-    if (mode === "exam") base = shuffle(base).slice(0, Math.min(amount, base.length));
-    else base = shuffle(base);
+    base = mode === "exam" ? shuffle(base).slice(0, Math.min(amount, base.length)) : shuffle(base);
     setPool(base);
     setIdx(0);
     setSelected([]);
@@ -92,8 +105,9 @@ export default function App() {
 
   function prev() {
     if (idx === 0) return;
-    setIdx(idx - 1);
-    const previous = answers[pool[idx - 1].id];
+    const newIdx = idx - 1;
+    setIdx(newIdx);
+    const previous = answers[pool[newIdx].id];
     setSelected(previous?.selected || []);
     setRevealed(Boolean(previous));
   }
@@ -106,10 +120,10 @@ export default function App() {
     return (
       <div className="shell start">
         <main className="start-card">
-          <div className="logo"><GraduationCap size={36}/></div>
+          <div className="logo"><GraduationCap size={38}/></div>
           <p className="eyebrow">OLL Rechtsprüfung</p>
           <h1>OLL-Quiz</h1>
-          <p className="subtitle">{QUESTIONS.length} importierte Fragen aus deiner Word-Datei</p>
+          <p className="subtitle">{QUESTIONS.length} Fragen · sortiert nach Hauptthemen</p>
 
           <section className="panel">
             <h2>Modus</h2>
@@ -120,6 +134,7 @@ export default function App() {
             {mode === "exam" && (
               <label className="amount">Fragenanzahl
                 <select value={amount} onChange={e => setAmount(Number(e.target.value))}>
+                  <option value={10}>10</option>
                   <option value={30}>30</option>
                   <option value={50}>50</option>
                   <option value={100}>100</option>
@@ -142,7 +157,7 @@ export default function App() {
                 const active = selectedTopics.includes(topic);
                 return (
                   <button key={topic} className={"topic " + (active ? "active" : "")} onClick={() => toggleTopic(topic)}>
-                    <span>{topicLabel(topic)}</span><small>{count}</small>
+                    <span>{topic}</span><small>{count}</small>
                   </button>
                 );
               })}
@@ -169,7 +184,7 @@ export default function App() {
         <main className="result-card">
           <div className="score">{pct}%</div>
           <h1>{score} von {pool.length} richtig</h1>
-          <p className="subtitle">{pct >= 80 ? "Stark. Weiter auf Prüfungsniveau üben." : pct >= 60 ? "Solide, aber Fehlertrainer nutzen." : "Nochmal in Ruhe durchgehen."}</p>
+          <p className="subtitle">{pct >= 80 ? "Stark." : pct >= 60 ? "Solide, Fehlertrainer nutzen." : "Nochmal gezielt wiederholen."}</p>
           <div className="actions">
             <button className="primary" onClick={() => startQuiz(false)}><RotateCcw size={18}/> Neu starten</button>
             <button className="secondary" onClick={() => setScreen("start")}>Zur Auswahl</button>
@@ -186,10 +201,21 @@ export default function App() {
           <span>Frage {idx + 1} von {pool.length}</span>
           <span>{score}/{answered} richtig</span>
         </div>
-        <div className="progress"><div style={{width: `${(idx / Math.max(pool.length,1)) * 100}%`}} /></div>
+        <div className="progress"><div style={{width: `${((idx + (revealed ? 1 : 0)) / Math.max(pool.length,1)) * 100}%`}} /></div>
 
-        <div className="badge"><ShieldCheck size={15}/> {topicLabel(q.topic)} · {q.multi ? "Mehrfachauswahl" : "Single Choice"}</div>
+        <div className="badge"><ShieldCheck size={15}/> {q.topic} · {q.multi ? "Mehrfachauswahl" : "Single Choice"}</div>
         <h1>{q.question}</h1>
+
+        {q.statements?.length > 0 && (
+          <div className="statements">
+            {q.statements.map((s, i) => (
+              <div className="statement" key={i}>
+                <strong>{i + 1}.</strong>
+                <span>{s}</span>
+              </div>
+            ))}
+          </div>
+        )}
 
         <div className="options">
           {q.options.map((option, i) => {
@@ -201,7 +227,7 @@ export default function App() {
             else if (isSelected) cls += " selected";
             return (
               <button key={i} className={cls} onClick={() => choose(i)}>
-                <span className="letter">{revealed && isCorrect ? <Check size={16}/> : revealed && isSelected && !isCorrect ? <X size={16}/> : String.fromCharCode(65 + i)}</span>
+                <span className="letter">{revealed && isCorrect ? <Check size={16}/> : revealed && isSelected && !isCorrect ? <X size={16}/> : letter(i)}</span>
                 <span>{option}</span>
               </button>
             );
@@ -211,8 +237,8 @@ export default function App() {
         {revealed && (
           <section className="explain">
             <strong>{sameSet([...selected].sort(), [...q.correct].sort()) ? "Richtig." : "Nicht ganz."}</strong>
-            <p>{q.explanation}</p>
-            <p className="solution">Richtige Antwort: {q.correct.map(i => String.fromCharCode(65 + i)).join(", ")}</p>
+            {q.explanation ? <p>{q.explanation}</p> : <p>Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt.</p>}
+            <p className="solution">Richtige Antwort: {q.correct.map(letter).join(", ")}</p>
           </section>
         )}
 

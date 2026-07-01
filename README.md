@@ -1,23 +1,31 @@
 # OLL-Quiz
 
-Interaktive Vite/React-Lernapp für den OLL-Fragenkatalog.
+GitHub-/Vercel-fertige React/Vite-App auf Basis der überarbeiteten Word-Datei.
 
 ## Inhalt
 
-- 290 Fragen aus der Word-Datei `Fragen_Vorlagen.docx`
-- Single-Choice und Mehrfachauswahl
+- 290 importierte Fragen
+- Sortierung nach Hauptthemen:
+  - Soldatische Pflichten: 100
+  - Vorgesetztenverordnung: 10
+  - Befehlsrecht: 20
+  - WDO: 30
+  - WBO: 10
+  - Wehrstrafgesetz: 10
+  - Komplexe Prüfungsfälle: 50
+  - Prüfungssimulationen: 60
+- Nummerierte Aussagen werden getrennt von den Antwortoptionen angezeigt
+- Single Choice und Mehrfachauswahl
 - Lernmodus
 - Prüfungsmodus
 - Themenfilter
-- Sofortauswertung mit Begründung
-- Fehlertrainer über `localStorage`
+- Fehlertrainer mit localStorage
 
-## GitHub/Vercel
+## Deployment
 
 1. ZIP entpacken.
-2. Im GitHub-Repository alle Dateien ersetzen.
-3. Commit changes.
-4. Vercel deployt automatisch neu.
+2. Inhalt in dein GitHub-Repository `OLL-Quiz` hochladen.
+3. Vercel neu deployen lassen.
 
 ## Lokal testen
 
