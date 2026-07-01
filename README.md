@@ -4,7 +4,7 @@ Korrigierte Git/Vercel-Version.
 
 ## Korrekturen in dieser Version
 
-- VorgV-Frage angepasst: Vorrangreihenfolge bei konkurrierenden Vorgesetztenverhältnissen = § 5 → § 3 → § 1 → § 2 → § 4; § 6 Sonderfall.
+- VorgV-Frage angepasst: Vorrangreihenfolge bei konkurrierenden Vorgesetztenverhältnissen = § 5 → § 3 → § 1 → § 2 → § 4; § 6.
 - § 2-VorgV-Frage angepasst: Schießausbilder ist nicht automatisch Fachvorgesetzter; Fachvorgesetztenstellung muss tatsächlich bestehen.
 
 ## GitHub aktualisieren
