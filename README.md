@@ -1,16 +1,13 @@
 # OLL-Quiz
 
-Git/Vercel-fertige Version des React-Quiz.
+Korrigierte Git/Vercel-Version.
 
-## Dateien
+## Korrekturen in dieser Version
 
-- `index.html`
-- `package.json`
-- `src/App.jsx` – deine Quiz-Datei
-- `src/main.jsx` – React/Vite Einstiegspunkt
-- `src/style.css` – minimale globale Styles
+- VorgV-Frage angepasst: Vorrangreihenfolge bei konkurrierenden Vorgesetztenverhältnissen = § 5 → § 3 → § 1 → § 2 → § 4; § 6 Sonderfall.
+- § 2-VorgV-Frage angepasst: Schießausbilder ist nicht automatisch Fachvorgesetzter; Fachvorgesetztenstellung muss tatsächlich bestehen.
 
-## Auf GitHub aktualisieren
+## GitHub aktualisieren
 
 1. ZIP entpacken.
 2. Im GitHub-Repository `OLL-Quiz` alle Dateien hochladen und vorhandene ersetzen:
@@ -18,12 +15,5 @@ Git/Vercel-fertige Version des React-Quiz.
    - `package.json`
    - `README.md`
    - kompletter Ordner `src`
-3. Unten auf **Commit changes** klicken.
-4. Vercel deployt danach automatisch neu.
-
-## Lokal testen
-
-```bash
-npm install
-npm run dev
-```
+3. **Commit changes** klicken.
+4. Vercel deployt automatisch neu.
