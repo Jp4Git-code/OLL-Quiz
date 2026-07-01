@@ -1,6 +1,6 @@
 # OLL-Quiz
 
-React/Vite-Quiz-App.
+Vite/React Quiz-App.
 
 ## Lokal starten
 
@@ -8,7 +8,3 @@ React/Vite-Quiz-App.
 npm install
 npm run dev
 ```
-
-## Vercel
-
-GitHub-Repository `OLL-Quiz` erstellen, Dateien hochladen, in Vercel importieren und deployen.
