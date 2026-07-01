@@ -2,6 +2,7 @@ import React, { useState, useMemo } from "react";
 import { ChevronRight, ChevronLeft, RotateCcw, Check, X, Shield, BookOpen, Scale, Award, CheckSquare } from "lucide-react";
 
 const QUESTIONS = [
+
   {
     "cat": "SG",
     "mode": "single",
@@ -14,7 +15,7 @@ const QUESTIONS = [
       "Teilnahme an einer politischen Demonstration."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Falsche Angaben in einer dienstlichen Vernehmung."
   },
   {
     "cat": "SG",
@@ -28,7 +29,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1,2 und 3"
   },
   {
     "cat": "SG",
@@ -42,7 +43,7 @@ const QUESTIONS = [
       "Alle vier"
     ],
     "correct": 3,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
   },
   {
     "cat": "SG",
@@ -71,7 +72,7 @@ const QUESTIONS = [
       "Nur 2 und 4"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Mehrere Pflichtverletzungen gleichzeitig möglich. § 7 SG: Treuer Dienst (z.B. Alkohol). § 10 SG: Vorgesetztenpflichten (Dienstaufsicht, Vorbild). § 12 SG: Kameradschaft (Würde/Ehre/Rechte)."
   },
   {
     "cat": "SG",
@@ -85,7 +86,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
   },
   {
     "cat": "SG",
@@ -99,7 +100,7 @@ const QUESTIONS = [
       "§ 13 SG"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 10 Abs.2 SG"
   },
   {
     "cat": "SG",
@@ -115,7 +116,7 @@ const QUESTIONS = [
       "Alle genannten."
     ],
     "correct": 5,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
   },
   {
     "cat": "SG",
@@ -143,7 +144,7 @@ const QUESTIONS = [
       "Alle fünf"
     ],
     "correct": 3,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
   },
   {
     "cat": "SG",
@@ -159,7 +160,7 @@ const QUESTIONS = [
       "Alle genannten."
     ],
     "correct": 5,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
   },
   {
     "cat": "SG",
@@ -208,7 +209,7 @@ const QUESTIONS = [
       "Keine soldatische Pflicht"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 12 SG und § 17 SG"
   },
   {
     "cat": "SG",
@@ -222,7 +223,7 @@ const QUESTIONS = [
       "alle genannten"
     ],
     "correct": 3,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: alle genannten"
   },
   {
     "cat": "SG",
@@ -240,7 +241,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §12 SG + §17 SG + Mehrere Pflichten können gleichzeitig verletzt sein."
   },
   {
     "cat": "SG",
@@ -257,7 +258,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Kameradschaft verlangt niemals das Decken von Pflichtverletzungen. + Es können eigene Pflichtverletzungen entstehen."
   },
   {
     "cat": "SG",
@@ -271,7 +272,7 @@ const QUESTIONS = [
       "Nur die unmittelbar Beteiligten handeln pflichtwidrig."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Kameradschaft bedeutet nicht, Pflichtverletzungen zu decken."
   },
   {
     "cat": "SG",
@@ -285,7 +286,7 @@ const QUESTIONS = [
       "§15 SG"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §7 SG"
   },
   {
     "cat": "SG",
@@ -361,7 +362,7 @@ const QUESTIONS = [
       "Alle Aussagen"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 7 SG umfasst die Dienstleistungspflicht (Alkohol = Schlechtleistung). § 13 SG regelt die Wahrheitspflicht in dienstlichen Angelegenheiten (Falschaussagen in Vernehmung)."
   },
   {
     "cat": "SG",
@@ -375,7 +376,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 7 SG umfasst die Dienstleistungspflicht (Alkohol = Schlechtleistung). § 13 SG regelt die Wahrheitspflicht in dienstlichen Angelegenheiten (Falschaussagen in Vernehmung)."
   },
   {
     "cat": "SG",
@@ -406,7 +407,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 2 und 3"
   },
   {
     "cat": "SG",
@@ -423,7 +424,7 @@ const QUESTIONS = [
       0,
       2
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Halbwahrheiten können ebenfalls gegen §13 SG verstoßen. + Die Wahrheitspflicht umfasst auch bewusstes Verschweigen wesentlicher Tatsachen."
   },
   {
     "cat": "SG",
@@ -468,7 +469,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 8 SG: Politische Treuepflicht – entscheidend ist die äußere Manifestation, nicht die bloße Gesinnung."
   },
   {
     "cat": "SG",
@@ -482,7 +483,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
   },
   {
     "cat": "SG",
@@ -499,7 +500,7 @@ const QUESTIONS = [
       0,
       1
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §15 Abs.2 SG ist zu prüfen. + Ob zusätzlich §8 SG betroffen ist, hängt vom Inhalt der Kundgebung ab."
   },
   {
     "cat": "SG",
@@ -517,7 +518,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 8 SG + § 17 SG + Je nach Sachverhalt mehrere gleichzeitig."
   },
   {
     "cat": "SG",
@@ -531,7 +532,7 @@ const QUESTIONS = [
       "Keine, weil Schweigen erlaubt ist."
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 13 SG"
   },
   {
     "cat": "SG",
@@ -563,7 +564,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §12 SG + §17 SG + Je nach Inhalt weitere Vorschriften."
   },
   {
     "cat": "SG",
@@ -577,7 +578,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 2 und 4"
   },
   {
     "cat": "SG",
@@ -591,7 +592,7 @@ const QUESTIONS = [
       "Keine Pflichtverletzung."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §15 SG ist regelmäßig einschlägig; §8 SG hängt vom Inhalt der Äußerungen ab."
   },
   {
     "cat": "SG",
@@ -605,7 +606,7 @@ const QUESTIONS = [
       "Ausschließlich Datenschutzrecht"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 12 SG und § 17 SG"
   },
   {
     "cat": "SG",
@@ -636,7 +637,7 @@ const QUESTIONS = [
       "Keine Pflichtverletzung."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §15 Abs.2 SG ist regelmäßig einschlägig; §8 SG hängt vom Inhalt der Äußerung ab."
   },
   {
     "cat": "SG",
@@ -664,7 +665,7 @@ const QUESTIONS = [
       "Die Belehrung hebt §13 SG auf."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Entscheidet er sich zur Aussage, muss diese wahrheitsgemäß sein."
   },
   {
     "cat": "SG",
@@ -695,7 +696,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es ist zu prüfen, ob Achtung und Vertrauen beeinträchtigt wurden. + Neben § 17 SG können weitere SG-Pflichten betroffen sein."
   },
   {
     "cat": "SG",
@@ -723,7 +724,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
   },
   {
     "cat": "SG",
@@ -741,7 +742,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §10 Abs.2 SG + §12 SG + §17 SG"
   },
   {
     "cat": "SG",
@@ -755,7 +756,7 @@ const QUESTIONS = [
       "Wegsehen ist rechtlich bedeutungslos."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die Pflicht zur Dienstaufsicht besteht unabhängig von einem Disziplinarverfahren."
   },
   {
     "cat": "SG",
@@ -769,7 +770,7 @@ const QUESTIONS = [
       "Wegen der Vielzahl der Pflichtverletzungen ist ausschließlich das Strafrecht anwendbar."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es sind mehrere soldatische Pflichten zu prüfen; disziplinarrechtlich kann dennoch ein einheitliches Dienstvergehen vorliegen."
   },
   {
     "cat": "SG",
@@ -787,7 +788,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Der Untergebene verletzt möglicherweise § 7 SG. + Der Zugführer verletzt möglicherweise seine Dienstaufsichtspflicht. + Je nach Sachverhalt kann auch ein Dienstvergehen des Vorgesetzten vorliegen."
   },
   {
     "cat": "SG",
@@ -801,7 +802,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 2 und 4"
   },
   {
     "cat": "SG",
@@ -818,7 +819,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §12 SG ist naheliegend. + §17 SG kann zusätzlich betroffen sein."
   },
   {
     "cat": "SG",
@@ -832,7 +833,7 @@ const QUESTIONS = [
       "Nur der Strafrichter darf den Sachverhalt bewerten."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es ist insbesondere zu prüfen, ob §17 SG betroffen ist."
   },
   {
     "cat": "SG",
@@ -849,7 +850,7 @@ const QUESTIONS = [
       0,
       1
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
   },
   {
     "cat": "SG",
@@ -880,7 +881,7 @@ const QUESTIONS = [
       "§17 SG verdrängt sämtliche anderen Pflichten."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Beide können nebeneinander erfüllt sein."
   },
   {
     "cat": "SG",
@@ -894,7 +895,7 @@ const QUESTIONS = [
       "§17 SG verdrängt sämtliche übrigen Pflichten."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Mehrere SG-Pflichten können gleichzeitig verletzt werden."
   },
   {
     "cat": "SG",
@@ -908,7 +909,7 @@ const QUESTIONS = [
       "Beide Paragraphen regeln denselben Inhalt."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
   },
   {
     "cat": "SG",
@@ -922,7 +923,7 @@ const QUESTIONS = [
       "Sie gilt nur während eines Auslandseinsatzes."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Sie verpflichtet zur gewissenhaften Wahrnehmung aller dienstlichen Aufgaben."
   },
   {
     "cat": "SG",
@@ -936,7 +937,7 @@ const QUESTIONS = [
       "Sie betrifft ausschließlich Straftaten."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Sie schützt das Vertrauen, das Bürger in die Bundeswehr haben müssen."
   },
   {
     "cat": "SG",
@@ -950,7 +951,7 @@ const QUESTIONS = [
       "Kameradschaft endet außerhalb des Dienstes."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Kameradschaft verpflichtet zum Schutz von Würde, Ehre und Rechten."
   },
   {
     "cat": "SG",
@@ -964,7 +965,7 @@ const QUESTIONS = [
       "Er gilt nur für Berufssoldaten."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
   },
   {
     "cat": "SG",
@@ -978,7 +979,7 @@ const QUESTIONS = [
       "Die Wahrheitspflicht gilt ausschließlich vor Gericht."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Wer sich freiwillig zur Aussage entscheidet, unterliegt der Wahrheitspflicht."
   },
   {
     "cat": "SG",
@@ -995,7 +996,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Soldaten bleiben Staatsbürger. + Politische Werbung während des Dienstes ist regelmäßig unzulässig."
   },
   {
     "cat": "SG",
@@ -1009,7 +1010,7 @@ const QUESTIONS = [
       "Uniform darf bei politischen Veranstaltungen grundsätzlich getragen werden."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Soldaten dürfen sich politisch betätigen, soweit dienstliche Grenzen eingehalten werden."
   },
   {
     "cat": "SG",
@@ -1054,7 +1055,7 @@ const QUESTIONS = [
       "Dienstvergehen gibt es nur innerhalb des Dienstes."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Mehrere Pflichtverletzungen können disziplinarrechtlich ein einheitliches Dienstvergehen bilden."
   },
   {
     "cat": "SG",
@@ -1099,7 +1100,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Wer dienstlich Angaben macht, muss vollständig und wahrheitsgemäß erklären. + Halbwahrheiten können ebenfalls gegen § 13 SG verstoßen."
   },
   {
     "cat": "SG",
@@ -1113,7 +1114,7 @@ const QUESTIONS = [
       "Sie ist nur bei Straftaten anwendbar."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Sie schützt das Vertrauen in die Bundeswehr insgesamt."
   },
   {
     "cat": "SG",
@@ -1147,7 +1148,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Sie schützt das Vertrauen der Allgemeinheit in die Bundeswehr. + Sie kann auch außerhalb des Dienstes verletzt werden."
   },
   {
     "cat": "SG",
@@ -1161,7 +1162,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 3,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 15 SG: Politische Betätigung grundsätzlich erlaubt (Staatsbürger in Uniform), verboten aber in Uniform, im Dienst oder unter Ausnutzung der Dienststellung."
   },
   {
     "cat": "SG",
@@ -1175,7 +1176,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "SG",
@@ -1193,7 +1194,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
   },
   {
     "cat": "SG",
@@ -1207,7 +1208,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1,3 und 4"
   },
   {
     "cat": "SG",
@@ -1221,7 +1222,7 @@ const QUESTIONS = [
       "Alle Aussagen"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 2 und 3"
   },
   {
     "cat": "SG",
@@ -1235,7 +1236,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
   },
   {
     "cat": "SG",
@@ -1252,7 +1253,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
   },
   {
     "cat": "SG",
@@ -1266,7 +1267,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
   },
   {
     "cat": "SG",
@@ -1280,7 +1281,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "SG",
@@ -1311,7 +1312,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1 und 2"
   },
   {
     "cat": "SG",
@@ -1349,7 +1350,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Sie gilt bei dienstlichen Meldungen. + Sie gilt bei dienstlichen Anträgen. + Sie gilt auch bei dienstlichen Vernehmungen."
   },
   {
     "cat": "SG",
@@ -1363,7 +1364,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "SG",
@@ -1377,7 +1378,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 2, 3 und 4"
   },
   {
     "cat": "SG",
@@ -1391,7 +1392,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 2 und 3"
   },
   {
     "cat": "SG",
@@ -1405,7 +1406,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 8 SG: Politische Treuepflicht – entscheidend ist die äußere Manifestation, nicht die bloße Gesinnung."
   },
   {
     "cat": "SG",
@@ -1423,7 +1424,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
   },
   {
     "cat": "SG",
@@ -1441,7 +1442,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 8 SG: Politische Treuepflicht – entscheidend ist die äußere Manifestation, nicht die bloße Gesinnung."
   },
   {
     "cat": "SG",
@@ -1476,7 +1477,7 @@ const QUESTIONS = [
       "alle genannten"
     ],
     "correct": 4,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
   },
   {
     "cat": "SG",
@@ -1536,7 +1537,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §12 SG kann verletzt sein. + §17 SG kommt in Betracht. + Je nach Inhalt kommen zusätzlich Straftatbestände in Betracht."
   },
   {
     "cat": "VorgV",
@@ -1550,7 +1551,7 @@ const QUESTIONS = [
       "Auf keine Vorschrift."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Auf die besondere Anordnung für diese Aufgabe.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
   },
   {
     "cat": "VorgV",
@@ -1564,7 +1565,7 @@ const QUESTIONS = [
       "Der Gefreite muss jedem Offizier jederzeit gehorchen."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Ein höherer Dienstgrad allein begründet nicht automatisch ein Vorgesetztenverhältnis.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
   },
   {
     "cat": "VorgV",
@@ -1578,7 +1579,7 @@ const QUESTIONS = [
       "Zivilbedienstete dürfen Soldaten niemals Anweisungen erteilen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es handelt sich um eine dienstliche Weisung; die Folgepflicht kann sich aus § 7 SG ergeben.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
   },
   {
     "cat": "VorgV",
@@ -1592,7 +1593,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit heilt den Mangel."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es liegt regelmäßig kein militärischer Befehl im Sinne der §§ 10, 11 SG vor.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
   },
   {
     "cat": "VorgV",
@@ -1620,7 +1621,7 @@ const QUESTIONS = [
       "Dienstvergehen → Strafbarkeit → Verbindlichkeit"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Vorgesetztenverhältnis → Rechtmäßigkeit → Verbindlichkeit. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
   },
   {
     "cat": "VorgV",
@@ -1634,7 +1635,7 @@ const QUESTIONS = [
       "Ob ein Dienstvergehen vorliegt."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Ob nach der VorgV überhaupt ein Vorgesetztenverhältnis bestand.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
   },
   {
     "cat": "VorgV",
@@ -1662,7 +1663,7 @@ const QUESTIONS = [
       "Er ist immer Offizier."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Seine Befehlsbefugnis beschränkt sich auf seinen fachlichen Aufgabenbereich.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
   },
   {
     "cat": "VorgV",
@@ -1676,7 +1677,7 @@ const QUESTIONS = [
       "Er regelt den Dienstgradvorgesetzten."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Er regelt den unmittelbaren Vorgesetzten.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
   },
   {
     "cat": "Befehlsrecht",
@@ -1690,7 +1691,7 @@ const QUESTIONS = [
       "Die Menschenwürde spielt im Befehlsrecht keine Rolle."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Der Befehl verletzt die Menschenwürde und ist unverbindlich."
   },
   {
     "cat": "Befehlsrecht",
@@ -1704,7 +1705,7 @@ const QUESTIONS = [
       "Der Soldat entscheidet frei."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Der Befehl kann trotz seiner Rechtswidrigkeit verbindlich sein."
   },
   {
     "cat": "Befehlsrecht",
@@ -1718,7 +1719,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 2 und 4"
   },
   {
     "cat": "Befehlsrecht",
@@ -1732,7 +1733,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Befehlsrecht",
@@ -1746,7 +1747,7 @@ const QUESTIONS = [
       "Der Soldat muss den Befehl immer ausführen."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Der dienstliche Zweck fehlt."
   },
   {
     "cat": "Befehlsrecht",
@@ -1760,7 +1761,7 @@ const QUESTIONS = [
       "Der Befehl betrifft ausschließlich Privatrecht."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es handelt sich um einen grundsätzlich zulässigen Präventivbefehl."
   },
   {
     "cat": "Befehlsrecht",
@@ -1774,7 +1775,7 @@ const QUESTIONS = [
       "Nur 2–4"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Befehlsrecht",
@@ -1788,7 +1789,7 @@ const QUESTIONS = [
       "Verhältnismäßigkeit → Rechtmäßigkeit → Vorgesetztenverhältnis"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Rechtmäßigkeit → Verbindlichkeit → Folgen der Nichtbefolgung"
   },
   {
     "cat": "Befehlsrecht",
@@ -1802,7 +1803,7 @@ const QUESTIONS = [
       "Er schreibt zunächst eine Beschwerde."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Er erhebt zunächst eine Gegenvorstellung und weist auf seine Bedenken hin."
   },
   {
     "cat": "Befehlsrecht",
@@ -1816,7 +1817,7 @@ const QUESTIONS = [
       "Erst nach einer Gegenvorstellung darf verweigert werden."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Der Befehl darf nicht befolgt werden."
   },
   {
     "cat": "Befehlsrecht",
@@ -1830,7 +1831,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 10 Abs. 4 SG: Rechtmäßigkeit = dienstlicher Zweck + Gesetze + Dienstvorschriften + Völkerrecht. Betrifft den BEFEHLSGEBER."
   },
   {
     "cat": "Befehlsrecht",
@@ -1844,7 +1845,7 @@ const QUESTIONS = [
       "Über die Verbindlichkeit entscheidet ausschließlich das Truppendienstgericht."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es spricht viel dafür, dass bereits der dienstliche Zweck fehlt; der Befehl ist daher rechtswidrig und regelmäßig unverbindlich."
   },
   {
     "cat": "Befehlsrecht",
@@ -1858,7 +1859,7 @@ const QUESTIONS = [
       "Nur bei Offizieren."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Wenn der Eingriff in Grundrechte außer Verhältnis zum dienstlichen Zweck steht."
   },
   {
     "cat": "Befehlsrecht",
@@ -1872,7 +1873,7 @@ const QUESTIONS = [
       "Rechtswidrige Befehle sind stets unverbindlich."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Rechtmäßigkeit betrifft den Befehlsgeber, Verbindlichkeit die Pflicht des Empfängers."
   },
   {
     "cat": "Befehlsrecht",
@@ -1886,7 +1887,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1 und 3"
   },
   {
     "cat": "Befehlsrecht",
@@ -1900,7 +1901,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1 und 3"
   },
   {
     "cat": "Befehlsrecht",
@@ -1928,7 +1929,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Befehlsrecht",
@@ -1942,7 +1943,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 10 Abs. 4 SG: Rechtmäßigkeit = dienstlicher Zweck + Gesetze + Dienstvorschriften + Völkerrecht. Betrifft den BEFEHLSGEBER."
   },
   {
     "cat": "Befehlsrecht",
@@ -1956,7 +1957,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "WDO",
@@ -1970,7 +1971,7 @@ const QUESTIONS = [
       "Falschangaben sind disziplinarrechtlich bedeutungslos."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Mit der freiwilligen Aussage greift die Wahrheitspflicht."
   },
   {
     "cat": "WDO",
@@ -1984,7 +1985,7 @@ const QUESTIONS = [
       "Gegen ihn ist sofort Arrest zu verhängen."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Schweigen darf nicht negativ gewertet werden."
   },
   {
     "cat": "WDO",
@@ -1998,7 +1999,7 @@ const QUESTIONS = [
       "Die Beschwerde ist unzulässig."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die Vollstreckung läuft grundsätzlich weiter."
   },
   {
     "cat": "WDO",
@@ -2012,7 +2013,7 @@ const QUESTIONS = [
       "Es muss vollständig neu ermittelt werden."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die tatsächlichen Feststellungen des Urteils entfalten Bindungswirkung."
   },
   {
     "cat": "WDO",
@@ -2026,7 +2027,7 @@ const QUESTIONS = [
       "Strafbefehle ersetzen sämtliche Ermittlungen."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Strafbefehle entfalten ausdrücklich keine Bindungswirkung."
   },
   {
     "cat": "WDO",
@@ -2054,7 +2055,7 @@ const QUESTIONS = [
       "Nur Arrestmaßnahmen werden gehemmt."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die Beschwerde hat hemmende Wirkung."
   },
   {
     "cat": "WDO",
@@ -2068,7 +2069,7 @@ const QUESTIONS = [
       "Er wird automatisch Beschuldigter."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Ihm steht ein Auskunftsverweigerungsrecht zu."
   },
   {
     "cat": "WDO",
@@ -2082,7 +2083,7 @@ const QUESTIONS = [
       "Er muss den militärischen Gruß leisten."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Seine Vernehmung erfolgt ausschließlich freiwillig."
   },
   {
     "cat": "WDO",
@@ -2096,7 +2097,7 @@ const QUESTIONS = [
       "Neue Erkenntnisse bleiben unberücksichtigt."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
   },
   {
     "cat": "WDO",
@@ -2110,7 +2111,7 @@ const QUESTIONS = [
       "Das Verfahren endet."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
   },
   {
     "cat": "WDO",
@@ -2124,7 +2125,7 @@ const QUESTIONS = [
       "Die Vertrauensperson entscheidet."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nach der Verhängung besteht grundsätzlich keine Änderungsbefugnis mehr."
   },
   {
     "cat": "WDO",
@@ -2138,7 +2139,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
   },
   {
     "cat": "WDO",
@@ -2152,7 +2153,7 @@ const QUESTIONS = [
       "Das Verfahren beginnt erneut."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
   },
   {
     "cat": "WDO",
@@ -2194,7 +2195,7 @@ const QUESTIONS = [
       "Das Verfahren muss vollständig neu beginnen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 37 Abs. 1 WDO: Zwischen Schlussgehör und Verhängung muss eine Nacht (22:00–06:00 Uhr) liegen. Schriftform beim Schlussgehör ist zwingend (§ 32 Abs. 5 Satz 2 WDO)."
   },
   {
     "cat": "WDO",
@@ -2222,7 +2223,7 @@ const QUESTIONS = [
       "Der Bataillonskommandeur wird automatisch Ermittlungsführer."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die Zuständigkeit wechselt automatisch."
   },
   {
     "cat": "WDO",
@@ -2236,7 +2237,7 @@ const QUESTIONS = [
       "Sie bitten die Vertrauensperson um eine neue Stellungnahme."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Sie können die bereits verhängte Maßnahme grundsätzlich nicht mehr selbst ändern."
   },
   {
     "cat": "WDO",
@@ -2250,7 +2251,7 @@ const QUESTIONS = [
       "Beide unterliegen ausschließlich dem Opportunitätsprinzip."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Ermittlungen unterliegen dem Legalitätsprinzip, die Ahndungsentscheidung dem Opportunitätsprinzip."
   },
   {
     "cat": "WDO",
@@ -2264,7 +2265,7 @@ const QUESTIONS = [
       "Erst die Vollstreckung stellt die Verhängung dar."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die Verhängung erfolgt durch dienstliche Bekanntgabe."
   },
   {
     "cat": "WDO",
@@ -2278,7 +2279,7 @@ const QUESTIONS = [
       "Sie beginnt mit dem Schlussgehör."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Sie beginnt mit Eintritt der Unanfechtbarkeit."
   },
   {
     "cat": "WDO",
@@ -2292,7 +2293,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "WDO",
@@ -2306,7 +2307,7 @@ const QUESTIONS = [
       "Arrest"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 59 WDO: Vollstreckungsverjährung 6 Monate nach Unanfechtbarkeit. § 17 Abs. 2 WDO: Tatverjährung 6 Monate ab Tatbegehung."
   },
   {
     "cat": "WDO",
@@ -2320,7 +2321,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
   },
   {
     "cat": "WDO",
@@ -2334,7 +2335,7 @@ const QUESTIONS = [
       "Nur 2–5"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "WDO",
@@ -2348,7 +2349,7 @@ const QUESTIONS = [
       "Die Verhängung der Maßnahme."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die Sachverhaltsaufklärung."
   },
   {
     "cat": "WDO",
@@ -2362,7 +2363,7 @@ const QUESTIONS = [
       "Entlastende Tatsachen dürfen erst im Beschwerdeverfahren berücksichtigt werden."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
   },
   {
     "cat": "WDO",
@@ -2376,7 +2377,7 @@ const QUESTIONS = [
       "Nur 2–4"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "WBO",
@@ -2390,7 +2391,7 @@ const QUESTIONS = [
       "Der Beschwerdeführer entscheidet selbst."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
   },
   {
     "cat": "WBO",
@@ -2404,7 +2405,7 @@ const QUESTIONS = [
       "Das Truppendienstgericht entscheidet unmittelbar."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es handelt sich um eine Kameradenbeschwerde."
   },
   {
     "cat": "WBO",
@@ -2418,7 +2419,7 @@ const QUESTIONS = [
       "Verwaltungsbeschwerde"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Immer zuerst die Beschwerdeart bestimmen! Die drei Arten: § 1 WBO (Truppendienstliche Beschwerde), § 23 WBO (Verwaltungsbeschwerde), § 42 WDO (Disziplinarbeschwerde)."
   },
   {
     "cat": "WBO",
@@ -2432,7 +2433,7 @@ const QUESTIONS = [
       "Einstellung"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
   },
   {
     "cat": "WBO",
@@ -2446,7 +2447,7 @@ const QUESTIONS = [
       "Die Anzahl der Soldaten spielt keine Rolle."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
   },
   {
     "cat": "WBO",
@@ -2474,7 +2475,7 @@ const QUESTIONS = [
       "Die Frist beträgt sechs Monate."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
   },
   {
     "cat": "WBO",
@@ -2488,7 +2489,7 @@ const QUESTIONS = [
       "Sobald der Soldat Offizier ist."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
   },
   {
     "cat": "WBO",
@@ -2502,7 +2503,7 @@ const QUESTIONS = [
       "Nur 1 und 4"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "§ 6 Abs. 1 WBO: Beschwerdefrist 1 Monat ab Kenntnis. Fristende auf Sa/So/Feiertag → nächster Werktag. Vollstreckungsverjährung: 6 Monate nach Unanfechtbarkeit (§ 59 WDO)."
   },
   {
     "cat": "WBO",
@@ -2516,7 +2517,7 @@ const QUESTIONS = [
       "Der Bataillonskommandeur"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Der nächste gemeinsame Disziplinarvorgesetzte"
   },
   {
     "cat": "Strafrecht",
@@ -2530,7 +2531,7 @@ const QUESTIONS = [
       "Nur Offiziere dürfen unverbindliche Befehle verweigern."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Ein unverbindlicher Befehl erfüllt grundsätzlich nicht den Tatbestand des § 19 WStG."
   },
   {
     "cat": "Strafrecht",
@@ -2544,7 +2545,7 @@ const QUESTIONS = [
       "Ausschließlich der Vorgesetzte haftet."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Auch der Untergebene kann strafrechtlich verantwortlich sein."
   },
   {
     "cat": "Strafrecht",
@@ -2558,7 +2559,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
   },
   {
     "cat": "Strafrecht",
@@ -2572,7 +2573,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
   },
   {
     "cat": "Strafrecht",
@@ -2586,7 +2587,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
   },
   {
     "cat": "Strafrecht",
@@ -2600,7 +2601,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
   },
   {
     "cat": "Strafrecht",
@@ -2614,7 +2615,7 @@ const QUESTIONS = [
       "Der Dienstgrad."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
   },
   {
     "cat": "Strafrecht",
@@ -2628,7 +2629,7 @@ const QUESTIONS = [
       "Schutz vor Fahnenflucht."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
   },
   {
     "cat": "Strafrecht",
@@ -2642,7 +2643,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 2 und 4"
   },
   {
     "cat": "Strafrecht",
@@ -2656,7 +2657,7 @@ const QUESTIONS = [
       "Nur 1 und 4"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
   },
   {
     "cat": "Fälle",
@@ -2670,7 +2671,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 5"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Fälle",
@@ -2684,7 +2685,7 @@ const QUESTIONS = [
       "Die Nachtfrist wurde eingehalten."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Das Schlussgehör hätte vor der Verhängung erfolgen müssen."
   },
   {
     "cat": "Fälle",
@@ -2698,7 +2699,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Fälle",
@@ -2712,7 +2713,7 @@ const QUESTIONS = [
       "Liegt Ungehorsam vor?"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Besteht überhaupt ein Vorgesetztenverhältnis nach der VorgV?"
   },
   {
     "cat": "Fälle",
@@ -2726,7 +2727,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 5"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle Aussagen"
   },
   {
     "cat": "Fälle",
@@ -2740,7 +2741,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 2–4"
   },
   {
     "cat": "Fälle",
@@ -2754,7 +2755,7 @@ const QUESTIONS = [
       "Nach 48 Stunden liegt automatisch Fahnenflucht vor."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es kommt insbesondere auf die Rückkehrabsicht bzw. den Rückkehrwillen an."
   },
   {
     "cat": "Fälle",
@@ -2768,7 +2769,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1,2 und 4"
   },
   {
     "cat": "Fälle",
@@ -2782,7 +2783,7 @@ const QUESTIONS = [
       "Ungehorsam liegt immer vor."
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: §19 WStG ist regelmäßig nicht erfüllt."
   },
   {
     "cat": "Fälle",
@@ -2796,7 +2797,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Fälle",
@@ -2810,7 +2811,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Fälle",
@@ -2824,7 +2825,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 2 und 4"
   },
   {
     "cat": "Fälle",
@@ -2838,7 +2839,7 @@ const QUESTIONS = [
       "Die Gegenvorstellung ersetzt die Beschwerde."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Entscheidend bleibt, ob gesetzliche Gründe gegen die Verbindlichkeit sprechen (z. B. Straftat oder Menschenwürde)."
   },
   {
     "cat": "Fälle",
@@ -2852,7 +2853,7 @@ const QUESTIONS = [
       "Beschwer"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Frist"
   },
   {
     "cat": "Fälle",
@@ -2866,7 +2867,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 3,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Fälle",
@@ -2880,7 +2881,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Fälle",
@@ -2894,7 +2895,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle Aussagen"
   },
   {
     "cat": "Fälle",
@@ -2908,7 +2909,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Fälle",
@@ -2922,7 +2923,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 2 und 4"
   },
   {
     "cat": "Fälle",
@@ -2936,7 +2937,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 2–4"
   },
   {
     "cat": "Fälle",
@@ -2950,7 +2951,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Fälle",
@@ -2964,7 +2965,7 @@ const QUESTIONS = [
       "Das Verfahren wird automatisch nichtig."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es ist zu prüfen, welche Auswirkungen der Verfahrensfehler auf die Rechtmäßigkeit des Verfahrens hat."
   },
   {
     "cat": "Fälle",
@@ -2978,7 +2979,7 @@ const QUESTIONS = [
       "Das Verfahren ist automatisch nichtig."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die neuen Erkenntnisse machen regelmäßig eine erneute Beteiligung des Beschuldigten erforderlich."
   },
   {
     "cat": "Fälle",
@@ -2992,7 +2993,7 @@ const QUESTIONS = [
       "Verhängung → Beschwerde → Ermittlungen"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Ermittlungen → Vernehmung → VP → Schlussgehör → Nachtfrist → Verhängung"
   },
   {
     "cat": "Fälle",
@@ -3006,7 +3007,7 @@ const QUESTIONS = [
       "Sofort Disziplinarmaßnahme verhängen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Den Widerruf und seine Glaubhaftigkeit aufklären sowie die Beweislage insgesamt neu bewerten."
   },
   {
     "cat": "Fälle",
@@ -3020,7 +3021,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle Aussagen"
   },
   {
     "cat": "Fälle",
@@ -3034,7 +3035,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Fälle",
@@ -3048,7 +3049,7 @@ const QUESTIONS = [
       "Zunächst wird ausschließlich die Vertrauensperson angehört."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Liegt ein Anfangsverdacht vor, müssen Ermittlungen geführt werden – unabhängig von Ihrer persönlichen Einschätzung."
   },
   {
     "cat": "Fälle",
@@ -3062,7 +3063,7 @@ const QUESTIONS = [
       "Verfahren einstellen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nachermittlungen durchführen und anschließend VP-Anhörung sowie Schlussgehör erneut durchführen."
   },
   {
     "cat": "Fälle",
@@ -3076,7 +3077,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 3,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Fälle",
@@ -3090,7 +3091,7 @@ const QUESTIONS = [
       "Geständnisse beenden jede weitere Sachverhaltsaufklärung."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Belastende und entlastende Tatsachen sind mit gleicher Sorgfalt zu ermitteln."
   },
   {
     "cat": "Fälle",
@@ -3104,7 +3105,7 @@ const QUESTIONS = [
       "Das Völkerrecht ist zu beachten."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Jeder rechtswidrige Befehl ist automatisch unverbindlich."
   },
   {
     "cat": "Fälle",
@@ -3118,7 +3119,7 @@ const QUESTIONS = [
       "Die Beschwer ist Zulässigkeitsvoraussetzung."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die Frist wird erst nach der Begründetheit geprüft."
   },
   {
     "cat": "Fälle",
@@ -3132,7 +3133,7 @@ const QUESTIONS = [
       "Die Verbindlichkeit ist gesondert zu prüfen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Rechtmäßigkeit und Verbindlichkeit sind identisch."
   },
   {
     "cat": "Fälle",
@@ -3146,7 +3147,7 @@ const QUESTIONS = [
       "Die Frist gehört zur Zulässigkeitsprüfung."
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Jede zulässige Beschwerde ist automatisch begründet."
   },
   {
     "cat": "Fälle",
@@ -3160,7 +3161,7 @@ const QUESTIONS = [
       "Die Rechtsgrundlage des Vorgesetztenverhältnisses ist stets zu prüfen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Jeder Offizier ist jederzeit Vorgesetzter aller Soldaten."
   },
   {
     "cat": "Fälle",
@@ -3174,7 +3175,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Fälle",
@@ -3188,7 +3189,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 2–4"
   },
   {
     "cat": "Fälle",
@@ -3202,7 +3203,7 @@ const QUESTIONS = [
       "Nur 1 und 4"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Fälle",
@@ -3216,7 +3217,7 @@ const QUESTIONS = [
       "Schlussgehör → Ermittlungen → Verhängung"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Tatverdacht → Ermittlungen → Vernehmung → VP → Schlussgehör → Nachtfrist → Verhängung"
   },
   {
     "cat": "Fälle",
@@ -3230,7 +3231,7 @@ const QUESTIONS = [
       "Frist → Entscheidung → Begründetheit"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Zulässigkeit → Begründetheit → Entscheidung"
   },
   {
     "cat": "Fälle",
@@ -3244,7 +3245,7 @@ const QUESTIONS = [
       "Rechtmäßigkeit → Dienstgrad → Verbindlichkeit"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Vorgesetztenverhältnis → Rechtmäßigkeit → Verbindlichkeit → Gehorsamspflicht"
   },
   {
     "cat": "Fälle",
@@ -3258,7 +3259,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 5"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Fälle",
@@ -3272,7 +3273,7 @@ const QUESTIONS = [
       "Strafrecht → WBO → WDO"
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: VorgV → Rechtmäßigkeit des Befehls → Verbindlichkeit → mögliche Folgen der Nichtbefolgung"
   },
   {
     "cat": "Fälle",
@@ -3286,7 +3287,7 @@ const QUESTIONS = [
       "Offensichtlich fehlender dienstlicher Zweck."
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Verstoß gegen eine interne Verwaltungsvorschrift."
   },
   {
     "cat": "Fälle",
@@ -3300,7 +3301,7 @@ const QUESTIONS = [
       "Das Verfahren ist einzustellen."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Beide Aussagen sind zu würdigen und ihre Glaubhaftigkeit zu prüfen."
   },
   {
     "cat": "Fälle",
@@ -3314,7 +3315,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 3 und 4"
   },
   {
     "cat": "Fälle",
@@ -3328,7 +3329,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Fälle",
@@ -3342,7 +3343,7 @@ const QUESTIONS = [
       "Die Vertrauensperson übernimmt."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Ein Zuständigkeitswechsel kommt in Betracht."
   },
   {
     "cat": "Prüfung",
@@ -3356,7 +3357,7 @@ const QUESTIONS = [
       "Erst VP anhören, dann Verdacht prüfen."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Disziplinarvorgesetzter muss ermitteln."
   },
   {
     "cat": "Prüfung",
@@ -3370,7 +3371,7 @@ const QUESTIONS = [
       "Nur § 17 SG ist betroffen."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Menschenwürdeverletzung; Befehl unverbindlich."
   },
   {
     "cat": "Prüfung",
@@ -3384,7 +3385,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 2–4"
   },
   {
     "cat": "Prüfung",
@@ -3398,7 +3399,7 @@ const QUESTIONS = [
       "Das Geständnis darf nach einem Widerruf nicht mehr berücksichtigt werden."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Beide Einlassungen sind im Rahmen der Beweiswürdigung zu bewerten."
   },
   {
     "cat": "Prüfung",
@@ -3412,7 +3413,7 @@ const QUESTIONS = [
       "§ 4 VorgV verdrängt § 2 VorgV immer."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Seine Befugnis ist auf den Fachbereich begrenzt."
   },
   {
     "cat": "Prüfung",
@@ -3426,7 +3427,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Prüfung",
@@ -3440,7 +3441,7 @@ const QUESTIONS = [
       "Nur Strafrecht"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: SG, WDO, WBO; WStG/Strafrecht je nach Einzelhandlung"
   },
   {
     "cat": "Prüfung",
@@ -3454,7 +3455,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Prüfung",
@@ -3468,7 +3469,7 @@ const QUESTIONS = [
       "Keine, weil kein Befehl betroffen ist."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 10 Abs. 2 SG beim Gruppenführer und § 12 SG bei den Tätern."
   },
   {
     "cat": "Prüfung",
@@ -3482,7 +3483,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 4"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle Aussagen"
   },
   {
     "cat": "Prüfung",
@@ -3496,7 +3497,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Prüfung",
@@ -3510,7 +3511,7 @@ const QUESTIONS = [
       "§ 31 WStG"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 16 WStG"
   },
   {
     "cat": "Prüfung",
@@ -3524,7 +3525,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 4"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle Aussagen"
   },
   {
     "cat": "Prüfung",
@@ -3538,7 +3539,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit spielt keine Rolle."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Der Soldat darf die Ausführung verweigern, wenn der Befehl auf eine Straftat gerichtet ist."
   },
   {
     "cat": "Prüfung",
@@ -3552,7 +3553,7 @@ const QUESTIONS = [
       "Nur der Vorgesetzte ist verantwortlich."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Er darf ihn nicht ausführen."
   },
   {
     "cat": "Prüfung",
@@ -3566,7 +3567,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 2 und 4"
   },
   {
     "cat": "Prüfung",
@@ -3580,7 +3581,7 @@ const QUESTIONS = [
       "Es liegt automatisch Fahnenflucht vor."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 7 SG ist wegen Schlechtleistung zu prüfen."
   },
   {
     "cat": "Prüfung",
@@ -3594,7 +3595,7 @@ const QUESTIONS = [
       "§ 6 VorgV"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 5 VorgV"
   },
   {
     "cat": "Prüfung",
@@ -3608,7 +3609,7 @@ const QUESTIONS = [
       "Nur bei Verweis hemmend."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Hemmende Wirkung."
   },
   {
     "cat": "Prüfung",
@@ -3622,7 +3623,7 @@ const QUESTIONS = [
       "Sofortige Abhilfe."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Zurückweisung als unbegründet."
   },
   {
     "cat": "Prüfung",
@@ -3636,7 +3637,7 @@ const QUESTIONS = [
       "Nur ausdrückliche Falschaussagen sind disziplinarrechtlich bedeutsam."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es ist zu prüfen, ob dadurch die soldatische Wahrheitspflicht verletzt wurde."
   },
   {
     "cat": "Prüfung",
@@ -3650,7 +3651,7 @@ const QUESTIONS = [
       "§ 13 SG gilt nur vor Gericht."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Bei freiwilliger Aussage gilt die Wahrheitspflicht."
   },
   {
     "cat": "Prüfung",
@@ -3664,7 +3665,7 @@ const QUESTIONS = [
       "Die Frist ist bedeutungslos."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die Zulässigkeit ist wegen der Frist zu prüfen."
   },
   {
     "cat": "Prüfung",
@@ -3678,7 +3679,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit des Befehls spielt keine Rolle."
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Eine Strafbarkeit nach dem Wehrstrafgesetz kann zu prüfen sein."
   },
   {
     "cat": "Prüfung",
@@ -3692,7 +3693,7 @@ const QUESTIONS = [
       "Unverbindlichkeit spielt keine Rolle."
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 19 WStG ist regelmäßig nicht erfüllt."
   },
   {
     "cat": "Prüfung",
@@ -3706,7 +3707,7 @@ const QUESTIONS = [
       "Seine Befehlsbefugnis endet erst mit dem Ausscheiden aus der Bundeswehr."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Seine Befehlsbefugnis beschränkt sich grundsätzlich auf den übertragenen Aufgabenbereich."
   },
   {
     "cat": "Prüfung",
@@ -3720,7 +3721,7 @@ const QUESTIONS = [
       "§ 8 SG gilt nur im Dienst."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Entscheidend ist regelmäßig eine äußere Manifestation."
   },
   {
     "cat": "Prüfung",
@@ -3734,7 +3735,7 @@ const QUESTIONS = [
       "Es liegt automatisch § 19 WStG vor."
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Dienstlicher Zweck fehlt."
   },
   {
     "cat": "Prüfung",
@@ -3748,7 +3749,7 @@ const QUESTIONS = [
       "Nur WBO"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 223 StGB und § 30 WStG"
   },
   {
     "cat": "Prüfung",
@@ -3762,7 +3763,7 @@ const QUESTIONS = [
       "Sicherheitsverstöße sind ausschließlich Angelegenheit des Kompaniechefs."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Bereits das bewusste Unterlassen erforderlicher Maßnahmen kann dienstrechtlich relevant sein."
   },
   {
     "cat": "Prüfung",
@@ -3776,7 +3777,7 @@ const QUESTIONS = [
       "Gilt genauso wie ein Strafbefehl."
     ],
     "correct": 0,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Kann Bindungswirkung entfalten."
   },
   {
     "cat": "Prüfung",
@@ -3790,7 +3791,7 @@ const QUESTIONS = [
       "Soldaten müssen zivilen Lehrern nie folgen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Er kann dienstliche Weisungen geben; ein militärisches Vorgesetztenverhältnis folgt daraus nicht automatisch."
   },
   {
     "cat": "Prüfung",
@@ -3804,7 +3805,7 @@ const QUESTIONS = [
       "Die VP entscheidet."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Er kann sie grundsätzlich nicht mehr selbst ändern."
   },
   {
     "cat": "Prüfung",
@@ -3818,7 +3819,7 @@ const QUESTIONS = [
       "Einstellung"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Zurückweisung als unbegründet"
   },
   {
     "cat": "Prüfung",
@@ -3832,7 +3833,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1–3"
   },
   {
     "cat": "Prüfung",
@@ -3846,7 +3847,7 @@ const QUESTIONS = [
       "erst nach Strafurteil"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: nach Ablauf der Nachtfrist"
   },
   {
     "cat": "Prüfung",
@@ -3860,7 +3861,7 @@ const QUESTIONS = [
       "Verfahren automatisch einstellen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nachermitteln und erforderliche Verfahrensschritte erneut durchführen."
   },
   {
     "cat": "Prüfung",
@@ -3874,7 +3875,7 @@ const QUESTIONS = [
       "Erst nach Abschluss eines Strafverfahrens dürfen disziplinare Ermittlungen beginnen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es ist zu prüfen, ob ein Dienstvergehen vorliegt; strafrechtliche Ermittlungen schließen disziplinare Ermittlungen nicht aus."
   },
   {
     "cat": "Prüfung",
@@ -3888,7 +3889,7 @@ const QUESTIONS = [
       "Die Verhängung heilt den Verfahrensfehler."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nach den neuen belastenden Erkenntnissen hätten die erforderlichen Verfahrensschritte vor der Verhängung erneut geprüft und gegebenenfalls durchgeführt werden müssen."
   },
   {
     "cat": "Prüfung",
@@ -3902,7 +3903,7 @@ const QUESTIONS = [
       "Nach der Verhängung dürfen keine Verfahrensfehler mehr geprüft werden."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die unterlassene Beteiligung der Vertrauensperson ist rechtlich zu prüfen und kann die Rechtmäßigkeit des Verfahrens beeinflussen."
   },
   {
     "cat": "Prüfung",
@@ -3916,7 +3917,7 @@ const QUESTIONS = [
       "Das Verfahren einstellen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Den entlastenden Zeugen vernehmen und anschließend prüfen, ob weitere Verfahrensschritte – insbesondere ein erneutes Schlussgehör – erforderlich sind."
   },
   {
     "cat": "Prüfung",
@@ -3930,7 +3931,7 @@ const QUESTIONS = [
       "Entscheidung"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Beschwerdeart / Statthaftigkeit"
   },
   {
     "cat": "Prüfung",
@@ -3944,7 +3945,7 @@ const QUESTIONS = [
       "Beide Prinzipien gibt es nur im Strafrecht."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Ermittlung ist Pflicht, Ahndung steht im Ermessen."
   },
   {
     "cat": "Prüfung",
@@ -3958,7 +3959,7 @@ const QUESTIONS = [
       "Das Schuldmaß ist zu berücksichtigen."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die öffentliche Meinung bestimmt die Disziplinarmaßnahme."
   },
   {
     "cat": "Prüfung",
@@ -3972,7 +3973,7 @@ const QUESTIONS = [
       "Die Frist gehört zur Zulässigkeitsprüfung."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Eine verspätete Beschwerde ist stets begründet."
   },
   {
     "cat": "Prüfung",
@@ -3986,7 +3987,7 @@ const QUESTIONS = [
       "Ein strafbarer Befehl darf nicht befolgt werden."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Jeder rechtswidrige Befehl ist automatisch unverbindlich."
   },
   {
     "cat": "Prüfung",
@@ -4000,7 +4001,7 @@ const QUESTIONS = [
       "Das Schlussgehör ist freiwillig."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nach neuen belastenden Erkenntnissen kann eine erneute Beteiligung des Beschuldigten erforderlich sein."
   },
   {
     "cat": "Prüfung",
@@ -4014,7 +4015,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit eines Befehls ist bedeutungslos."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Ein unverbindlicher Befehl kann grundsätzlich keinen Ungehorsam nach § 19 WStG begründen."
   },
   {
     "cat": "Prüfung",
@@ -4028,7 +4029,7 @@ const QUESTIONS = [
       "Es ist stets mündlich ausreichend."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Es ist das letzte Wort des Beschuldigten vor Entscheidung."
   },
   {
     "cat": "Prüfung",
@@ -4042,7 +4043,7 @@ const QUESTIONS = [
       "Strafbefehl ersetzt das Schlussgehör."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Strafbefehl entfaltet keine entsprechende Bindungswirkung wie ein Urteil."
   },
   {
     "cat": "Prüfung",
@@ -4056,7 +4057,7 @@ const QUESTIONS = [
       "§ 15 SG verbietet jede Parteimitgliedschaft."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Politische Betätigung ist grundsätzlich erlaubt, aber im Dienst, in Uniform oder unter Ausnutzung der Dienststellung eingeschränkt."
   },
   {
     "cat": "Prüfung",
@@ -4070,7 +4071,7 @@ const QUESTIONS = [
       "§ 6 → § 5 → § 4 → § 3 → § 2 → § 1"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: § 5 → § 3 → § 1 → § 2 → § 4; § 6"
   },
   {
     "cat": "Prüfung",
@@ -4084,7 +4085,7 @@ const QUESTIONS = [
       "Nur 1 und 5"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Alle"
   },
   {
     "cat": "Prüfung",
@@ -4098,7 +4099,7 @@ const QUESTIONS = [
       "WDO → WBO → VorgV"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: VorgV → Rechtmäßigkeit → Verbindlichkeit"
   },
   {
     "cat": "Prüfung",
@@ -4112,7 +4113,7 @@ const QUESTIONS = [
       "VP-Anhörung → Aussage → Belehrung"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Tatvorwurf → Belehrung → Einlassung des Beschuldigten"
   },
   {
     "cat": "Prüfung",
@@ -4126,7 +4127,7 @@ const QUESTIONS = [
       "Bisherige Führung"
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Sympathie des Disziplinarvorgesetzten für den Soldaten"
   },
   {
     "cat": "Prüfung",
@@ -4140,7 +4141,7 @@ const QUESTIONS = [
       "Entlastendes darf ignoriert werden."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Belastende und entlastende Umstände sind zu ermitteln."
   },
   {
     "cat": "Prüfung",
@@ -4154,7 +4155,7 @@ const QUESTIONS = [
       "Das Verfahren endet automatisch."
     ],
     "correct": 2,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Das entlastende Beweismittel ist in die Sachverhaltsaufklärung einzubeziehen."
   },
   {
     "cat": "Prüfung",
@@ -4168,7 +4169,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Nur 1, 2 und 4"
   },
   {
     "cat": "Prüfung",
@@ -4182,8 +4183,9 @@ const QUESTIONS = [
       "Ohne truppendienstliche Unterstellung gibt es niemals eine Befehlsbefugnis."
     ],
     "correct": 1,
-    "expl": "Zu dieser Frage ist in der Word-Datei keine zusätzliche Begründung hinterlegt."
+    "expl": "Richtige Antwort: Die Eigenschaft als Disziplinarvorgesetzter ist nicht Voraussetzung für eine Befehlsbefugnis."
   }
+
 ];
 
 // ─── KATEGORIE-STYLING ────────────────────────────────────────────────────────
@@ -4195,6 +4197,8 @@ const CAT_STYLES = {
   Strafrecht:   { bg:"#2C3E50", light:"#EAF0F5", accent:"#2E4053", icon:Scale, label:"Strafrecht (StGB / WStG)" },
   WDO:          { bg:"#1F3864", light:"#E8EDF5", accent:"#2E5F8A", icon:Shield, label:"Disziplinarrecht (WDO)" },
   WBO:          { bg:"#1E5631", light:"#E9F5EC", accent:"#2D7A45", icon:BookOpen, label:"Beschwerderecht (WBO)" },
+  Fälle:        { bg:"#5D4037", light:"#FBE9E7", accent:"#8D6E63", icon:BookOpen, label:"Übungsfälle" },
+  Prüfung:      { bg:"#1B5E20", light:"#E8F5E9", accent:"#388E3C", icon:Award, label:"Prüfungsfragen" },
 };
 
 function shuffle(arr) {
