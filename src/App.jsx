@@ -15,7 +15,7 @@ const QUESTIONS = [
       "Teilnahme an einer politischen Demonstration."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Falsche Angaben in einer dienstlichen Vernehmung."
+    "expl": "§ 13 Abs. 1 SG: Wahrheitspflicht in dienstlichen Angelegenheiten. Falschangaben in einer dienstlichen Vernehmung sind der klassische Anwendungsfall – die anderen Optionen betreffen § 7, § 12 und § 15 SG."
   },
   {
     "cat": "SG",
@@ -29,7 +29,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1,2 und 3"
+    "expl": "1+2+3 treffen zu: § 12 SG betrifft die handelnden Soldaten (Würde/Ehre). § 10 Abs. 2 SG betrifft den Feldwebel (Dienstaufsichtspflicht verletzt). § 17 SG kann zusätzlich einschlägig sein. Aussage 4 ist falsch: Das Unterlassen ist disziplinarrechtlich sehr wohl bedeutsam."
   },
   {
     "cat": "SG",
@@ -43,7 +43,7 @@ const QUESTIONS = [
       "Alle vier"
     ],
     "correct": 3,
-    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
+    "expl": "Richtige Antwort: Alle vier. Maßgebliche Norm(en): §7 SG, §12 SG, §13 SG."
   },
   {
     "cat": "SG",
@@ -72,7 +72,7 @@ const QUESTIONS = [
       "Nur 2 und 4"
     ],
     "correct": 2,
-    "expl": "Mehrere Pflichtverletzungen gleichzeitig möglich. § 7 SG: Treuer Dienst (z.B. Alkohol). § 10 SG: Vorgesetztenpflichten (Dienstaufsicht, Vorbild). § 12 SG: Kameradschaft (Würde/Ehre/Rechte)."
+    "expl": "§ 7 SG: Alkohol = Schlechtleistung (Dienstleistungspflicht). § 10 Abs. 2 SG: Nicht-Einschreiten als Vorgesetzter = Verletzung der Dienstaufsichtspflicht. § 12 SG: Beleidigung = Würde/Ehre. § 17 SG: Wohlverhalten. Einheit des Dienstvergehens (§ 18 Abs. 2 WDO) beachten."
   },
   {
     "cat": "SG",
@@ -86,7 +86,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
+    "expl": "§ 10 Abs. 2 SG (Dienstaufsichtspflicht) und § 12 SG (Kameradschaft) sind betroffen. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung des Vorgesetzten. § 4 ist falsch: Unterlassen kann ein Dienstvergehen darstellen."
   },
   {
     "cat": "SG",
@@ -100,7 +100,7 @@ const QUESTIONS = [
       "§ 13 SG"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 10 Abs.2 SG"
+    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, angemessen Reagieren. Der Vorgesetzte sieht Pflichtverletzungen und greift nicht ein – das ist selbst eine Pflichtverletzung."
   },
   {
     "cat": "SG",
@@ -116,7 +116,7 @@ const QUESTIONS = [
       "Alle genannten."
     ],
     "correct": 5,
-    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
+    "expl": "Richtige Antwort: Alle genannten.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -144,7 +144,7 @@ const QUESTIONS = [
       "Alle fünf"
     ],
     "correct": 3,
-    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
+    "expl": "Richtige Antwort: Alle fünf. Maßgebliche Norm(en): §7 SG, §10 SG, §12 SG."
   },
   {
     "cat": "SG",
@@ -160,7 +160,7 @@ const QUESTIONS = [
       "Alle genannten."
     ],
     "correct": 5,
-    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
+    "expl": "Richtige Antwort: Alle genannten.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -209,7 +209,7 @@ const QUESTIONS = [
       "Keine soldatische Pflicht"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: § 12 SG und § 17 SG"
+    "expl": "Richtige Antwort: § 12 SG und § 17 SG. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -223,7 +223,7 @@ const QUESTIONS = [
       "alle genannten"
     ],
     "correct": 3,
-    "expl": "Richtige Antwort: alle genannten"
+    "expl": "Richtige Antwort: alle genannten. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -241,7 +241,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: §12 SG + §17 SG + Mehrere Pflichten können gleichzeitig verletzt sein."
+    "expl": "Richtige Antwort: §12 SG / §17 SG / Mehrere Pflichten können gleichzeitig verletzt sein.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -258,7 +258,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: Kameradschaft verlangt niemals das Decken von Pflichtverletzungen. + Es können eigene Pflichtverletzungen entstehen."
+    "expl": "Richtige Antwort: Kameradschaft verlangt niemals das Decken von Pflichtverletzungen. / Es können eigene Pflichtverletzungen entstehen.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -272,7 +272,7 @@ const QUESTIONS = [
       "Nur die unmittelbar Beteiligten handeln pflichtwidrig."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Kameradschaft bedeutet nicht, Pflichtverletzungen zu decken."
+    "expl": "Richtige Antwort: Kameradschaft bedeutet nicht, Pflichtverletzungen zu decken.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -286,7 +286,7 @@ const QUESTIONS = [
       "§15 SG"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: §7 SG"
+    "expl": "Richtige Antwort: §7 SG. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -362,7 +362,7 @@ const QUESTIONS = [
       "Alle Aussagen"
     ],
     "correct": 1,
-    "expl": "§ 7 SG umfasst die Dienstleistungspflicht (Alkohol = Schlechtleistung). § 13 SG regelt die Wahrheitspflicht in dienstlichen Angelegenheiten (Falschaussagen in Vernehmung)."
+    "expl": "§ 13 Abs. 1 SG: Wahrheitspflicht gilt nur in dienstlichen Angelegenheiten (Vernehmung, Meldung, Antrag). Wer sein Aussageverweigerungsrecht nutzt und dann doch aussagt, muss wahrheitsgemäß aussagen."
   },
   {
     "cat": "SG",
@@ -376,7 +376,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "§ 7 SG umfasst die Dienstleistungspflicht (Alkohol = Schlechtleistung). § 13 SG regelt die Wahrheitspflicht in dienstlichen Angelegenheiten (Falschaussagen in Vernehmung)."
+    "expl": "§ 13 Abs. 1 SG: Wahrheitspflicht gilt nur in dienstlichen Angelegenheiten (Vernehmung, Meldung, Antrag). Wer sein Aussageverweigerungsrecht nutzt und dann doch aussagt, muss wahrheitsgemäß aussagen."
   },
   {
     "cat": "SG",
@@ -407,7 +407,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 3"
+    "expl": "Richtige Antwort: Nur 1, 2 und 3. Maßgebliche Norm(en): §13 SG."
   },
   {
     "cat": "SG",
@@ -424,7 +424,7 @@ const QUESTIONS = [
       0,
       2
     ],
-    "expl": "Richtige Antwort: Halbwahrheiten können ebenfalls gegen §13 SG verstoßen. + Die Wahrheitspflicht umfasst auch bewusstes Verschweigen wesentlicher Tatsachen."
+    "expl": "Richtige Antwort: Halbwahrheiten können ebenfalls gegen §13 SG verstoßen. / Die Wahrheitspflicht umfasst auch bewusstes Verschweigen wesentlicher Tatsachen.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -469,7 +469,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "§ 8 SG: Politische Treuepflicht – entscheidend ist die äußere Manifestation, nicht die bloße Gesinnung."
+    "expl": "Richtige Antwort: Nur 1, 2 und 4. Maßgebliche Norm(en): § 8 SG, § 17 SG."
   },
   {
     "cat": "SG",
@@ -483,7 +483,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
+    "expl": "Richtige Antwort: Nur 2 und 3. Maßgebliche Norm(en): § 7 SG, § 17 SG."
   },
   {
     "cat": "SG",
@@ -500,7 +500,7 @@ const QUESTIONS = [
       0,
       1
     ],
-    "expl": "Richtige Antwort: §15 Abs.2 SG ist zu prüfen. + Ob zusätzlich §8 SG betroffen ist, hängt vom Inhalt der Kundgebung ab."
+    "expl": "Richtige Antwort: §15 Abs.2 SG ist zu prüfen. / Ob zusätzlich §8 SG betroffen ist, hängt vom Inhalt der Kundgebung ab.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -518,7 +518,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: § 8 SG + § 17 SG + Je nach Sachverhalt mehrere gleichzeitig."
+    "expl": "Richtige Antwort: § 8 SG / § 17 SG / Je nach Sachverhalt mehrere gleichzeitig.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -532,7 +532,7 @@ const QUESTIONS = [
       "Keine, weil Schweigen erlaubt ist."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: § 13 SG"
+    "expl": "Richtige Antwort: § 13 SG. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -564,7 +564,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: §12 SG + §17 SG + Je nach Inhalt weitere Vorschriften."
+    "expl": "Richtige Antwort: §12 SG / §17 SG / Je nach Inhalt weitere Vorschriften.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -578,7 +578,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4"
+    "expl": "Richtige Antwort: Nur 1, 2 und 4. Maßgebliche Norm(en): §12 SG, §17 SG, §7 SG."
   },
   {
     "cat": "SG",
@@ -592,7 +592,7 @@ const QUESTIONS = [
       "Keine Pflichtverletzung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: §15 SG ist regelmäßig einschlägig; §8 SG hängt vom Inhalt der Äußerungen ab."
+    "expl": "Richtige Antwort: §15 SG ist regelmäßig einschlägig; §8 SG hängt vom Inhalt der Äußerungen ab.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -606,7 +606,7 @@ const QUESTIONS = [
       "Ausschließlich Datenschutzrecht"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 12 SG und § 17 SG"
+    "expl": "Richtige Antwort: § 12 SG und § 17 SG. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -637,7 +637,7 @@ const QUESTIONS = [
       "Keine Pflichtverletzung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: §15 Abs.2 SG ist regelmäßig einschlägig; §8 SG hängt vom Inhalt der Äußerung ab."
+    "expl": "Richtige Antwort: §15 Abs.2 SG ist regelmäßig einschlägig; §8 SG hängt vom Inhalt der Äußerung ab.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -665,7 +665,7 @@ const QUESTIONS = [
       "Die Belehrung hebt §13 SG auf."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Entscheidet er sich zur Aussage, muss diese wahrheitsgemäß sein."
+    "expl": "Richtige Antwort: Entscheidet er sich zur Aussage, muss diese wahrheitsgemäß sein.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -696,7 +696,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: Es ist zu prüfen, ob Achtung und Vertrauen beeinträchtigt wurden. + Neben § 17 SG können weitere SG-Pflichten betroffen sein."
+    "expl": "Richtige Antwort: Es ist zu prüfen, ob Achtung und Vertrauen beeinträchtigt wurden. / Neben § 17 SG können weitere SG-Pflichten betroffen sein.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -724,7 +724,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
+    "expl": "Richtige Antwort: Nur 1, 2 und 3. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -742,7 +742,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: §10 Abs.2 SG + §12 SG + §17 SG"
+    "expl": "Richtige Antwort: §10 Abs.2 SG / §12 SG / §17 SG. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -756,7 +756,7 @@ const QUESTIONS = [
       "Wegsehen ist rechtlich bedeutungslos."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Pflicht zur Dienstaufsicht besteht unabhängig von einem Disziplinarverfahren."
+    "expl": "Richtige Antwort: Die Pflicht zur Dienstaufsicht besteht unabhängig von einem Disziplinarverfahren.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -770,7 +770,7 @@ const QUESTIONS = [
       "Wegen der Vielzahl der Pflichtverletzungen ist ausschließlich das Strafrecht anwendbar."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es sind mehrere soldatische Pflichten zu prüfen; disziplinarrechtlich kann dennoch ein einheitliches Dienstvergehen vorliegen."
+    "expl": "Richtige Antwort: Es sind mehrere soldatische Pflichten zu prüfen; disziplinarrechtlich kann dennoch ein einheitliches Dienstvergehen vorliegen.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -788,7 +788,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: Der Untergebene verletzt möglicherweise § 7 SG. + Der Zugführer verletzt möglicherweise seine Dienstaufsichtspflicht. + Je nach Sachverhalt kann auch ein Dienstvergehen des Vorgesetzten vorliegen."
+    "expl": "Richtige Antwort: Der Untergebene verletzt möglicherweise § 7 SG. / Der Zugführer verletzt möglicherweise seine Dienstaufsichtspflicht. / Je nach Sachverhalt kann auch ein Dienstvergehen des Vorgesetzten vorliegen.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -802,7 +802,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4"
+    "expl": "Richtige Antwort: Nur 1, 2 und 4. Maßgebliche Norm(en): §32 WDO, §13 SG."
   },
   {
     "cat": "SG",
@@ -819,7 +819,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: §12 SG ist naheliegend. + §17 SG kann zusätzlich betroffen sein."
+    "expl": "Richtige Antwort: §12 SG ist naheliegend. / §17 SG kann zusätzlich betroffen sein.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -833,7 +833,7 @@ const QUESTIONS = [
       "Nur der Strafrichter darf den Sachverhalt bewerten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es ist insbesondere zu prüfen, ob §17 SG betroffen ist."
+    "expl": "Richtige Antwort: Es ist insbesondere zu prüfen, ob §17 SG betroffen ist.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -850,7 +850,7 @@ const QUESTIONS = [
       0,
       1
     ],
-    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
+    "expl": "Richtige Antwort: Gegen den Soldaten ist mindestens § 7 SG zu prüfen. / Für Sie kommt eine Verletzung der Dienstaufsichtspflicht in Betracht.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -881,7 +881,7 @@ const QUESTIONS = [
       "§17 SG verdrängt sämtliche anderen Pflichten."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Beide können nebeneinander erfüllt sein."
+    "expl": "Richtige Antwort: Beide können nebeneinander erfüllt sein.. Maßgebliche Norm(en): §12 SG, §17 SG."
   },
   {
     "cat": "SG",
@@ -895,7 +895,7 @@ const QUESTIONS = [
       "§17 SG verdrängt sämtliche übrigen Pflichten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Mehrere SG-Pflichten können gleichzeitig verletzt werden."
+    "expl": "Richtige Antwort: Mehrere SG-Pflichten können gleichzeitig verletzt werden.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -909,7 +909,7 @@ const QUESTIONS = [
       "Beide Paragraphen regeln denselben Inhalt."
     ],
     "correct": 2,
-    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
+    "expl": "Richtige Antwort: § 7 bewertet die Dienstausübung, § 17 das erforderliche Achtungs- und Vertrauensverhältnis.. Maßgebliche Norm(en): § 7 SG, § 17 SG."
   },
   {
     "cat": "SG",
@@ -923,7 +923,7 @@ const QUESTIONS = [
       "Sie gilt nur während eines Auslandseinsatzes."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Sie verpflichtet zur gewissenhaften Wahrnehmung aller dienstlichen Aufgaben."
+    "expl": "Richtige Antwort: Sie verpflichtet zur gewissenhaften Wahrnehmung aller dienstlichen Aufgaben.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -937,7 +937,7 @@ const QUESTIONS = [
       "Sie betrifft ausschließlich Straftaten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Sie schützt das Vertrauen, das Bürger in die Bundeswehr haben müssen."
+    "expl": "Richtige Antwort: Sie schützt das Vertrauen, das Bürger in die Bundeswehr haben müssen.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -951,7 +951,7 @@ const QUESTIONS = [
       "Kameradschaft endet außerhalb des Dienstes."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Kameradschaft verpflichtet zum Schutz von Würde, Ehre und Rechten."
+    "expl": "Richtige Antwort: Kameradschaft verpflichtet zum Schutz von Würde, Ehre und Rechten.. Maßgebliche Norm(en): § 12 SG."
   },
   {
     "cat": "SG",
@@ -965,7 +965,7 @@ const QUESTIONS = [
       "Er gilt nur für Berufssoldaten."
     ],
     "correct": 2,
-    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
+    "expl": "Richtige Antwort: Er schützt Achtung und Vertrauen, die der Dienst erfordert.. Maßgebliche Norm(en): § 17 SG."
   },
   {
     "cat": "SG",
@@ -979,7 +979,7 @@ const QUESTIONS = [
       "Die Wahrheitspflicht gilt ausschließlich vor Gericht."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Wer sich freiwillig zur Aussage entscheidet, unterliegt der Wahrheitspflicht."
+    "expl": "Richtige Antwort: Wer sich freiwillig zur Aussage entscheidet, unterliegt der Wahrheitspflicht.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -996,7 +996,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: Soldaten bleiben Staatsbürger. + Politische Werbung während des Dienstes ist regelmäßig unzulässig."
+    "expl": "Richtige Antwort: Soldaten bleiben Staatsbürger. / Politische Werbung während des Dienstes ist regelmäßig unzulässig.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1010,7 +1010,7 @@ const QUESTIONS = [
       "Uniform darf bei politischen Veranstaltungen grundsätzlich getragen werden."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Soldaten dürfen sich politisch betätigen, soweit dienstliche Grenzen eingehalten werden."
+    "expl": "Richtige Antwort: Soldaten dürfen sich politisch betätigen, soweit dienstliche Grenzen eingehalten werden.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1055,7 +1055,7 @@ const QUESTIONS = [
       "Dienstvergehen gibt es nur innerhalb des Dienstes."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Mehrere Pflichtverletzungen können disziplinarrechtlich ein einheitliches Dienstvergehen bilden."
+    "expl": "Richtige Antwort: Mehrere Pflichtverletzungen können disziplinarrechtlich ein einheitliches Dienstvergehen bilden.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1100,7 +1100,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Richtige Antwort: Wer dienstlich Angaben macht, muss vollständig und wahrheitsgemäß erklären. + Halbwahrheiten können ebenfalls gegen § 13 SG verstoßen."
+    "expl": "§ 13 Abs. 1 SG: Wahrheitspflicht gilt nur in dienstlichen Angelegenheiten (Vernehmung, Meldung, Antrag). Wer sein Aussageverweigerungsrecht nutzt und dann doch aussagt, muss wahrheitsgemäß aussagen."
   },
   {
     "cat": "SG",
@@ -1114,7 +1114,7 @@ const QUESTIONS = [
       "Sie ist nur bei Straftaten anwendbar."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Sie schützt das Vertrauen in die Bundeswehr insgesamt."
+    "expl": "Richtige Antwort: Sie schützt das Vertrauen in die Bundeswehr insgesamt.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1148,7 +1148,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: Sie schützt das Vertrauen der Allgemeinheit in die Bundeswehr. + Sie kann auch außerhalb des Dienstes verletzt werden."
+    "expl": "Richtige Antwort: Sie schützt das Vertrauen der Allgemeinheit in die Bundeswehr. / Sie kann auch außerhalb des Dienstes verletzt werden.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1162,7 +1162,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 3,
-    "expl": "§ 15 SG: Politische Betätigung grundsätzlich erlaubt (Staatsbürger in Uniform), verboten aber in Uniform, im Dienst oder unter Ausnutzung der Dienststellung."
+    "expl": "§ 15 SG: Politische Betätigung ist für Soldaten grundsätzlich ERLAUBT (Staatsbürger in Uniform). Verboten nach § 15 Abs. 2 SG: in Uniform, im Dienst oder unter Ausnutzung der Dienststellung."
   },
   {
     "cat": "SG",
@@ -1176,7 +1176,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1194,7 +1194,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
+    "expl": "Richtige Antwort: Maßgeblich ist, ob Achtung und Vertrauen ernsthaft beeinträchtigt werden. / Nicht jede private Straftat stellt automatisch ein Dienstvergehen dar. / Die Einzelfallprüfung ist entscheidend.. Maßgebliche Norm(en): § 17 SG."
   },
   {
     "cat": "SG",
@@ -1208,7 +1208,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1,3 und 4"
+    "expl": "Richtige Antwort: Nur 1,3 und 4. Maßgebliche Norm(en): §17 SG."
   },
   {
     "cat": "SG",
@@ -1222,7 +1222,7 @@ const QUESTIONS = [
       "Alle Aussagen"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 2 und 3"
+    "expl": "Richtige Antwort: Nur 2 und 3. Maßgebliche Norm(en): § 7 SG, § 7 SG, § 7 SG."
   },
   {
     "cat": "SG",
@@ -1236,7 +1236,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
+    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): § 10 Abs.2 SG."
   },
   {
     "cat": "SG",
@@ -1253,7 +1253,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
+    "expl": "Richtige Antwort: Sie umfasst Wahrnehmen, Bewerten und erforderliches Einschreiten. / Sie besteht unabhängig davon, ob ein Disziplinarverfahren eingeleitet wird.. Maßgebliche Norm(en): §10 Abs.2 SG."
   },
   {
     "cat": "SG",
@@ -1267,7 +1267,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, Reagieren. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung."
+    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1281,7 +1281,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1312,7 +1312,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 1 und 2"
+    "expl": "Richtige Antwort: Nur 1 und 2. Maßgebliche Norm(en): § 12 SG."
   },
   {
     "cat": "SG",
@@ -1350,7 +1350,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Richtige Antwort: Sie gilt bei dienstlichen Meldungen. + Sie gilt bei dienstlichen Anträgen. + Sie gilt auch bei dienstlichen Vernehmungen."
+    "expl": "Richtige Antwort: Sie gilt bei dienstlichen Meldungen. / Sie gilt bei dienstlichen Anträgen. / Sie gilt auch bei dienstlichen Vernehmungen.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1364,7 +1364,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1378,7 +1378,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2, 3 und 4"
+    "expl": "Richtige Antwort: Nur 2, 3 und 4. Maßgebliche Norm(en): §13 SG."
   },
   {
     "cat": "SG",
@@ -1392,7 +1392,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 2 und 3"
+    "expl": "Richtige Antwort: Nur 2 und 3. Maßgebliche Norm(en): §17 SG."
   },
   {
     "cat": "SG",
@@ -1406,7 +1406,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "§ 8 SG: Politische Treuepflicht – entscheidend ist die äußere Manifestation, nicht die bloße Gesinnung."
+    "expl": "§ 8 SG: Entscheidend ist die äußere Manifestation – nach außen erkennbares Verhalten, nicht die bloße innere Gesinnung. Man kann niemandem in den Kopf schauen."
   },
   {
     "cat": "SG",
@@ -1424,7 +1424,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "§ 17 SG: Wohlverhalten inner- und außerdienstlich. Maßstab: Beeinträchtigung von Achtung und Vertrauen, die der Dienst erfordert."
+    "expl": "Richtige Antwort: Maßstab ist die Achtung und das Vertrauen, die der Dienst erfordert. / Innerdienstliches Verhalten fällt unter § 17 SG. / Außerdienstliches Verhalten kann ebenfalls unter § 17 SG fallen.. Maßgebliche Norm(en): § 17 SG."
   },
   {
     "cat": "SG",
@@ -1442,7 +1442,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "§ 8 SG: Politische Treuepflicht – entscheidend ist die äußere Manifestation, nicht die bloße Gesinnung."
+    "expl": "Richtige Antwort: Die Pflicht verlangt ein aktives Eintreten für die FDGO. / Verfassungsfeindliche Handlungen können gegen § 8 SG verstoßen. / Private Meinungen ohne Außenwirkung genügen regelmäßig nicht.. Maßgebliche Norm(en): § 8 SG."
   },
   {
     "cat": "SG",
@@ -1477,7 +1477,7 @@ const QUESTIONS = [
       "alle genannten"
     ],
     "correct": 4,
-    "expl": "Alkohol im Dienst = Schlechtleistung nach § 7 SG. Zusätzlich je nach Sachverhalt § 10, § 12, § 13, § 17 SG prüfen."
+    "expl": "Richtige Antwort: alle genannten. Maßgebliche Norm(en): ."
   },
   {
     "cat": "SG",
@@ -1537,7 +1537,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: §12 SG kann verletzt sein. + §17 SG kommt in Betracht. + Je nach Inhalt kommen zusätzlich Straftatbestände in Betracht."
+    "expl": "Richtige Antwort: §12 SG kann verletzt sein. / §17 SG kommt in Betracht. / Je nach Inhalt kommen zusätzlich Straftatbestände in Betracht.. Maßgebliche Norm(en): ."
   },
   {
     "cat": "VorgV",
@@ -1551,7 +1551,7 @@ const QUESTIONS = [
       "Auf keine Vorschrift."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Auf die besondere Anordnung für diese Aufgabe.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
+    "expl": "Richtige Antwort: Auf die besondere Anordnung für diese Aufgabe.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
   },
   {
     "cat": "VorgV",
@@ -1565,7 +1565,7 @@ const QUESTIONS = [
       "Der Gefreite muss jedem Offizier jederzeit gehorchen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ein höherer Dienstgrad allein begründet nicht automatisch ein Vorgesetztenverhältnis.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
+    "expl": "Richtige Antwort: Ein höherer Dienstgrad allein begründet nicht automatisch ein Vorgesetztenverhältnis.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
   },
   {
     "cat": "VorgV",
@@ -1579,7 +1579,7 @@ const QUESTIONS = [
       "Zivilbedienstete dürfen Soldaten niemals Anweisungen erteilen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Es handelt sich um eine dienstliche Weisung; die Folgepflicht kann sich aus § 7 SG ergeben.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
+    "expl": "Richtige Antwort: Es handelt sich um eine dienstliche Weisung; die Folgepflicht kann sich aus § 7 SG ergeben.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
   },
   {
     "cat": "VorgV",
@@ -1593,7 +1593,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit heilt den Mangel."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es liegt regelmäßig kein militärischer Befehl im Sinne der §§ 10, 11 SG vor.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
+    "expl": "Richtige Antwort: Es liegt regelmäßig kein militärischer Befehl im Sinne der §§ 10, 11 SG vor.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
   },
   {
     "cat": "VorgV",
@@ -1621,7 +1621,7 @@ const QUESTIONS = [
       "Dienstvergehen → Strafbarkeit → Verbindlichkeit"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Vorgesetztenverhältnis → Rechtmäßigkeit → Verbindlichkeit. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
+    "expl": "Richtige Antwort: Vorgesetztenverhältnis → Rechtmäßigkeit → Verbindlichkeit. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
   },
   {
     "cat": "VorgV",
@@ -1635,7 +1635,7 @@ const QUESTIONS = [
       "Ob ein Dienstvergehen vorliegt."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Ob nach der VorgV überhaupt ein Vorgesetztenverhältnis bestand.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
+    "expl": "Richtige Antwort: Ob nach der VorgV überhaupt ein Vorgesetztenverhältnis bestand.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
   },
   {
     "cat": "VorgV",
@@ -1663,7 +1663,7 @@ const QUESTIONS = [
       "Er ist immer Offizier."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Seine Befehlsbefugnis beschränkt sich auf seinen fachlichen Aufgabenbereich.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
+    "expl": "Richtige Antwort: Seine Befehlsbefugnis beschränkt sich auf seinen fachlichen Aufgabenbereich.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
   },
   {
     "cat": "VorgV",
@@ -1677,7 +1677,7 @@ const QUESTIONS = [
       "Er regelt den Dienstgradvorgesetzten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Er regelt den unmittelbaren Vorgesetzten.. VorgV-Prüfung: §§ 1–6 VorgV; Dominanzreihenfolge § 5 > § 3 > § 1 > § 2 > § 4. Zivile/ausländische Vorgesetzte = kein mil. VV."
+    "expl": "Richtige Antwort: Er regelt den unmittelbaren Vorgesetzten.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
   },
   {
     "cat": "Befehlsrecht",
@@ -1691,7 +1691,7 @@ const QUESTIONS = [
       "Die Menschenwürde spielt im Befehlsrecht keine Rolle."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der Befehl verletzt die Menschenwürde und ist unverbindlich."
+    "expl": "Richtige Antwort: Der Befehl verletzt die Menschenwürde und ist unverbindlich.."
   },
   {
     "cat": "Befehlsrecht",
@@ -1705,7 +1705,7 @@ const QUESTIONS = [
       "Der Soldat entscheidet frei."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der Befehl kann trotz seiner Rechtswidrigkeit verbindlich sein."
+    "expl": "Richtige Antwort: Der Befehl kann trotz seiner Rechtswidrigkeit verbindlich sein.."
   },
   {
     "cat": "Befehlsrecht",
@@ -1719,7 +1719,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4"
+    "expl": "Gegenvorstellung: Recht des Untergebenen, Bedenken VOR der Ausführung zu äußern – kein Ungehorsam. Bleibt der Befehl verbindlich, muss er danach ausgeführt werden. Die Gegenvorstellung befreit nicht von der Ausführungspflicht."
   },
   {
     "cat": "Befehlsrecht",
@@ -1733,7 +1733,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle."
   },
   {
     "cat": "Befehlsrecht",
@@ -1747,7 +1747,7 @@ const QUESTIONS = [
       "Der Soldat muss den Befehl immer ausführen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der dienstliche Zweck fehlt."
+    "expl": "Richtige Antwort: Der dienstliche Zweck fehlt.."
   },
   {
     "cat": "Befehlsrecht",
@@ -1761,7 +1761,7 @@ const QUESTIONS = [
       "Der Befehl betrifft ausschließlich Privatrecht."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es handelt sich um einen grundsätzlich zulässigen Präventivbefehl."
+    "expl": "Richtige Antwort: Es handelt sich um einen grundsätzlich zulässigen Präventivbefehl.."
   },
   {
     "cat": "Befehlsrecht",
@@ -1775,7 +1775,7 @@ const QUESTIONS = [
       "Nur 2–4"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Gegenvorstellung: Recht des Untergebenen, Bedenken VOR der Ausführung zu äußern – kein Ungehorsam. Bleibt der Befehl verbindlich, muss er danach ausgeführt werden. Die Gegenvorstellung befreit nicht von der Ausführungspflicht."
   },
   {
     "cat": "Befehlsrecht",
@@ -1789,7 +1789,7 @@ const QUESTIONS = [
       "Verhältnismäßigkeit → Rechtmäßigkeit → Vorgesetztenverhältnis"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Rechtmäßigkeit → Verbindlichkeit → Folgen der Nichtbefolgung"
+    "expl": "Richtige Antwort: Rechtmäßigkeit → Verbindlichkeit → Folgen der Nichtbefolgung."
   },
   {
     "cat": "Befehlsrecht",
@@ -1803,7 +1803,7 @@ const QUESTIONS = [
       "Er schreibt zunächst eine Beschwerde."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Er erhebt zunächst eine Gegenvorstellung und weist auf seine Bedenken hin."
+    "expl": "Richtige Antwort: Er erhebt zunächst eine Gegenvorstellung und weist auf seine Bedenken hin.."
   },
   {
     "cat": "Befehlsrecht",
@@ -1817,7 +1817,7 @@ const QUESTIONS = [
       "Erst nach einer Gegenvorstellung darf verweigert werden."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der Befehl darf nicht befolgt werden."
+    "expl": "Richtige Antwort: Der Befehl darf nicht befolgt werden.."
   },
   {
     "cat": "Befehlsrecht",
@@ -1831,7 +1831,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "§ 10 Abs. 4 SG: Rechtmäßigkeit = dienstlicher Zweck + Gesetze + Dienstvorschriften + Völkerrecht. Betrifft den BEFEHLSGEBER."
+    "expl": "Richtige Antwort: Nur 1, 2 und 3."
   },
   {
     "cat": "Befehlsrecht",
@@ -1845,7 +1845,7 @@ const QUESTIONS = [
       "Über die Verbindlichkeit entscheidet ausschließlich das Truppendienstgericht."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Es spricht viel dafür, dass bereits der dienstliche Zweck fehlt; der Befehl ist daher rechtswidrig und regelmäßig unverbindlich."
+    "expl": "Richtige Antwort: Es spricht viel dafür, dass bereits der dienstliche Zweck fehlt; der Befehl ist daher rechtswidrig und regelmäßig unverbindlich.."
   },
   {
     "cat": "Befehlsrecht",
@@ -1859,7 +1859,7 @@ const QUESTIONS = [
       "Nur bei Offizieren."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Wenn der Eingriff in Grundrechte außer Verhältnis zum dienstlichen Zweck steht."
+    "expl": "Richtige Antwort: Wenn der Eingriff in Grundrechte außer Verhältnis zum dienstlichen Zweck steht.."
   },
   {
     "cat": "Befehlsrecht",
@@ -1873,7 +1873,7 @@ const QUESTIONS = [
       "Rechtswidrige Befehle sind stets unverbindlich."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Rechtmäßigkeit betrifft den Befehlsgeber, Verbindlichkeit die Pflicht des Empfängers."
+    "expl": "Richtige Antwort: Rechtmäßigkeit betrifft den Befehlsgeber, Verbindlichkeit die Pflicht des Empfängers.."
   },
   {
     "cat": "Befehlsrecht",
@@ -1887,7 +1887,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1 und 3"
+    "expl": "Richtige Antwort: Nur 1 und 3."
   },
   {
     "cat": "Befehlsrecht",
@@ -1901,7 +1901,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1 und 3"
+    "expl": "Richtige Antwort: Nur 1 und 3."
   },
   {
     "cat": "Befehlsrecht",
@@ -1929,7 +1929,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Gegenvorstellung: Recht des Untergebenen, Bedenken VOR der Ausführung zu äußern – kein Ungehorsam. Bleibt der Befehl verbindlich, muss er danach ausgeführt werden. Die Gegenvorstellung befreit nicht von der Ausführungspflicht."
   },
   {
     "cat": "Befehlsrecht",
@@ -1943,7 +1943,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "§ 10 Abs. 4 SG: Rechtmäßigkeit = dienstlicher Zweck + Gesetze + Dienstvorschriften + Völkerrecht. Betrifft den BEFEHLSGEBER."
+    "expl": "§ 10 Abs. 4 SG: Rechtmäßig ist ein Befehl, wenn er den dienstlichen Zweck verfolgt und Gesetze, Dienstvorschriften sowie Völkerrecht beachtet. Rechtmäßigkeit betrifft den BEFEHLSGEBER."
   },
   {
     "cat": "Befehlsrecht",
@@ -1957,7 +1957,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3."
   },
   {
     "cat": "WDO",
@@ -1971,7 +1971,7 @@ const QUESTIONS = [
       "Falschangaben sind disziplinarrechtlich bedeutungslos."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Mit der freiwilligen Aussage greift die Wahrheitspflicht."
+    "expl": "Richtige Antwort: Mit der freiwilligen Aussage greift die Wahrheitspflicht.."
   },
   {
     "cat": "WDO",
@@ -1985,7 +1985,7 @@ const QUESTIONS = [
       "Gegen ihn ist sofort Arrest zu verhängen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Schweigen darf nicht negativ gewertet werden."
+    "expl": "Richtige Antwort: Schweigen darf nicht negativ gewertet werden.."
   },
   {
     "cat": "WDO",
@@ -1999,7 +1999,7 @@ const QUESTIONS = [
       "Die Beschwerde ist unzulässig."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Vollstreckung läuft grundsätzlich weiter."
+    "expl": "Richtige Antwort: Die Vollstreckung läuft grundsätzlich weiter.."
   },
   {
     "cat": "WDO",
@@ -2013,7 +2013,7 @@ const QUESTIONS = [
       "Es muss vollständig neu ermittelt werden."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die tatsächlichen Feststellungen des Urteils entfalten Bindungswirkung."
+    "expl": "Richtige Antwort: Die tatsächlichen Feststellungen des Urteils entfalten Bindungswirkung.."
   },
   {
     "cat": "WDO",
@@ -2027,7 +2027,7 @@ const QUESTIONS = [
       "Strafbefehle ersetzen sämtliche Ermittlungen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Strafbefehle entfalten ausdrücklich keine Bindungswirkung."
+    "expl": "Richtige Antwort: Strafbefehle entfalten ausdrücklich keine Bindungswirkung.."
   },
   {
     "cat": "WDO",
@@ -2055,7 +2055,7 @@ const QUESTIONS = [
       "Nur Arrestmaßnahmen werden gehemmt."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Beschwerde hat hemmende Wirkung."
+    "expl": "Richtige Antwort: Die Beschwerde hat hemmende Wirkung.."
   },
   {
     "cat": "WDO",
@@ -2069,7 +2069,7 @@ const QUESTIONS = [
       "Er wird automatisch Beschuldigter."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ihm steht ein Auskunftsverweigerungsrecht zu."
+    "expl": "Richtige Antwort: Ihm steht ein Auskunftsverweigerungsrecht zu.."
   },
   {
     "cat": "WDO",
@@ -2083,7 +2083,7 @@ const QUESTIONS = [
       "Er muss den militärischen Gruß leisten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Seine Vernehmung erfolgt ausschließlich freiwillig."
+    "expl": "Richtige Antwort: Seine Vernehmung erfolgt ausschließlich freiwillig.."
   },
   {
     "cat": "WDO",
@@ -2097,7 +2097,7 @@ const QUESTIONS = [
       "Neue Erkenntnisse bleiben unberücksichtigt."
     ],
     "correct": 2,
-    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
+    "expl": "§ 32 Abs. 5 Satz 2 WDO: Schriftform beim Schlussgehör ist ZWINGEND. Es ist das 'letzte Wort' des Beschuldigten (Art. 103 Abs. 1 GG). Kommt NACH der VP-Anhörung, NICHT gleichzeitig."
   },
   {
     "cat": "WDO",
@@ -2111,7 +2111,7 @@ const QUESTIONS = [
       "Das Verfahren endet."
     ],
     "correct": 2,
-    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
+    "expl": "Richtige Antwort: Die Anhörung unterbleibt.."
   },
   {
     "cat": "WDO",
@@ -2125,7 +2125,7 @@ const QUESTIONS = [
       "Die Vertrauensperson entscheidet."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nach der Verhängung besteht grundsätzlich keine Änderungsbefugnis mehr."
+    "expl": "Richtige Antwort: Nach der Verhängung besteht grundsätzlich keine Änderungsbefugnis mehr.."
   },
   {
     "cat": "WDO",
@@ -2139,7 +2139,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
+    "expl": "Richtige Antwort: Nur 1, 2 und 3."
   },
   {
     "cat": "WDO",
@@ -2153,7 +2153,7 @@ const QUESTIONS = [
       "Das Verfahren beginnt erneut."
     ],
     "correct": 1,
-    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
+    "expl": "§ 37 Abs. 1 WDO: Zwischen Schlussgehör und Verhängung muss eine Nacht (22:00–06:00 Uhr) liegen. Verhängung darf nicht unmittelbar nach dem Schlussgehör erfolgen."
   },
   {
     "cat": "WDO",
@@ -2195,7 +2195,7 @@ const QUESTIONS = [
       "Das Verfahren muss vollständig neu beginnen."
     ],
     "correct": 2,
-    "expl": "§ 37 Abs. 1 WDO: Zwischen Schlussgehör und Verhängung muss eine Nacht (22:00–06:00 Uhr) liegen. Schriftform beim Schlussgehör ist zwingend (§ 32 Abs. 5 Satz 2 WDO)."
+    "expl": "§ 32 Abs. 5 Satz 2 WDO: Schriftform beim Schlussgehör ist ZWINGEND. Es ist das 'letzte Wort' des Beschuldigten (Art. 103 Abs. 1 GG). Kommt NACH der VP-Anhörung, NICHT gleichzeitig."
   },
   {
     "cat": "WDO",
@@ -2223,7 +2223,7 @@ const QUESTIONS = [
       "Der Bataillonskommandeur wird automatisch Ermittlungsführer."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Zuständigkeit wechselt automatisch."
+    "expl": "Richtige Antwort: Die Zuständigkeit wechselt automatisch.."
   },
   {
     "cat": "WDO",
@@ -2237,7 +2237,7 @@ const QUESTIONS = [
       "Sie bitten die Vertrauensperson um eine neue Stellungnahme."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Sie können die bereits verhängte Maßnahme grundsätzlich nicht mehr selbst ändern."
+    "expl": "Richtige Antwort: Sie können die bereits verhängte Maßnahme grundsätzlich nicht mehr selbst ändern.."
   },
   {
     "cat": "WDO",
@@ -2251,7 +2251,7 @@ const QUESTIONS = [
       "Beide unterliegen ausschließlich dem Opportunitätsprinzip."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ermittlungen unterliegen dem Legalitätsprinzip, die Ahndungsentscheidung dem Opportunitätsprinzip."
+    "expl": "Richtige Antwort: Ermittlungen unterliegen dem Legalitätsprinzip, die Ahndungsentscheidung dem Opportunitätsprinzip.."
   },
   {
     "cat": "WDO",
@@ -2265,7 +2265,7 @@ const QUESTIONS = [
       "Erst die Vollstreckung stellt die Verhängung dar."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Verhängung erfolgt durch dienstliche Bekanntgabe."
+    "expl": "Richtige Antwort: Die Verhängung erfolgt durch dienstliche Bekanntgabe.."
   },
   {
     "cat": "WDO",
@@ -2279,7 +2279,7 @@ const QUESTIONS = [
       "Sie beginnt mit dem Schlussgehör."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Sie beginnt mit Eintritt der Unanfechtbarkeit."
+    "expl": "Richtige Antwort: Sie beginnt mit Eintritt der Unanfechtbarkeit.."
   },
   {
     "cat": "WDO",
@@ -2293,7 +2293,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3."
   },
   {
     "cat": "WDO",
@@ -2307,7 +2307,7 @@ const QUESTIONS = [
       "Arrest"
     ],
     "correct": 2,
-    "expl": "§ 59 WDO: Vollstreckungsverjährung 6 Monate nach Unanfechtbarkeit. § 17 Abs. 2 WDO: Tatverjährung 6 Monate ab Tatbegehung."
+    "expl": "Richtige Antwort: Verweis."
   },
   {
     "cat": "WDO",
@@ -2321,7 +2321,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 0,
-    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
+    "expl": "Richtige Antwort: Nur 1–3."
   },
   {
     "cat": "WDO",
@@ -2335,7 +2335,7 @@ const QUESTIONS = [
       "Nur 2–5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle."
   },
   {
     "cat": "WDO",
@@ -2349,7 +2349,7 @@ const QUESTIONS = [
       "Die Verhängung der Maßnahme."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Die Sachverhaltsaufklärung."
+    "expl": "Richtige Antwort: Die Sachverhaltsaufklärung.."
   },
   {
     "cat": "WDO",
@@ -2363,7 +2363,7 @@ const QUESTIONS = [
       "Entlastende Tatsachen dürfen erst im Beschwerdeverfahren berücksichtigt werden."
     ],
     "correct": 2,
-    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht MUSS ermittelt werden – kein Ermessen. Opportunitätsprinzip gilt nur für die Ahndungsentscheidung."
+    "expl": "Richtige Antwort: Belastende und entlastende Umstände sind gleichermaßen zu ermitteln.."
   },
   {
     "cat": "WDO",
@@ -2377,7 +2377,7 @@ const QUESTIONS = [
       "Nur 2–4"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3."
   },
   {
     "cat": "WBO",
@@ -2391,7 +2391,7 @@ const QUESTIONS = [
       "Der Beschwerdeführer entscheidet selbst."
     ],
     "correct": 1,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
   },
   {
     "cat": "WBO",
@@ -2405,7 +2405,7 @@ const QUESTIONS = [
       "Das Truppendienstgericht entscheidet unmittelbar."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Es handelt sich um eine Kameradenbeschwerde."
+    "expl": "Richtige Antwort: Es handelt sich um eine Kameradenbeschwerde.."
   },
   {
     "cat": "WBO",
@@ -2419,7 +2419,7 @@ const QUESTIONS = [
       "Verwaltungsbeschwerde"
     ],
     "correct": 2,
-    "expl": "Immer zuerst die Beschwerdeart bestimmen! Die drei Arten: § 1 WBO (Truppendienstliche Beschwerde), § 23 WBO (Verwaltungsbeschwerde), § 42 WDO (Disziplinarbeschwerde)."
+    "expl": "Grundregel: Immer ZUERST die Beschwerdeart bestimmen! Falsche Einordnung macht die gesamte weitere Prüfung falsch. Drei Arten: § 1 WBO (Truppendienstlich), § 23 WBO (Verwaltungsbeschwerde), § 42 WDO (Disziplinarbeschwerde)."
   },
   {
     "cat": "WBO",
@@ -2433,7 +2433,7 @@ const QUESTIONS = [
       "Einstellung"
     ],
     "correct": 2,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
   },
   {
     "cat": "WBO",
@@ -2447,7 +2447,7 @@ const QUESTIONS = [
       "Die Anzahl der Soldaten spielt keine Rolle."
     ],
     "correct": 2,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
+    "expl": "Kameradenbeschwerde (§ 1 WBO): Gegen pflichtwidriges Verhalten eines gleichrangigen Kameraden. Kein weiterer Rechtsweg zum TDG! Zuständig: nächster gemeinsamer DiszVorg beider Beteiligter (§ 9 Abs. 1 WBO)."
   },
   {
     "cat": "WBO",
@@ -2475,7 +2475,7 @@ const QUESTIONS = [
       "Die Frist beträgt sechs Monate."
     ],
     "correct": 1,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
   },
   {
     "cat": "WBO",
@@ -2489,7 +2489,7 @@ const QUESTIONS = [
       "Sobald der Soldat Offizier ist."
     ],
     "correct": 2,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse genügt nicht."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
   },
   {
     "cat": "WBO",
@@ -2503,7 +2503,7 @@ const QUESTIONS = [
       "Nur 1 und 4"
     ],
     "correct": 2,
-    "expl": "§ 6 Abs. 1 WBO: Beschwerdefrist 1 Monat ab Kenntnis. Fristende auf Sa/So/Feiertag → nächster Werktag. Vollstreckungsverjährung: 6 Monate nach Unanfechtbarkeit (§ 59 WDO)."
+    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
   },
   {
     "cat": "WBO",
@@ -2517,7 +2517,7 @@ const QUESTIONS = [
       "Der Bataillonskommandeur"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Der nächste gemeinsame Disziplinarvorgesetzte"
+    "expl": "Richtige Antwort: Der nächste gemeinsame Disziplinarvorgesetzte."
   },
   {
     "cat": "Strafrecht",
@@ -2531,7 +2531,7 @@ const QUESTIONS = [
       "Nur Offiziere dürfen unverbindliche Befehle verweigern."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ein unverbindlicher Befehl erfüllt grundsätzlich nicht den Tatbestand des § 19 WStG."
+    "expl": "Richtige Antwort: Ein unverbindlicher Befehl erfüllt grundsätzlich nicht den Tatbestand des § 19 WStG.."
   },
   {
     "cat": "Strafrecht",
@@ -2545,7 +2545,7 @@ const QUESTIONS = [
       "Ausschließlich der Vorgesetzte haftet."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Auch der Untergebene kann strafrechtlich verantwortlich sein."
+    "expl": "Richtige Antwort: Auch der Untergebene kann strafrechtlich verantwortlich sein.."
   },
   {
     "cat": "Strafrecht",
@@ -2559,7 +2559,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
+    "expl": "§ 16 WStG (Fahnenflucht): Entscheidend ist die ABSICHT, sich dem Dienst dauerhaft zu entziehen – nicht die Dauer der Abwesenheit. Vollendet sobald Absicht gefasst + Entziehung beginnt."
   },
   {
     "cat": "Strafrecht",
@@ -2573,7 +2573,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
+    "expl": "Richtige Antwort: Alle."
   },
   {
     "cat": "Strafrecht",
@@ -2587,7 +2587,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
+    "expl": "Richtige Antwort: Nur 1–3."
   },
   {
     "cat": "Strafrecht",
@@ -2601,7 +2601,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
+    "expl": "Richtige Antwort: Alle."
   },
   {
     "cat": "Strafrecht",
@@ -2615,7 +2615,7 @@ const QUESTIONS = [
       "Der Dienstgrad."
     ],
     "correct": 2,
-    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
+    "expl": "§ 16 WStG (Fahnenflucht): Entscheidend ist die ABSICHT, sich dem Dienst dauerhaft zu entziehen – nicht die Dauer der Abwesenheit. Vollendet sobald Absicht gefasst + Entziehung beginnt."
   },
   {
     "cat": "Strafrecht",
@@ -2629,7 +2629,7 @@ const QUESTIONS = [
       "Schutz vor Fahnenflucht."
     ],
     "correct": 1,
-    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
+    "expl": "Richtige Antwort: Schutz vor entwürdigender Behandlung durch Vorgesetzte.."
   },
   {
     "cat": "Strafrecht",
@@ -2643,7 +2643,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4"
+    "expl": "Richtige Antwort: Nur 1, 2 und 4."
   },
   {
     "cat": "Strafrecht",
@@ -2657,7 +2657,7 @@ const QUESTIONS = [
       "Nur 1 und 4"
     ],
     "correct": 2,
-    "expl": "WStG: § 19 = Ungehorsam + schwere Folge (§ 2 Nr. 3 WStG). § 20 = Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung. § 25 = Tätlicher Angriff gegen Vorgesetzte."
+    "expl": "§ 19 WStG (Ungehorsam): Nichtbefolgung eines verbindlichen Befehls + dadurch tritt eine SCHWERE FOLGE (§ 2 Nr. 3 WStG) ein. § 20 WStG (Gehorsamsverweigerung): Nichtbefolgung durch Auflehnung oder trotz Wiederholung – keine schwere Folge erforderlich."
   },
   {
     "cat": "Fälle",
@@ -2671,7 +2671,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2685,7 +2685,7 @@ const QUESTIONS = [
       "Die Nachtfrist wurde eingehalten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Das Schlussgehör hätte vor der Verhängung erfolgen müssen."
+    "expl": "Richtige Antwort: Das Schlussgehör hätte vor der Verhängung erfolgen müssen.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2699,7 +2699,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2713,7 +2713,7 @@ const QUESTIONS = [
       "Liegt Ungehorsam vor?"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Besteht überhaupt ein Vorgesetztenverhältnis nach der VorgV?"
+    "expl": "Richtige Antwort: Besteht überhaupt ein Vorgesetztenverhältnis nach der VorgV?. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2727,7 +2727,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen"
+    "expl": "Richtige Antwort: Alle Aussagen. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2741,7 +2741,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2–4"
+    "expl": "Richtige Antwort: Nur 2–4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2755,7 +2755,7 @@ const QUESTIONS = [
       "Nach 48 Stunden liegt automatisch Fahnenflucht vor."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es kommt insbesondere auf die Rückkehrabsicht bzw. den Rückkehrwillen an."
+    "expl": "Richtige Antwort: Es kommt insbesondere auf die Rückkehrabsicht bzw. den Rückkehrwillen an.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2769,7 +2769,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1,2 und 4"
+    "expl": "Richtige Antwort: Nur 1,2 und 4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2783,7 +2783,7 @@ const QUESTIONS = [
       "Ungehorsam liegt immer vor."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: §19 WStG ist regelmäßig nicht erfüllt."
+    "expl": "Richtige Antwort: §19 WStG ist regelmäßig nicht erfüllt.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2797,7 +2797,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle. Maßgebliche Normen im Fall: §19 WStG."
   },
   {
     "cat": "Fälle",
@@ -2811,7 +2811,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2825,7 +2825,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4"
+    "expl": "Richtige Antwort: Nur 1, 2 und 4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2839,7 +2839,7 @@ const QUESTIONS = [
       "Die Gegenvorstellung ersetzt die Beschwerde."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Entscheidend bleibt, ob gesetzliche Gründe gegen die Verbindlichkeit sprechen (z. B. Straftat oder Menschenwürde)."
+    "expl": "Richtige Antwort: Entscheidend bleibt, ob gesetzliche Gründe gegen die Verbindlichkeit sprechen (z. B. Straftat oder Menschenwürde).. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2853,7 +2853,7 @@ const QUESTIONS = [
       "Beschwer"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Frist"
+    "expl": "Richtige Antwort: Frist. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2867,7 +2867,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 3,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2881,7 +2881,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2895,7 +2895,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen"
+    "expl": "Richtige Antwort: Alle Aussagen. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2909,7 +2909,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2923,7 +2923,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4"
+    "expl": "Richtige Antwort: Nur 1, 2 und 4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2937,7 +2937,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2–4"
+    "expl": "Richtige Antwort: Nur 2–4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2951,7 +2951,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2965,7 +2965,7 @@ const QUESTIONS = [
       "Das Verfahren wird automatisch nichtig."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es ist zu prüfen, welche Auswirkungen der Verfahrensfehler auf die Rechtmäßigkeit des Verfahrens hat."
+    "expl": "Richtige Antwort: Es ist zu prüfen, welche Auswirkungen der Verfahrensfehler auf die Rechtmäßigkeit des Verfahrens hat.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2979,7 +2979,7 @@ const QUESTIONS = [
       "Das Verfahren ist automatisch nichtig."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die neuen Erkenntnisse machen regelmäßig eine erneute Beteiligung des Beschuldigten erforderlich."
+    "expl": "Richtige Antwort: Die neuen Erkenntnisse machen regelmäßig eine erneute Beteiligung des Beschuldigten erforderlich.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -2993,7 +2993,7 @@ const QUESTIONS = [
       "Verhängung → Beschwerde → Ermittlungen"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ermittlungen → Vernehmung → VP → Schlussgehör → Nachtfrist → Verhängung"
+    "expl": "Richtige Antwort: Ermittlungen → Vernehmung → VP → Schlussgehör → Nachtfrist → Verhängung. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3007,7 +3007,7 @@ const QUESTIONS = [
       "Sofort Disziplinarmaßnahme verhängen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Den Widerruf und seine Glaubhaftigkeit aufklären sowie die Beweislage insgesamt neu bewerten."
+    "expl": "Richtige Antwort: Den Widerruf und seine Glaubhaftigkeit aufklären sowie die Beweislage insgesamt neu bewerten.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3021,7 +3021,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen"
+    "expl": "Richtige Antwort: Alle Aussagen. Maßgebliche Normen im Fall: §19 WStG."
   },
   {
     "cat": "Fälle",
@@ -3035,7 +3035,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3049,7 +3049,7 @@ const QUESTIONS = [
       "Zunächst wird ausschließlich die Vertrauensperson angehört."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Liegt ein Anfangsverdacht vor, müssen Ermittlungen geführt werden – unabhängig von Ihrer persönlichen Einschätzung."
+    "expl": "Richtige Antwort: Liegt ein Anfangsverdacht vor, müssen Ermittlungen geführt werden – unabhängig von Ihrer persönlichen Einschätzung.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3063,7 +3063,7 @@ const QUESTIONS = [
       "Verfahren einstellen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nachermittlungen durchführen und anschließend VP-Anhörung sowie Schlussgehör erneut durchführen."
+    "expl": "Richtige Antwort: Nachermittlungen durchführen und anschließend VP-Anhörung sowie Schlussgehör erneut durchführen.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3077,7 +3077,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 3,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3091,7 +3091,7 @@ const QUESTIONS = [
       "Geständnisse beenden jede weitere Sachverhaltsaufklärung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Belastende und entlastende Tatsachen sind mit gleicher Sorgfalt zu ermitteln."
+    "expl": "Richtige Antwort: Belastende und entlastende Tatsachen sind mit gleicher Sorgfalt zu ermitteln.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3105,7 +3105,7 @@ const QUESTIONS = [
       "Das Völkerrecht ist zu beachten."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Jeder rechtswidrige Befehl ist automatisch unverbindlich."
+    "expl": "Richtige Antwort: Jeder rechtswidrige Befehl ist automatisch unverbindlich.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3119,7 +3119,7 @@ const QUESTIONS = [
       "Die Beschwer ist Zulässigkeitsvoraussetzung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Die Frist wird erst nach der Begründetheit geprüft."
+    "expl": "Richtige Antwort: Die Frist wird erst nach der Begründetheit geprüft.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3133,7 +3133,7 @@ const QUESTIONS = [
       "Die Verbindlichkeit ist gesondert zu prüfen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Rechtmäßigkeit und Verbindlichkeit sind identisch."
+    "expl": "Richtige Antwort: Rechtmäßigkeit und Verbindlichkeit sind identisch.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3147,7 +3147,7 @@ const QUESTIONS = [
       "Die Frist gehört zur Zulässigkeitsprüfung."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Jede zulässige Beschwerde ist automatisch begründet."
+    "expl": "Richtige Antwort: Jede zulässige Beschwerde ist automatisch begründet.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3161,7 +3161,7 @@ const QUESTIONS = [
       "Die Rechtsgrundlage des Vorgesetztenverhältnisses ist stets zu prüfen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Jeder Offizier ist jederzeit Vorgesetzter aller Soldaten."
+    "expl": "Richtige Antwort: Jeder Offizier ist jederzeit Vorgesetzter aller Soldaten.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3175,7 +3175,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3189,7 +3189,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2–4"
+    "expl": "Richtige Antwort: Nur 2–4. Maßgebliche Normen im Fall: §11 SG, §10 Abs.4 SG."
   },
   {
     "cat": "Fälle",
@@ -3203,7 +3203,7 @@ const QUESTIONS = [
       "Nur 1 und 4"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3217,7 +3217,7 @@ const QUESTIONS = [
       "Schlussgehör → Ermittlungen → Verhängung"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Tatverdacht → Ermittlungen → Vernehmung → VP → Schlussgehör → Nachtfrist → Verhängung"
+    "expl": "Richtige Antwort: Tatverdacht → Ermittlungen → Vernehmung → VP → Schlussgehör → Nachtfrist → Verhängung. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3231,7 +3231,7 @@ const QUESTIONS = [
       "Frist → Entscheidung → Begründetheit"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Zulässigkeit → Begründetheit → Entscheidung"
+    "expl": "Richtige Antwort: Zulässigkeit → Begründetheit → Entscheidung. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3245,7 +3245,7 @@ const QUESTIONS = [
       "Rechtmäßigkeit → Dienstgrad → Verbindlichkeit"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Vorgesetztenverhältnis → Rechtmäßigkeit → Verbindlichkeit → Gehorsamspflicht"
+    "expl": "Richtige Antwort: Vorgesetztenverhältnis → Rechtmäßigkeit → Verbindlichkeit → Gehorsamspflicht. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3259,7 +3259,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3273,7 +3273,7 @@ const QUESTIONS = [
       "Strafrecht → WBO → WDO"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: VorgV → Rechtmäßigkeit des Befehls → Verbindlichkeit → mögliche Folgen der Nichtbefolgung"
+    "expl": "Richtige Antwort: VorgV → Rechtmäßigkeit des Befehls → Verbindlichkeit → mögliche Folgen der Nichtbefolgung. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3287,7 +3287,7 @@ const QUESTIONS = [
       "Offensichtlich fehlender dienstlicher Zweck."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Verstoß gegen eine interne Verwaltungsvorschrift."
+    "expl": "Richtige Antwort: Verstoß gegen eine interne Verwaltungsvorschrift.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3301,7 +3301,7 @@ const QUESTIONS = [
       "Das Verfahren ist einzustellen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Beide Aussagen sind zu würdigen und ihre Glaubhaftigkeit zu prüfen."
+    "expl": "Richtige Antwort: Beide Aussagen sind zu würdigen und ihre Glaubhaftigkeit zu prüfen.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3315,7 +3315,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 3 und 4"
+    "expl": "Richtige Antwort: Nur 1, 3 und 4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3329,7 +3329,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Fälle",
@@ -3343,7 +3343,7 @@ const QUESTIONS = [
       "Die Vertrauensperson übernimmt."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ein Zuständigkeitswechsel kommt in Betracht."
+    "expl": "Richtige Antwort: Ein Zuständigkeitswechsel kommt in Betracht.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
   },
   {
     "cat": "Prüfung",
@@ -3357,7 +3357,7 @@ const QUESTIONS = [
       "Erst VP anhören, dann Verdacht prüfen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Disziplinarvorgesetzter muss ermitteln."
+    "expl": "Richtige Antwort: Disziplinarvorgesetzter muss ermitteln.."
   },
   {
     "cat": "Prüfung",
@@ -3371,7 +3371,7 @@ const QUESTIONS = [
       "Nur § 17 SG ist betroffen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Menschenwürdeverletzung; Befehl unverbindlich."
+    "expl": "Richtige Antwort: Menschenwürdeverletzung; Befehl unverbindlich.."
   },
   {
     "cat": "Prüfung",
@@ -3385,7 +3385,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2–4"
+    "expl": "Richtige Antwort: Nur 2–4."
   },
   {
     "cat": "Prüfung",
@@ -3399,7 +3399,7 @@ const QUESTIONS = [
       "Das Geständnis darf nach einem Widerruf nicht mehr berücksichtigt werden."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Beide Einlassungen sind im Rahmen der Beweiswürdigung zu bewerten."
+    "expl": "Richtige Antwort: Beide Einlassungen sind im Rahmen der Beweiswürdigung zu bewerten.."
   },
   {
     "cat": "Prüfung",
@@ -3413,7 +3413,7 @@ const QUESTIONS = [
       "§ 4 VorgV verdrängt § 2 VorgV immer."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Seine Befugnis ist auf den Fachbereich begrenzt."
+    "expl": "Richtige Antwort: Seine Befugnis ist auf den Fachbereich begrenzt.."
   },
   {
     "cat": "Prüfung",
@@ -3427,7 +3427,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3."
   },
   {
     "cat": "Prüfung",
@@ -3441,7 +3441,7 @@ const QUESTIONS = [
       "Nur Strafrecht"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: SG, WDO, WBO; WStG/Strafrecht je nach Einzelhandlung"
+    "expl": "Richtige Antwort: SG, WDO, WBO; WStG/Strafrecht je nach Einzelhandlung."
   },
   {
     "cat": "Prüfung",
@@ -3455,7 +3455,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3."
   },
   {
     "cat": "Prüfung",
@@ -3469,7 +3469,7 @@ const QUESTIONS = [
       "Keine, weil kein Befehl betroffen ist."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 10 Abs. 2 SG beim Gruppenführer und § 12 SG bei den Tätern."
+    "expl": "Richtige Antwort: § 10 Abs. 2 SG beim Gruppenführer und § 12 SG bei den Tätern.."
   },
   {
     "cat": "Prüfung",
@@ -3483,7 +3483,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 4"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen"
+    "expl": "Richtige Antwort: Alle Aussagen."
   },
   {
     "cat": "Prüfung",
@@ -3497,7 +3497,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3."
   },
   {
     "cat": "Prüfung",
@@ -3511,7 +3511,7 @@ const QUESTIONS = [
       "§ 31 WStG"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 16 WStG"
+    "expl": "Richtige Antwort: § 16 WStG."
   },
   {
     "cat": "Prüfung",
@@ -3525,7 +3525,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 4"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen"
+    "expl": "Richtige Antwort: Alle Aussagen."
   },
   {
     "cat": "Prüfung",
@@ -3539,7 +3539,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit spielt keine Rolle."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der Soldat darf die Ausführung verweigern, wenn der Befehl auf eine Straftat gerichtet ist."
+    "expl": "Richtige Antwort: Der Soldat darf die Ausführung verweigern, wenn der Befehl auf eine Straftat gerichtet ist.."
   },
   {
     "cat": "Prüfung",
@@ -3553,7 +3553,7 @@ const QUESTIONS = [
       "Nur der Vorgesetzte ist verantwortlich."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Er darf ihn nicht ausführen."
+    "expl": "Richtige Antwort: Er darf ihn nicht ausführen.."
   },
   {
     "cat": "Prüfung",
@@ -3567,7 +3567,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4"
+    "expl": "Richtige Antwort: Nur 1, 2 und 4."
   },
   {
     "cat": "Prüfung",
@@ -3581,7 +3581,7 @@ const QUESTIONS = [
       "Es liegt automatisch Fahnenflucht vor."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 7 SG ist wegen Schlechtleistung zu prüfen."
+    "expl": "Richtige Antwort: § 7 SG ist wegen Schlechtleistung zu prüfen.."
   },
   {
     "cat": "Prüfung",
@@ -3595,7 +3595,7 @@ const QUESTIONS = [
       "§ 6 VorgV"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: § 5 VorgV"
+    "expl": "Richtige Antwort: § 5 VorgV."
   },
   {
     "cat": "Prüfung",
@@ -3609,7 +3609,7 @@ const QUESTIONS = [
       "Nur bei Verweis hemmend."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Hemmende Wirkung."
+    "expl": "Richtige Antwort: Hemmende Wirkung.."
   },
   {
     "cat": "Prüfung",
@@ -3623,7 +3623,7 @@ const QUESTIONS = [
       "Sofortige Abhilfe."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Zurückweisung als unbegründet."
+    "expl": "Richtige Antwort: Zurückweisung als unbegründet.."
   },
   {
     "cat": "Prüfung",
@@ -3637,7 +3637,7 @@ const QUESTIONS = [
       "Nur ausdrückliche Falschaussagen sind disziplinarrechtlich bedeutsam."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es ist zu prüfen, ob dadurch die soldatische Wahrheitspflicht verletzt wurde."
+    "expl": "Richtige Antwort: Es ist zu prüfen, ob dadurch die soldatische Wahrheitspflicht verletzt wurde.."
   },
   {
     "cat": "Prüfung",
@@ -3651,7 +3651,7 @@ const QUESTIONS = [
       "§ 13 SG gilt nur vor Gericht."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Bei freiwilliger Aussage gilt die Wahrheitspflicht."
+    "expl": "Richtige Antwort: Bei freiwilliger Aussage gilt die Wahrheitspflicht.."
   },
   {
     "cat": "Prüfung",
@@ -3665,7 +3665,7 @@ const QUESTIONS = [
       "Die Frist ist bedeutungslos."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Zulässigkeit ist wegen der Frist zu prüfen."
+    "expl": "Richtige Antwort: Die Zulässigkeit ist wegen der Frist zu prüfen.."
   },
   {
     "cat": "Prüfung",
@@ -3679,7 +3679,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit des Befehls spielt keine Rolle."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Eine Strafbarkeit nach dem Wehrstrafgesetz kann zu prüfen sein."
+    "expl": "Richtige Antwort: Eine Strafbarkeit nach dem Wehrstrafgesetz kann zu prüfen sein.."
   },
   {
     "cat": "Prüfung",
@@ -3693,7 +3693,7 @@ const QUESTIONS = [
       "Unverbindlichkeit spielt keine Rolle."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: § 19 WStG ist regelmäßig nicht erfüllt."
+    "expl": "Richtige Antwort: § 19 WStG ist regelmäßig nicht erfüllt.."
   },
   {
     "cat": "Prüfung",
@@ -3707,7 +3707,7 @@ const QUESTIONS = [
       "Seine Befehlsbefugnis endet erst mit dem Ausscheiden aus der Bundeswehr."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Seine Befehlsbefugnis beschränkt sich grundsätzlich auf den übertragenen Aufgabenbereich."
+    "expl": "Richtige Antwort: Seine Befehlsbefugnis beschränkt sich grundsätzlich auf den übertragenen Aufgabenbereich.."
   },
   {
     "cat": "Prüfung",
@@ -3721,7 +3721,7 @@ const QUESTIONS = [
       "§ 8 SG gilt nur im Dienst."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Entscheidend ist regelmäßig eine äußere Manifestation."
+    "expl": "Richtige Antwort: Entscheidend ist regelmäßig eine äußere Manifestation.."
   },
   {
     "cat": "Prüfung",
@@ -3735,7 +3735,7 @@ const QUESTIONS = [
       "Es liegt automatisch § 19 WStG vor."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Dienstlicher Zweck fehlt."
+    "expl": "Richtige Antwort: Dienstlicher Zweck fehlt.."
   },
   {
     "cat": "Prüfung",
@@ -3749,7 +3749,7 @@ const QUESTIONS = [
       "Nur WBO"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 223 StGB und § 30 WStG"
+    "expl": "Richtige Antwort: § 223 StGB und § 30 WStG."
   },
   {
     "cat": "Prüfung",
@@ -3763,7 +3763,7 @@ const QUESTIONS = [
       "Sicherheitsverstöße sind ausschließlich Angelegenheit des Kompaniechefs."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Bereits das bewusste Unterlassen erforderlicher Maßnahmen kann dienstrechtlich relevant sein."
+    "expl": "Richtige Antwort: Bereits das bewusste Unterlassen erforderlicher Maßnahmen kann dienstrechtlich relevant sein.."
   },
   {
     "cat": "Prüfung",
@@ -3777,7 +3777,7 @@ const QUESTIONS = [
       "Gilt genauso wie ein Strafbefehl."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Kann Bindungswirkung entfalten."
+    "expl": "Richtige Antwort: Kann Bindungswirkung entfalten.."
   },
   {
     "cat": "Prüfung",
@@ -3791,7 +3791,7 @@ const QUESTIONS = [
       "Soldaten müssen zivilen Lehrern nie folgen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Er kann dienstliche Weisungen geben; ein militärisches Vorgesetztenverhältnis folgt daraus nicht automatisch."
+    "expl": "Richtige Antwort: Er kann dienstliche Weisungen geben; ein militärisches Vorgesetztenverhältnis folgt daraus nicht automatisch.."
   },
   {
     "cat": "Prüfung",
@@ -3805,7 +3805,7 @@ const QUESTIONS = [
       "Die VP entscheidet."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Er kann sie grundsätzlich nicht mehr selbst ändern."
+    "expl": "Richtige Antwort: Er kann sie grundsätzlich nicht mehr selbst ändern.."
   },
   {
     "cat": "Prüfung",
@@ -3819,7 +3819,7 @@ const QUESTIONS = [
       "Einstellung"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Zurückweisung als unbegründet"
+    "expl": "Richtige Antwort: Zurückweisung als unbegründet."
   },
   {
     "cat": "Prüfung",
@@ -3833,7 +3833,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3"
+    "expl": "Richtige Antwort: Nur 1–3."
   },
   {
     "cat": "Prüfung",
@@ -3847,7 +3847,7 @@ const QUESTIONS = [
       "erst nach Strafurteil"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: nach Ablauf der Nachtfrist"
+    "expl": "Richtige Antwort: nach Ablauf der Nachtfrist."
   },
   {
     "cat": "Prüfung",
@@ -3861,7 +3861,7 @@ const QUESTIONS = [
       "Verfahren automatisch einstellen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nachermitteln und erforderliche Verfahrensschritte erneut durchführen."
+    "expl": "Richtige Antwort: Nachermitteln und erforderliche Verfahrensschritte erneut durchführen.."
   },
   {
     "cat": "Prüfung",
@@ -3875,7 +3875,7 @@ const QUESTIONS = [
       "Erst nach Abschluss eines Strafverfahrens dürfen disziplinare Ermittlungen beginnen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Es ist zu prüfen, ob ein Dienstvergehen vorliegt; strafrechtliche Ermittlungen schließen disziplinare Ermittlungen nicht aus."
+    "expl": "Richtige Antwort: Es ist zu prüfen, ob ein Dienstvergehen vorliegt; strafrechtliche Ermittlungen schließen disziplinare Ermittlungen nicht aus.."
   },
   {
     "cat": "Prüfung",
@@ -3889,7 +3889,7 @@ const QUESTIONS = [
       "Die Verhängung heilt den Verfahrensfehler."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nach den neuen belastenden Erkenntnissen hätten die erforderlichen Verfahrensschritte vor der Verhängung erneut geprüft und gegebenenfalls durchgeführt werden müssen."
+    "expl": "Richtige Antwort: Nach den neuen belastenden Erkenntnissen hätten die erforderlichen Verfahrensschritte vor der Verhängung erneut geprüft und gegebenenfalls durchgeführt werden müssen.."
   },
   {
     "cat": "Prüfung",
@@ -3903,7 +3903,7 @@ const QUESTIONS = [
       "Nach der Verhängung dürfen keine Verfahrensfehler mehr geprüft werden."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die unterlassene Beteiligung der Vertrauensperson ist rechtlich zu prüfen und kann die Rechtmäßigkeit des Verfahrens beeinflussen."
+    "expl": "Richtige Antwort: Die unterlassene Beteiligung der Vertrauensperson ist rechtlich zu prüfen und kann die Rechtmäßigkeit des Verfahrens beeinflussen.."
   },
   {
     "cat": "Prüfung",
@@ -3917,7 +3917,7 @@ const QUESTIONS = [
       "Das Verfahren einstellen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Den entlastenden Zeugen vernehmen und anschließend prüfen, ob weitere Verfahrensschritte – insbesondere ein erneutes Schlussgehör – erforderlich sind."
+    "expl": "Richtige Antwort: Den entlastenden Zeugen vernehmen und anschließend prüfen, ob weitere Verfahrensschritte – insbesondere ein erneutes Schlussgehör – erforderlich sind.."
   },
   {
     "cat": "Prüfung",
@@ -3931,7 +3931,7 @@ const QUESTIONS = [
       "Entscheidung"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Beschwerdeart / Statthaftigkeit"
+    "expl": "Richtige Antwort: Beschwerdeart / Statthaftigkeit."
   },
   {
     "cat": "Prüfung",
@@ -3945,7 +3945,7 @@ const QUESTIONS = [
       "Beide Prinzipien gibt es nur im Strafrecht."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ermittlung ist Pflicht, Ahndung steht im Ermessen."
+    "expl": "Richtige Antwort: Ermittlung ist Pflicht, Ahndung steht im Ermessen.."
   },
   {
     "cat": "Prüfung",
@@ -3959,7 +3959,7 @@ const QUESTIONS = [
       "Das Schuldmaß ist zu berücksichtigen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Die öffentliche Meinung bestimmt die Disziplinarmaßnahme."
+    "expl": "Richtige Antwort: Die öffentliche Meinung bestimmt die Disziplinarmaßnahme.."
   },
   {
     "cat": "Prüfung",
@@ -3973,7 +3973,7 @@ const QUESTIONS = [
       "Die Frist gehört zur Zulässigkeitsprüfung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Eine verspätete Beschwerde ist stets begründet."
+    "expl": "Richtige Antwort: Eine verspätete Beschwerde ist stets begründet.."
   },
   {
     "cat": "Prüfung",
@@ -3987,7 +3987,7 @@ const QUESTIONS = [
       "Ein strafbarer Befehl darf nicht befolgt werden."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Jeder rechtswidrige Befehl ist automatisch unverbindlich."
+    "expl": "Richtige Antwort: Jeder rechtswidrige Befehl ist automatisch unverbindlich.."
   },
   {
     "cat": "Prüfung",
@@ -4001,7 +4001,7 @@ const QUESTIONS = [
       "Das Schlussgehör ist freiwillig."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nach neuen belastenden Erkenntnissen kann eine erneute Beteiligung des Beschuldigten erforderlich sein."
+    "expl": "Richtige Antwort: Nach neuen belastenden Erkenntnissen kann eine erneute Beteiligung des Beschuldigten erforderlich sein.."
   },
   {
     "cat": "Prüfung",
@@ -4015,7 +4015,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit eines Befehls ist bedeutungslos."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ein unverbindlicher Befehl kann grundsätzlich keinen Ungehorsam nach § 19 WStG begründen."
+    "expl": "Richtige Antwort: Ein unverbindlicher Befehl kann grundsätzlich keinen Ungehorsam nach § 19 WStG begründen.."
   },
   {
     "cat": "Prüfung",
@@ -4029,7 +4029,7 @@ const QUESTIONS = [
       "Es ist stets mündlich ausreichend."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es ist das letzte Wort des Beschuldigten vor Entscheidung."
+    "expl": "Richtige Antwort: Es ist das letzte Wort des Beschuldigten vor Entscheidung.."
   },
   {
     "cat": "Prüfung",
@@ -4043,7 +4043,7 @@ const QUESTIONS = [
       "Strafbefehl ersetzt das Schlussgehör."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Strafbefehl entfaltet keine entsprechende Bindungswirkung wie ein Urteil."
+    "expl": "Richtige Antwort: Strafbefehl entfaltet keine entsprechende Bindungswirkung wie ein Urteil.."
   },
   {
     "cat": "Prüfung",
@@ -4057,7 +4057,7 @@ const QUESTIONS = [
       "§ 15 SG verbietet jede Parteimitgliedschaft."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Politische Betätigung ist grundsätzlich erlaubt, aber im Dienst, in Uniform oder unter Ausnutzung der Dienststellung eingeschränkt."
+    "expl": "Richtige Antwort: Politische Betätigung ist grundsätzlich erlaubt, aber im Dienst, in Uniform oder unter Ausnutzung der Dienststellung eingeschränkt.."
   },
   {
     "cat": "Prüfung",
@@ -4071,7 +4071,7 @@ const QUESTIONS = [
       "§ 6 → § 5 → § 4 → § 3 → § 2 → § 1"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 5 → § 3 → § 1 → § 2 → § 4; § 6"
+    "expl": "Richtige Antwort: § 5 → § 3 → § 1 → § 2 → § 4; § 6."
   },
   {
     "cat": "Prüfung",
@@ -4085,7 +4085,7 @@ const QUESTIONS = [
       "Nur 1 und 5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle"
+    "expl": "Richtige Antwort: Alle."
   },
   {
     "cat": "Prüfung",
@@ -4099,7 +4099,7 @@ const QUESTIONS = [
       "WDO → WBO → VorgV"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: VorgV → Rechtmäßigkeit → Verbindlichkeit"
+    "expl": "Richtige Antwort: VorgV → Rechtmäßigkeit → Verbindlichkeit."
   },
   {
     "cat": "Prüfung",
@@ -4113,7 +4113,7 @@ const QUESTIONS = [
       "VP-Anhörung → Aussage → Belehrung"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Tatvorwurf → Belehrung → Einlassung des Beschuldigten"
+    "expl": "Richtige Antwort: Tatvorwurf → Belehrung → Einlassung des Beschuldigten."
   },
   {
     "cat": "Prüfung",
@@ -4127,7 +4127,7 @@ const QUESTIONS = [
       "Bisherige Führung"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Sympathie des Disziplinarvorgesetzten für den Soldaten"
+    "expl": "Richtige Antwort: Sympathie des Disziplinarvorgesetzten für den Soldaten."
   },
   {
     "cat": "Prüfung",
@@ -4141,7 +4141,7 @@ const QUESTIONS = [
       "Entlastendes darf ignoriert werden."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Belastende und entlastende Umstände sind zu ermitteln."
+    "expl": "Richtige Antwort: Belastende und entlastende Umstände sind zu ermitteln.."
   },
   {
     "cat": "Prüfung",
@@ -4155,7 +4155,7 @@ const QUESTIONS = [
       "Das Verfahren endet automatisch."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Das entlastende Beweismittel ist in die Sachverhaltsaufklärung einzubeziehen."
+    "expl": "Richtige Antwort: Das entlastende Beweismittel ist in die Sachverhaltsaufklärung einzubeziehen.."
   },
   {
     "cat": "Prüfung",
@@ -4169,7 +4169,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4"
+    "expl": "Richtige Antwort: Nur 1, 2 und 4."
   },
   {
     "cat": "Prüfung",
@@ -4183,22 +4183,21 @@ const QUESTIONS = [
       "Ohne truppendienstliche Unterstellung gibt es niemals eine Befehlsbefugnis."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Eigenschaft als Disziplinarvorgesetzter ist nicht Voraussetzung für eine Befehlsbefugnis."
+    "expl": "Richtige Antwort: Die Eigenschaft als Disziplinarvorgesetzter ist nicht Voraussetzung für eine Befehlsbefugnis.."
   }
 
 ];
 
 // ─── KATEGORIE-STYLING ────────────────────────────────────────────────────────
 const CAT_STYLES = {
-  GG:           { bg:"#1A3A5C", light:"#E6EEF5", accent:"#1A6B9A", icon:Shield, label:"Verfassungsrecht (GG)" },
   SG:           { bg:"#7A4419", light:"#FBF1E6", accent:"#B5651D", icon:BookOpen, label:"Soldatengesetz (SG)" },
-  VorgV:        { bg:"#4B2E83", light:"#F1ECFA", accent:"#6A4BBC", icon:Scale, label:"Vorgesetztenverordnung (VorgV)" },
-  Befehlsrecht: { bg:"#5C2E2E", light:"#FAEEEE", accent:"#A94A4A", icon:Shield, label:"Befehlsrecht" },
-  Strafrecht:   { bg:"#2C3E50", light:"#EAF0F5", accent:"#2E4053", icon:Scale, label:"Strafrecht (StGB / WStG)" },
-  WDO:          { bg:"#1F3864", light:"#E8EDF5", accent:"#2E5F8A", icon:Shield, label:"Disziplinarrecht (WDO)" },
+  VorgV:        { bg:"#4B2E83", light:"#F1ECFA", accent:"#6A4BBC", icon:Scale,    label:"Vorgesetztenverordnung (VorgV)" },
+  Befehlsrecht: { bg:"#5C2E2E", light:"#FAEEEE", accent:"#A94A4A", icon:Shield,   label:"Befehlsrecht" },
+  Strafrecht:   { bg:"#2C3E50", light:"#EAF0F5", accent:"#2E4053", icon:Scale,    label:"Strafrecht (StGB / WStG)" },
+  WDO:          { bg:"#1F3864", light:"#E8EDF5", accent:"#2E5F8A", icon:Shield,   label:"Disziplinarrecht (WDO)" },
   WBO:          { bg:"#1E5631", light:"#E9F5EC", accent:"#2D7A45", icon:BookOpen, label:"Beschwerderecht (WBO)" },
   Fälle:        { bg:"#5D4037", light:"#FBE9E7", accent:"#8D6E63", icon:BookOpen, label:"Übungsfälle" },
-  Prüfung:      { bg:"#1B5E20", light:"#E8F5E9", accent:"#388E3C", icon:Award, label:"Prüfungsfragen" },
+  Prüfung:      { bg:"#1B5E20", light:"#E8F5E9", accent:"#388E3C", icon:Award,    label:"Prüfungsfragen" },
 };
 
 function shuffle(arr) {

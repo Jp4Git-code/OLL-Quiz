@@ -1,24 +1,40 @@
-# OLL-Quiz
+# Prüfungs-Quiz Recht – Offizierslehrgang Luftwaffe
 
-Erstellt aus `FINAL_quiz.jsx` als Vorlage und der überarbeiteten Word-Datei.
+Interaktives Lernquiz für die Rechtsprüfung am OSLw.
 
 ## Inhalt
-- 289 Fragen
-- sortiert nach Hauptthemen
-- Datenstruktur: `cat`, `mode`, `topic`, `q`, `options`, `correct`, `expl`
+- **170 Fragen** aus allen Prüfungsthemen
+- **Single-Select** und **Multi-Select** (wie in Moodle)
+- Sofortige Erklärung nach jeder Antwort
 
 ## Themen
-- SG: 100
-- VorgV: 10
-- Befehlsrecht: 20
-- WDO: 30
-- WBO: 10
-- Strafrecht: 10
-- Fälle: 49
-- Prüfung: 60
+| Thema | Fragen |
+|---|---|
+| Verfassungsrecht (GG) | 15 |
+| Soldatengesetz (SG) | 25 |
+| Vorgesetztenverordnung (VorgV) | 33 |
+| Befehlsrecht | 15 |
+| Strafrecht / WStG | 20 |
+| Disziplinarrecht (WDO) | 38 |
+| Beschwerderecht (WBO) | 24 |
 
 ## Lokal starten
 ```bash
 npm install
 npm run dev
+```
+
+## Deployment (Vercel)
+1. GitHub-Repo mit diesen Dateien erstellen
+2. In Vercel mit dem Repo verbinden
+3. Framework: **Vite** – automatisch erkannt
+
+## Projektstruktur
+```
+├── index.html
+├── package.json
+├── vite.config.js
+└── src/
+    ├── main.jsx
+    └── App.jsx
 ```
