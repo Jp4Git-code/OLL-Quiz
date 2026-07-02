@@ -15,7 +15,7 @@ const QUESTIONS = [
       "Teilnahme an einer politischen Demonstration."
     ],
     "correct": 1,
-    "expl": "§ 13 Abs. 1 SG: Wahrheitspflicht in dienstlichen Angelegenheiten. Falschangaben in einer dienstlichen Vernehmung sind der klassische Anwendungsfall – die anderen Optionen betreffen § 7, § 12 und § 15 SG."
+    "expl": "§ 13 Abs. 1 SG regelt die Wahrheitspflicht in dienstlichen Angelegenheiten – falsche Angaben in einer dienstlichen Vernehmung sind der Kernfall. Alkohol im Dienst wäre § 7 SG, Beleidigung § 12 SG, politische Werbung in Uniform § 15 SG."
   },
   {
     "cat": "SG",
@@ -29,7 +29,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "1+2+3 treffen zu: § 12 SG betrifft die handelnden Soldaten (Würde/Ehre). § 10 Abs. 2 SG betrifft den Feldwebel (Dienstaufsichtspflicht verletzt). § 17 SG kann zusätzlich einschlägig sein. Aussage 4 ist falsch: Das Unterlassen ist disziplinarrechtlich sehr wohl bedeutsam."
+    "expl": "Aussagen 1–3 treffen zu: Die erniedrigenden Soldaten verletzen § 12 SG (Würde des Kameraden). Der wegsehende Feldwebel verletzt § 10 Abs. 2 SG (Dienstaufsicht: Wahrnehmen–Bewerten–Reagieren). Je nach Intensität kommt § 17 SG hinzu. Aussage 4 ist falsch: Gerade das Unterlassen des Vorgesetzten ist disziplinarrechtlich relevant."
   },
   {
     "cat": "SG",
@@ -43,7 +43,7 @@ const QUESTIONS = [
       "Alle vier"
     ],
     "correct": 3,
-    "expl": "Richtige Antwort: Alle vier. Maßgebliche Norm(en): §7 SG, §12 SG, §13 SG."
+    "expl": "Alle vier: § 7 SG (alkoholisiert = Schlechtleistung der Dienstleistungspflicht), § 12 SG (Beleidigung des Untergebenen = Ehre), § 13 SG (bewusst falsche Angaben im Disziplinarverfahren), § 17 SG (Instagram-Video = Außenwirkung, Achtung und Vertrauen)."
   },
   {
     "cat": "SG",
@@ -72,7 +72,7 @@ const QUESTIONS = [
       "Nur 2 und 4"
     ],
     "correct": 2,
-    "expl": "§ 7 SG: Alkohol = Schlechtleistung (Dienstleistungspflicht). § 10 Abs. 2 SG: Nicht-Einschreiten als Vorgesetzter = Verletzung der Dienstaufsichtspflicht. § 12 SG: Beleidigung = Würde/Ehre. § 17 SG: Wohlverhalten. Einheit des Dienstvergehens (§ 18 Abs. 2 WDO) beachten."
+    "expl": "Alle vier: § 7 SG (Alkohol = Schlechtleistung), § 10 SG (bewusstes Nicht-Einschreiten = Verletzung der Dienstaufsichtspflicht nach Abs. 2), § 12 SG (Beleidigung des Kameraden), § 17 SG (Wohlverhalten). Einheit des Dienstvergehens beachten (§ 18 Abs. 2 WDO)."
   },
   {
     "cat": "SG",
@@ -86,7 +86,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "§ 10 Abs. 2 SG (Dienstaufsichtspflicht) und § 12 SG (Kameradschaft) sind betroffen. Wegsehen bei erkannter Pflichtverletzung ist selbst eine Pflichtverletzung des Vorgesetzten. § 4 ist falsch: Unterlassen kann ein Dienstvergehen darstellen."
+    "expl": "Nur 1 und 3: Das Weitergehen verletzt die Dienstaufsichtspflicht (§ 10 Abs. 2 SG) – auch Unterlassen kann ein Dienstvergehen sein. Aussage 2 ist falsch, weil § 12 SG nicht 'ausschließlich' die Beteiligten betrifft (auch der Vorgesetzte hat Schutzpflichten). Aussage 4 ist falsch: Einschreiten war geboten."
   },
   {
     "cat": "SG",
@@ -100,7 +100,7 @@ const QUESTIONS = [
       "§ 13 SG"
     ],
     "correct": 1,
-    "expl": "§ 10 Abs. 2 SG: Dienstaufsichtspflicht – Wahrnehmen, Bewerten, angemessen Reagieren. Der Vorgesetzte sieht Pflichtverletzungen und greift nicht ein – das ist selbst eine Pflichtverletzung."
+    "expl": "§ 10 Abs. 2 SG (Dienstaufsichtspflicht) ist für den Gruppenführer vorrangig: Er nimmt die Verstöße wahr, bewertet sie erkennbar falsch ('bewusst') und reagiert nicht. Wahrnehmen – Bewerten – Reagieren ist die Kurzformel."
   },
   {
     "cat": "SG",
@@ -116,7 +116,7 @@ const QUESTIONS = [
       "Alle genannten."
     ],
     "correct": 5,
-    "expl": "Richtige Antwort: Alle genannten.. Maßgebliche Norm(en): ."
+    "expl": "Alle genannten: § 7 SG (Alkohol), § 12 SG (Beleidigung), § 13 SG (falsche Angaben im Disziplinarverfahren), § 17 SG (Wohlverhalten). Das Ignorieren der Beschwerde kann zusätzlich § 35 WStG (Unterdrücken von Beschwerden) berühren."
   },
   {
     "cat": "SG",
@@ -144,7 +144,7 @@ const QUESTIONS = [
       "Alle fünf"
     ],
     "correct": 3,
-    "expl": "Richtige Antwort: Alle fünf. Maßgebliche Norm(en): §7 SG, §10 SG, §12 SG."
+    "expl": "Alle fünf: § 7 SG (Alkohol = Schlechtleistung), § 10 SG (Unterlassen des Einschreitens = Dienstaufsicht Abs. 2), § 12 SG (Beleidigung zweier Untergebener), § 13 SG (falsche Angaben gegenüber dem DiszVorg), § 17 SG (Wohlverhalten)."
   },
   {
     "cat": "SG",
@@ -160,7 +160,7 @@ const QUESTIONS = [
       "Alle genannten."
     ],
     "correct": 5,
-    "expl": "Richtige Antwort: Alle genannten.. Maßgebliche Norm(en): ."
+    "expl": "Alle genannten: § 7 SG (Alkohol), § 10 Abs. 2 SG (Nicht-Einschreiten), § 12 SG (Beleidigung), § 13 SG (Falschangaben), § 17 SG (Veröffentlichung in sozialen Medien = Außenwirkung)."
   },
   {
     "cat": "SG",
@@ -209,7 +209,7 @@ const QUESTIONS = [
       "Keine soldatische Pflicht"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: § 12 SG und § 17 SG. Maßgebliche Norm(en): ."
+    "expl": "§ 12 SG (Ehre des Kameraden) und § 17 SG (Wohlverhalten) können nebeneinander einschlägig sein – mehrere SG-Pflichten können durch eine Handlung gleichzeitig verletzt werden."
   },
   {
     "cat": "SG",
@@ -223,7 +223,7 @@ const QUESTIONS = [
       "alle genannten"
     ],
     "correct": 3,
-    "expl": "Richtige Antwort: alle genannten. Maßgebliche Norm(en): ."
+    "expl": "Alle genannten: Beleidigung = § 12 SG, Zerstörung von Bw-Material = § 7 SG (Vermögenswahrungspflicht), Lügen im Disziplinarverfahren = § 13 SG. Disziplinarrechtlich dennoch ein einheitliches Dienstvergehen (§ 18 Abs. 2 WDO)."
   },
   {
     "cat": "SG",
@@ -241,7 +241,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: §12 SG / §17 SG / Mehrere Pflichten können gleichzeitig verletzt sein.. Maßgebliche Norm(en): ."
+    "expl": "§ 12 SG (Ehre – gilt auch gegenüber Vorgesetzten als Kameraden) und § 17 SG (Wohlverhalten) kommen vorrangig in Betracht. Mehrere Pflichten können gleichzeitig verletzt sein."
   },
   {
     "cat": "SG",
@@ -258,7 +258,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: Kameradschaft verlangt niemals das Decken von Pflichtverletzungen. / Es können eigene Pflichtverletzungen entstehen.. Maßgebliche Norm(en): ."
+    "expl": "Kameradschaft (§ 12 SG) verlangt niemals das Decken von Pflichtverletzungen. Durch das Nichtmelden können eigene Pflichtverletzungen entstehen (z.B. § 7 SG – Loyalität, ggf. Meldepflichten)."
   },
   {
     "cat": "SG",
@@ -272,7 +272,7 @@ const QUESTIONS = [
       "Nur die unmittelbar Beteiligten handeln pflichtwidrig."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Kameradschaft bedeutet nicht, Pflichtverletzungen zu decken.. Maßgebliche Norm(en): ."
+    "expl": "Falsch verstandene Kameradschaft: § 12 SG verpflichtet zum Schutz von Würde, Ehre und Rechten der Kameraden – nicht zum Decken von Pflichtverletzungen. Wer wegsieht, kann selbst Pflichten verletzen."
   },
   {
     "cat": "SG",
@@ -286,7 +286,7 @@ const QUESTIONS = [
       "§15 SG"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: §7 SG. Maßgebliche Norm(en): ."
+    "expl": "§ 7 SG steht im Vordergrund: Die Pflicht zum treuen Dienen umfasst die Vermögenswahrungspflicht – den sorgfältigen Umgang mit Bundeswehreigentum. Fahrlässigkeit genügt für ein Dienstvergehen (§ 23 Abs. 1 SG: 'schuldhaft')."
   },
   {
     "cat": "SG",
@@ -362,7 +362,7 @@ const QUESTIONS = [
       "Alle Aussagen"
     ],
     "correct": 1,
-    "expl": "§ 13 Abs. 1 SG: Wahrheitspflicht gilt nur in dienstlichen Angelegenheiten (Vernehmung, Meldung, Antrag). Wer sein Aussageverweigerungsrecht nutzt und dann doch aussagt, muss wahrheitsgemäß aussagen."
+    "expl": "Nur 1, 2 und 3: § 7 SG (Alkohol = Schlechtleistung), § 13 SG (wahrheitswidrige Erklärung), § 17 SG (zusätzlich möglich). Aussage 4 ist falsch – es liegt gerade NICHT nur ein Verstoß gegen § 7 SG vor, mehrere Pflichten sind verletzt."
   },
   {
     "cat": "SG",
@@ -376,7 +376,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "§ 13 Abs. 1 SG: Wahrheitspflicht gilt nur in dienstlichen Angelegenheiten (Vernehmung, Meldung, Antrag). Wer sein Aussageverweigerungsrecht nutzt und dann doch aussagt, muss wahrheitsgemäß aussagen."
+    "expl": "Nur 2, 3 und 4: § 13 SG greift bei den Falschangaben, § 17 SG kann unabhängig davon betroffen sein, mehrere SG-Pflichten können gleichzeitig verletzt sein. Aussage 1 ist falsch – die Prüfung ist nicht auf § 7 SG beschränkt."
   },
   {
     "cat": "SG",
@@ -407,7 +407,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 3. Maßgebliche Norm(en): §13 SG."
+    "expl": "Nur 1, 2 und 3: § 13 SG erfasst auch Halbwahrheiten und das bewusste Verschweigen wesentlicher Tatsachen – beides steht der Falschangabe gleich. Aussage 4 ist falsch: Einzelne richtige Angaben heilen die Unvollständigkeit nicht."
   },
   {
     "cat": "SG",
@@ -424,7 +424,7 @@ const QUESTIONS = [
       0,
       2
     ],
-    "expl": "Richtige Antwort: Halbwahrheiten können ebenfalls gegen §13 SG verstoßen. / Die Wahrheitspflicht umfasst auch bewusstes Verschweigen wesentlicher Tatsachen.. Maßgebliche Norm(en): ."
+    "expl": "§ 13 SG erfasst nicht nur aktive Lügen: Auch Halbwahrheiten und das bewusste Verschweigen wesentlicher Tatsachen verstoßen gegen die Wahrheitspflicht in dienstlichen Angelegenheiten."
   },
   {
     "cat": "SG",
@@ -469,7 +469,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4. Maßgebliche Norm(en): § 8 SG, § 17 SG."
+    "expl": "Nur 1, 2 und 4: § 8 SG (verfassungsfeindliche Symbole = äußere Manifestation!), § 17 SG (Außenwirkung), Disziplinar- und Strafverfahren können parallel laufen. Aussage 3 ist falsch: Ein strafrechtlicher Bezug (z.B. § 86a StGB) ist gerade NICHT ausgeschlossen."
   },
   {
     "cat": "SG",
@@ -483,7 +483,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2 und 3. Maßgebliche Norm(en): § 7 SG, § 17 SG."
+    "expl": "Nur 2 und 3: Bloße Anwesenheit genügt nicht (Aussage 1 falsch) – wer schläft, erbringt den Dienst nicht ordnungsgemäß = Schlechtleistung nach § 7 SG. Je nach Gefährdungslage zusätzlich § 17 SG. Ein Dienstvergehen scheidet gerade nicht aus (Aussage 4 falsch)."
   },
   {
     "cat": "SG",
@@ -500,7 +500,7 @@ const QUESTIONS = [
       0,
       1
     ],
-    "expl": "Richtige Antwort: §15 Abs.2 SG ist zu prüfen. / Ob zusätzlich §8 SG betroffen ist, hängt vom Inhalt der Kundgebung ab.. Maßgebliche Norm(en): ."
+    "expl": "§ 15 Abs. 2 SG verbietet politische Betätigung in Uniform – das ist hier zu prüfen. Ob zusätzlich § 8 SG (politische Treuepflicht) verletzt ist, hängt vom Inhalt der Kundgebung ab (FDGO-feindlich?)."
   },
   {
     "cat": "SG",
@@ -518,7 +518,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: § 8 SG / § 17 SG / Je nach Sachverhalt mehrere gleichzeitig.. Maßgebliche Norm(en): ."
+    "expl": "§ 8 SG (verfassungsfeindliche Inhalte = äußere Manifestation) und § 17 SG (öffentliche Außenwirkung) können betroffen sein – je nach Sachverhalt mehrere Pflichten gleichzeitig."
   },
   {
     "cat": "SG",
@@ -532,7 +532,7 @@ const QUESTIONS = [
       "Keine, weil Schweigen erlaubt ist."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: § 13 SG. Maßgebliche Norm(en): ."
+    "expl": "§ 13 SG liegt am nächsten: Das bewusste Verschweigen des Sicherheitsverstoßes bei der Unfallmeldung ist eine unvollständige dienstliche Angabe – auch Verschweigen wesentlicher Tatsachen verletzt die Wahrheitspflicht."
   },
   {
     "cat": "SG",
@@ -564,7 +564,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: §12 SG / §17 SG / Je nach Inhalt weitere Vorschriften.. Maßgebliche Norm(en): ."
+    "expl": "§ 12 SG (Lächerlichmachen von Kameraden = Ehre/Würde) und § 17 SG (Veröffentlichung aus militärischer Liegenschaft = Außenwirkung) sind mindestens zu prüfen. Je nach Inhalt kommen weitere Vorschriften hinzu (z.B. Sicherheitsbestimmungen)."
   },
   {
     "cat": "SG",
@@ -578,7 +578,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4. Maßgebliche Norm(en): §12 SG, §17 SG, §7 SG."
+    "expl": "Nur 1, 2 und 4: § 12 SG (Verspotten von Kameraden), § 17 SG (öffentliche Fotos = Achtung/Vertrauen), ggf. strafrechtliche Normen (z.B. § 201a StGB, KunstUrhG). § 7 SG ist hier nicht der Kern (Aussage 3)."
   },
   {
     "cat": "SG",
@@ -592,7 +592,7 @@ const QUESTIONS = [
       "Keine Pflichtverletzung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: §15 SG ist regelmäßig einschlägig; §8 SG hängt vom Inhalt der Äußerungen ab.. Maßgebliche Norm(en): ."
+    "expl": "§ 15 SG ist regelmäßig einschlägig: Auftreten in Uniform + ausdrückliche Parteiwerbung = Verstoß gegen § 15 Abs. 2 SG. Ob zusätzlich § 8 SG verletzt ist, hängt vom Inhalt ab (nur bei FDGO-feindlichen Äußerungen)."
   },
   {
     "cat": "SG",
@@ -606,7 +606,7 @@ const QUESTIONS = [
       "Ausschließlich Datenschutzrecht"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 12 SG und § 17 SG. Maßgebliche Norm(en): ."
+    "expl": "§ 12 SG (Kameraden werden lächerlich gemacht = Ehre/Würde) und § 17 SG (Video aus militärischer Unterkunft mit internen Abläufen = Achtung und Vertrauen, Außenwirkung)."
   },
   {
     "cat": "SG",
@@ -637,7 +637,7 @@ const QUESTIONS = [
       "Keine Pflichtverletzung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: §15 Abs.2 SG ist regelmäßig einschlägig; §8 SG hängt vom Inhalt der Äußerung ab.. Maßgebliche Norm(en): ."
+    "expl": "§ 15 Abs. 2 SG ist regelmäßig einschlägig (Wahlwerbung in Uniform ist verboten). § 8 SG kommt nur hinzu, wenn der Inhalt der Äußerung FDGO-feindlich ist – die Uniform allein reicht dafür nicht."
   },
   {
     "cat": "SG",
@@ -665,7 +665,7 @@ const QUESTIONS = [
       "Die Belehrung hebt §13 SG auf."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Entscheidet er sich zur Aussage, muss diese wahrheitsgemäß sein.. Maßgebliche Norm(en): ."
+    "expl": "Wer trotz Belehrung über das Aussageverweigerungsrecht freiwillig aussagt, unterliegt der Wahrheitspflicht (§ 13 Abs. 1 SG). Schweigen ODER wahrheitsgemäß aussagen – beides zugleich geht nicht."
   },
   {
     "cat": "SG",
@@ -696,7 +696,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: Es ist zu prüfen, ob Achtung und Vertrauen beeinträchtigt wurden. / Neben § 17 SG können weitere SG-Pflichten betroffen sein.. Maßgebliche Norm(en): ."
+    "expl": "Bei einer privaten Trunkenheitsfahrt mit rechtskräftiger Verurteilung ist § 17 SG zu prüfen (Beeinträchtigung von Achtung und Vertrauen). Je nach Sachverhalt können weitere SG-Pflichten betroffen sein (z.B. § 7 SG bei Dienstbezug)."
   },
   {
     "cat": "SG",
@@ -724,7 +724,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 3. Maßgebliche Norm(en): ."
+    "expl": "Nur 1, 2 und 3: Dienstaufsichtspflicht (§ 10 Abs. 2 SG) ist zu prüfen, disziplinarrechtliche Konsequenzen treffen auch den Vorgesetzten, das Verhalten des Untergebenen bleibt eigenständig zu bewerten. Aussage 4 ist falsch – Untätigkeit ist nicht durch fehlende Anzeige gerechtfertigt."
   },
   {
     "cat": "SG",
@@ -742,7 +742,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: §10 Abs.2 SG / §12 SG / §17 SG. Maßgebliche Norm(en): ."
+    "expl": "§ 10 Abs. 2 SG (Vorgesetzter greift bewusst nicht ein = Dienstaufsicht), § 12 SG (die beleidigenden Soldaten verletzen die Ehre des Kameraden), § 17 SG (je nach Umständen zusätzlich)."
   },
   {
     "cat": "SG",
@@ -756,7 +756,7 @@ const QUESTIONS = [
       "Wegsehen ist rechtlich bedeutungslos."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Pflicht zur Dienstaufsicht besteht unabhängig von einem Disziplinarverfahren.. Maßgebliche Norm(en): ."
+    "expl": "Die Dienstaufsichtspflicht (§ 10 Abs. 2 SG) besteht unabhängig von einem Disziplinarverfahren – sie ist ständige Führungsaufgabe: Wahrnehmen, Bewerten, Reagieren. Wochenlanges Ignorieren ist selbst eine Pflichtverletzung."
   },
   {
     "cat": "SG",
@@ -770,7 +770,7 @@ const QUESTIONS = [
       "Wegen der Vielzahl der Pflichtverletzungen ist ausschließlich das Strafrecht anwendbar."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es sind mehrere soldatische Pflichten zu prüfen; disziplinarrechtlich kann dennoch ein einheitliches Dienstvergehen vorliegen.. Maßgebliche Norm(en): ."
+    "expl": "Mehrere Pflichten sind zu prüfen (§ 12 SG Erniedrigung, § 7 SG Materialbeschädigung, § 13 SG Falschangaben) – disziplinarrechtlich liegt wegen § 18 Abs. 2 WDO dennoch nur EIN einheitliches Dienstvergehen vor."
   },
   {
     "cat": "SG",
@@ -788,7 +788,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: Der Untergebene verletzt möglicherweise § 7 SG. / Der Zugführer verletzt möglicherweise seine Dienstaufsichtspflicht. / Je nach Sachverhalt kann auch ein Dienstvergehen des Vorgesetzten vorliegen.. Maßgebliche Norm(en): ."
+    "expl": "Der Untergebene verletzt möglicherweise § 7 SG (Dienstleistungspflicht – Verspätungen). Der Zugführer verletzt durch wochenlange Untätigkeit trotz Kenntnis möglicherweise seine Dienstaufsichtspflicht (§ 10 Abs. 2 SG) – auch das kann ein eigenes Dienstvergehen sein."
   },
   {
     "cat": "SG",
@@ -802,7 +802,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4. Maßgebliche Norm(en): §32 WDO, §13 SG."
+    "expl": "Nur 1, 2 und 4: Er hätte schweigen dürfen (Aussageverweigerungsrecht), bei freiwilliger Aussage gilt die Wahrheitspflicht (§ 13 SG). Aussage 3 ist falsch: Bewusstes Verschweigen einzelner wesentlicher Tatsachen ist gerade nicht erlaubt."
   },
   {
     "cat": "SG",
@@ -819,7 +819,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: §12 SG ist naheliegend. / §17 SG kann zusätzlich betroffen sein.. Maßgebliche Norm(en): ."
+    "expl": "§ 12 SG ist naheliegend (mehrfache Beleidigung vor der Gruppe = Ehre/Würde des Mannschaftssoldaten). § 17 SG kann zusätzlich betroffen sein. Für den Feldwebel gilt als Vorgesetzter zudem der Maßstab des § 10 Abs. 1 SG (Vorbild)."
   },
   {
     "cat": "SG",
@@ -833,7 +833,7 @@ const QUESTIONS = [
       "Nur der Strafrichter darf den Sachverhalt bewerten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es ist insbesondere zu prüfen, ob §17 SG betroffen ist.. Maßgebliche Norm(en): ."
+    "expl": "Die Aussage des Feldwebels ist falsch: § 17 SG gilt auch AUSSERdienstlich. Bei einer rechtskräftigen Verurteilung wegen einer schweren Gewalttat ist zu prüfen, ob Achtung und Vertrauen, die der Dienst erfordert, ernsthaft beeinträchtigt sind."
   },
   {
     "cat": "SG",
@@ -850,7 +850,7 @@ const QUESTIONS = [
       0,
       1
     ],
-    "expl": "Richtige Antwort: Gegen den Soldaten ist mindestens § 7 SG zu prüfen. / Für Sie kommt eine Verletzung der Dienstaufsichtspflicht in Betracht.. Maßgebliche Norm(en): ."
+    "expl": "Gegen den Soldaten ist § 7 SG zu prüfen (wiederholt alkoholisiert = Schlechtleistung). Für Sie als Zugführer kommt eine Verletzung der Dienstaufsichtspflicht (§ 10 Abs. 2 SG) in Betracht – bewusstes Nichtstun trotz Kenntnis ist keine Option."
   },
   {
     "cat": "SG",
@@ -881,7 +881,7 @@ const QUESTIONS = [
       "§17 SG verdrängt sämtliche anderen Pflichten."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Beide können nebeneinander erfüllt sein.. Maßgebliche Norm(en): §12 SG, §17 SG."
+    "expl": "§ 12 SG (Kameradschaft) und § 17 SG (Wohlverhalten) können nebeneinander erfüllt sein – eine Handlung kann mehrere SG-Pflichten gleichzeitig verletzen. Die Normen schließen sich nicht aus."
   },
   {
     "cat": "SG",
@@ -895,7 +895,7 @@ const QUESTIONS = [
       "§17 SG verdrängt sämtliche übrigen Pflichten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Mehrere SG-Pflichten können gleichzeitig verletzt werden.. Maßgebliche Norm(en): ."
+    "expl": "Mehrere SG-Pflichten können durch einen Sachverhalt gleichzeitig verletzt werden (z.B. § 7 + § 12 + § 13 SG). Disziplinarrechtlich gilt dann die Einheit des Dienstvergehens (§ 18 Abs. 2 WDO)."
   },
   {
     "cat": "SG",
@@ -909,7 +909,7 @@ const QUESTIONS = [
       "Beide Paragraphen regeln denselben Inhalt."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: § 7 bewertet die Dienstausübung, § 17 das erforderliche Achtungs- und Vertrauensverhältnis.. Maßgebliche Norm(en): § 7 SG, § 17 SG."
+    "expl": "§ 7 SG bewertet die DIENSTAUSÜBUNG selbst (ordnungsgemäße Dienstleistung, Loyalität, Vermögenswahrung). § 17 SG schützt das ACHTUNGS- und VERTRAUENSVERHÄLTNIS, das der Dienst erfordert – auch außerdienstlich."
   },
   {
     "cat": "SG",
@@ -923,7 +923,7 @@ const QUESTIONS = [
       "Sie gilt nur während eines Auslandseinsatzes."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Sie verpflichtet zur gewissenhaften Wahrnehmung aller dienstlichen Aufgaben.. Maßgebliche Norm(en): ."
+    "expl": "§ 7 SG (treues Dienen) verpflichtet zur gewissenhaften Wahrnehmung aller dienstlichen Aufgaben – umfasst Dienstleistungspflicht (keine Nicht-/Schlechtleistung), Loyalitätspflicht und Vermögenswahrungspflicht."
   },
   {
     "cat": "SG",
@@ -937,7 +937,7 @@ const QUESTIONS = [
       "Sie betrifft ausschließlich Straftaten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Sie schützt das Vertrauen, das Bürger in die Bundeswehr haben müssen.. Maßgebliche Norm(en): ."
+    "expl": "§ 17 SG (Wohlverhalten) schützt das Vertrauen, das Bürger und Dienstherr in die Bundeswehr und ihre Soldaten haben müssen – Maßstab: Achtung und Vertrauen, die der Dienst erfordert."
   },
   {
     "cat": "SG",
@@ -951,7 +951,7 @@ const QUESTIONS = [
       "Kameradschaft endet außerhalb des Dienstes."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Kameradschaft verpflichtet zum Schutz von Würde, Ehre und Rechten.. Maßgebliche Norm(en): § 12 SG."
+    "expl": "§ 12 SG: Kameradschaft verpflichtet zum Schutz von Würde, Ehre und Rechten der Kameraden. Diese drei Schutzgüter sind in der Prüfung konkret zu benennen."
   },
   {
     "cat": "SG",
@@ -965,7 +965,7 @@ const QUESTIONS = [
       "Er gilt nur für Berufssoldaten."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Er schützt Achtung und Vertrauen, die der Dienst erfordert.. Maßgebliche Norm(en): § 17 SG."
+    "expl": "§ 17 SG schützt Achtung und Vertrauen, die der Dienst erfordert – inner- wie außerdienstlich. Nicht jedes Fehlverhalten reicht: Es muss eine ernsthafte Beeinträchtigung vorliegen (Einzelfallprüfung)."
   },
   {
     "cat": "SG",
@@ -979,7 +979,7 @@ const QUESTIONS = [
       "Die Wahrheitspflicht gilt ausschließlich vor Gericht."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Wer sich freiwillig zur Aussage entscheidet, unterliegt der Wahrheitspflicht.. Maßgebliche Norm(en): ."
+    "expl": "Wer sich freiwillig zur Aussage entscheidet, unterliegt der Wahrheitspflicht (§ 13 Abs. 1 SG). Das Aussageverweigerungsrecht schützt vor dem Zwang zur Selbstbelastung – nicht vor der Wahrheitspflicht bei freiwilliger Aussage."
   },
   {
     "cat": "SG",
@@ -996,7 +996,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: Soldaten bleiben Staatsbürger. / Politische Werbung während des Dienstes ist regelmäßig unzulässig.. Maßgebliche Norm(en): ."
+    "expl": "Soldaten bleiben Staatsbürger (in Uniform) – politische Betätigung ist grundsätzlich zulässig. Politische Werbung WÄHREND des Dienstes ist aber regelmäßig unzulässig (§ 15 Abs. 1, 2 SG)."
   },
   {
     "cat": "SG",
@@ -1010,7 +1010,7 @@ const QUESTIONS = [
       "Uniform darf bei politischen Veranstaltungen grundsätzlich getragen werden."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Soldaten dürfen sich politisch betätigen, soweit dienstliche Grenzen eingehalten werden.. Maßgebliche Norm(en): ."
+    "expl": "§ 15 SG: Politische Betätigung ist grundsätzlich erlaubt, soweit die dienstlichen Grenzen eingehalten werden – verboten im Dienst, in Uniform oder unter Ausnutzung der Dienststellung."
   },
   {
     "cat": "SG",
@@ -1055,7 +1055,7 @@ const QUESTIONS = [
       "Dienstvergehen gibt es nur innerhalb des Dienstes."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Mehrere Pflichtverletzungen können disziplinarrechtlich ein einheitliches Dienstvergehen bilden.. Maßgebliche Norm(en): ."
+    "expl": "Mehrere Pflichtverletzungen können disziplinarrechtlich ein EINHEITLICHES Dienstvergehen bilden – Grundsatz der Einheit des Dienstvergehens (§ 18 Abs. 2 WDO). Es gibt mehrere Pflichtverletzungen, aber nur ein Dienstvergehen."
   },
   {
     "cat": "SG",
@@ -1100,7 +1100,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "§ 13 Abs. 1 SG: Wahrheitspflicht gilt nur in dienstlichen Angelegenheiten (Vernehmung, Meldung, Antrag). Wer sein Aussageverweigerungsrecht nutzt und dann doch aussagt, muss wahrheitsgemäß aussagen."
+    "expl": "§ 13 SG verlangt vollständige und wahrheitsgemäße dienstliche Angaben. Auch Halbwahrheiten und bewusstes Verschweigen wesentlicher Tatsachen können gegen die Wahrheitspflicht verstoßen."
   },
   {
     "cat": "SG",
@@ -1114,7 +1114,7 @@ const QUESTIONS = [
       "Sie ist nur bei Straftaten anwendbar."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Sie schützt das Vertrauen in die Bundeswehr insgesamt.. Maßgebliche Norm(en): ."
+    "expl": "Die Wohlverhaltenspflicht (§ 17 SG) schützt das Vertrauen in die Bundeswehr insgesamt – das Ansehen der Streitkräfte in der Öffentlichkeit und das dienstliche Vertrauensverhältnis."
   },
   {
     "cat": "SG",
@@ -1148,7 +1148,7 @@ const QUESTIONS = [
       1,
       3
     ],
-    "expl": "Richtige Antwort: Sie schützt das Vertrauen der Allgemeinheit in die Bundeswehr. / Sie kann auch außerhalb des Dienstes verletzt werden.. Maßgebliche Norm(en): ."
+    "expl": "§ 17 SG schützt das Vertrauen der Allgemeinheit in die Bundeswehr und kann auch AUSSERHALB des Dienstes verletzt werden – Maßstab ist stets, ob Achtung und Vertrauen, die der Dienst erfordert, beeinträchtigt sind."
   },
   {
     "cat": "SG",
@@ -1162,7 +1162,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 3,
-    "expl": "§ 15 SG: Politische Betätigung ist für Soldaten grundsätzlich ERLAUBT (Staatsbürger in Uniform). Verboten nach § 15 Abs. 2 SG: in Uniform, im Dienst oder unter Ausnutzung der Dienststellung."
+    "expl": "Alle vier Aussagen treffen zu: Soldaten bleiben Staatsbürger (§ 15 Abs. 1 SG), politische Betätigung ist grundsätzlich zulässig, in Uniform kann sie verboten sein (§ 15 Abs. 2 SG), Werbung im Dienst ist regelmäßig unzulässig."
   },
   {
     "cat": "SG",
@@ -1176,7 +1176,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): ."
+    "expl": "Nur 1–3: Die Wahrheitspflicht (§ 13 SG) gilt bei dienstlichen Meldungen, Vernehmungen und auch für bewusstes Verschweigen erheblicher Tatsachen. Aussage 4 ist falsch: Im rein privaten Bereich gilt § 13 SG NICHT."
   },
   {
     "cat": "SG",
@@ -1194,7 +1194,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Richtige Antwort: Maßgeblich ist, ob Achtung und Vertrauen ernsthaft beeinträchtigt werden. / Nicht jede private Straftat stellt automatisch ein Dienstvergehen dar. / Die Einzelfallprüfung ist entscheidend.. Maßgebliche Norm(en): § 17 SG."
+    "expl": "Maßgeblich bei § 17 SG: ernsthafte Beeinträchtigung von Achtung und Vertrauen. Nicht jede private Straftat ist automatisch ein Dienstvergehen – die Einzelfallprüfung ist entscheidend."
   },
   {
     "cat": "SG",
@@ -1208,7 +1208,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1,3 und 4. Maßgebliche Norm(en): §17 SG."
+    "expl": "Nur 1, 3 und 4: § 17 SG schützt das Vertrauen in die Bundeswehr, außerdienstliches Verhalten kann relevant sein, Einzelfallprüfung ist stets erforderlich. Aussage 2 ist falsch: § 17 SG gilt gerade NICHT nur während des Dienstes."
   },
   {
     "cat": "SG",
@@ -1222,7 +1222,7 @@ const QUESTIONS = [
       "Alle Aussagen"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 2 und 3. Maßgebliche Norm(en): § 7 SG, § 7 SG, § 7 SG."
+    "expl": "Nur 2 und 3: Schlechtleistung verletzt § 7 SG, ebenso der nachlässige Umgang mit Bundeswehrvermögen (Vermögenswahrungspflicht). Aussage 1 ist falsch (§ 7 umfasst mehr als Befehle), Aussage 4 ist falsch (Fahrlässigkeit genügt, § 23 Abs. 1 SG)."
   },
   {
     "cat": "SG",
@@ -1236,7 +1236,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): § 10 Abs.2 SG."
+    "expl": "Nur 1–3: Die Dienstaufsicht (§ 10 Abs. 2 SG) verpflichtet zum Wahrnehmen, Bewerten und erforderlichenfalls Einschreiten. Aussage 4 ist falsch: Sie endet nicht automatisch mit Dienstschluss – Vorgesetztenpflichten können fortwirken."
   },
   {
     "cat": "SG",
@@ -1253,7 +1253,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: Sie umfasst Wahrnehmen, Bewerten und erforderliches Einschreiten. / Sie besteht unabhängig davon, ob ein Disziplinarverfahren eingeleitet wird.. Maßgebliche Norm(en): §10 Abs.2 SG."
+    "expl": "§ 10 Abs. 2 SG: Wahrnehmen, Bewerten, erforderliches Einschreiten. Die Dienstaufsicht besteht unabhängig davon, ob ein Disziplinarverfahren eingeleitet wird – sie ist ständige Führungsaufgabe."
   },
   {
     "cat": "SG",
@@ -1267,7 +1267,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): ."
+    "expl": "Nur 1–3: Dienstaufsicht umfasst Prävention, Kontrolle und erforderlichenfalls Einschreiten. Aussage 4 ist falsch: Sie endet nicht automatisch außerhalb der Kaserne – entscheidend ist die dienstliche Verantwortung."
   },
   {
     "cat": "SG",
@@ -1281,7 +1281,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): ."
+    "expl": "Nur 1–3: § 12 SG schützt Würde, Ehre und Rechte. Aussage 4 ist falsch: Kameradschaft verpflichtet gerade NICHT zur Vertuschung von Pflichtverletzungen – das wäre falsch verstandene Kameradschaft."
   },
   {
     "cat": "SG",
@@ -1312,7 +1312,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 1 und 2. Maßgebliche Norm(en): § 12 SG."
+    "expl": "Nur 1 und 2: Kameradschaft verlangt gegenseitige Achtung und den Schutz der Rechte anderer Soldaten. Aussage 3 ist falsch (kein Verschweigen von Dienstvergehen!), Aussage 4 ist falsch (die Pflicht endet nicht mit Dienstschluss)."
   },
   {
     "cat": "SG",
@@ -1350,7 +1350,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Richtige Antwort: Sie gilt bei dienstlichen Meldungen. / Sie gilt bei dienstlichen Anträgen. / Sie gilt auch bei dienstlichen Vernehmungen.. Maßgebliche Norm(en): ."
+    "expl": "Die Wahrheitspflicht (§ 13 Abs. 1 SG) gilt in dienstlichen Angelegenheiten: bei dienstlichen Meldungen, dienstlichen Anträgen und dienstlichen Vernehmungen. Im Privatbereich gilt sie nicht."
   },
   {
     "cat": "SG",
@@ -1364,7 +1364,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3. Maßgebliche Norm(en): ."
+    "expl": "Nur 1–3: § 13 SG gilt für dienstliche Meldungen, Vernehmungen und Anträge. Aussage 4 ist falsch: Im rein privaten Bereich gilt die soldatische Wahrheitspflicht NICHT."
   },
   {
     "cat": "SG",
@@ -1378,7 +1378,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2, 3 und 4. Maßgebliche Norm(en): §13 SG."
+    "expl": "Nur 2, 3 und 4: Bei freiwilliger Aussage gilt die Wahrheitspflicht (§ 13 SG), unabhängig vom Verfahrensausgang. Aussage 1 ist falsch: Wer schweigen darf, darf NICHT stattdessen bewusst falsch aussagen – schweigen oder Wahrheit, kein Drittes."
   },
   {
     "cat": "SG",
@@ -1392,7 +1392,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 2 und 3. Maßgebliche Norm(en): §17 SG."
+    "expl": "Nur 2 und 3: Außerdienstliches Verhalten kann relevant sein, Maßstab sind Achtung und Vertrauen. Aussage 1 ist falsch (§ 17 gilt nicht nur im Dienst), Aussage 4 ist falsch (nicht jede OWi ist automatisch ein Dienstvergehen – Einzelfallprüfung)."
   },
   {
     "cat": "SG",
@@ -1406,7 +1406,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "§ 8 SG: Entscheidend ist die äußere Manifestation – nach außen erkennbares Verhalten, nicht die bloße innere Gesinnung. Man kann niemandem in den Kopf schauen."
+    "expl": "Nur 1, 2 und 4: Maßgeblich ist die äußere Manifestation, innere Überzeugungen genügen nicht, verfassungsfeindliche Aktivitäten können § 8 SG verletzen. Aussage 3 ist falsch: Die Mitgliedschaft in einer nicht verbotenen Partei verletzt § 8 SG nicht automatisch."
   },
   {
     "cat": "SG",
@@ -1424,7 +1424,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Richtige Antwort: Maßstab ist die Achtung und das Vertrauen, die der Dienst erfordert. / Innerdienstliches Verhalten fällt unter § 17 SG. / Außerdienstliches Verhalten kann ebenfalls unter § 17 SG fallen.. Maßgebliche Norm(en): § 17 SG."
+    "expl": "§ 17 SG: Maßstab sind Achtung und Vertrauen, die der Dienst erfordert. Sowohl innerdienstliches als auch außerdienstliches Verhalten kann darunter fallen – entscheidend ist die Beeinträchtigung im Einzelfall."
   },
   {
     "cat": "SG",
@@ -1442,7 +1442,7 @@ const QUESTIONS = [
       2,
       3
     ],
-    "expl": "Richtige Antwort: Die Pflicht verlangt ein aktives Eintreten für die FDGO. / Verfassungsfeindliche Handlungen können gegen § 8 SG verstoßen. / Private Meinungen ohne Außenwirkung genügen regelmäßig nicht.. Maßgebliche Norm(en): § 8 SG."
+    "expl": "§ 8 SG verlangt aktives Eintreten für die FDGO (nicht nur passive Anerkennung). Verfassungsfeindliche Handlungen können dagegen verstoßen. Private Meinungen ohne Außenwirkung genügen regelmäßig nicht – äußere Manifestation erforderlich."
   },
   {
     "cat": "SG",
@@ -1477,7 +1477,7 @@ const QUESTIONS = [
       "alle genannten"
     ],
     "correct": 4,
-    "expl": "Richtige Antwort: alle genannten. Maßgebliche Norm(en): ."
+    "expl": "Alle genannten: Beleidigung = § 12 SG, Lügen im Disziplinarverfahren = § 13 SG, alkoholisiert zum Dienst = § 7 SG. Dazu kann § 17 SG treten. Einheit des Dienstvergehens: disziplinarrechtlich ein DV (§ 18 Abs. 2 WDO)."
   },
   {
     "cat": "SG",
@@ -1537,7 +1537,7 @@ const QUESTIONS = [
       1,
       2
     ],
-    "expl": "Richtige Antwort: §12 SG kann verletzt sein. / §17 SG kommt in Betracht. / Je nach Inhalt kommen zusätzlich Straftatbestände in Betracht.. Maßgebliche Norm(en): ."
+    "expl": "§ 12 SG kann verletzt sein (heimliches Filmen + Veröffentlichung = Würde/Rechte des Kameraden), § 17 SG kommt in Betracht (Außenwirkung). Zusätzlich strafrechtlich relevant: § 201a StGB (Verletzung des höchstpersönlichen Lebensbereichs durch Bildaufnahmen)."
   },
   {
     "cat": "VorgV",
@@ -1551,7 +1551,7 @@ const QUESTIONS = [
       "Auf keine Vorschrift."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Auf die besondere Anordnung für diese Aufgabe.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
+    "expl": "§ 5 VorgV: Die ausdrückliche Beauftragung mit der Leitung einer Ausbildung ist eine besondere Anordnung – der Hauptfeldwebel wird dadurch für diese Aufgabe vorübergehend Vorgesetzter der Teilnehmer."
   },
   {
     "cat": "VorgV",
@@ -1565,7 +1565,7 @@ const QUESTIONS = [
       "Der Gefreite muss jedem Offizier jederzeit gehorchen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ein höherer Dienstgrad allein begründet nicht automatisch ein Vorgesetztenverhältnis.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
+    "expl": "Ein höherer Dienstgrad allein begründet KEIN Vorgesetztenverhältnis. § 4 Abs. 1 VorgV setzt 'im Dienst' voraus, § 4 Abs. 3 VorgV eine umschlossene militärische Anlage – außerhalb der Liegenschaft ohne Dienst greift keine Norm."
   },
   {
     "cat": "VorgV",
@@ -1579,7 +1579,7 @@ const QUESTIONS = [
       "Zivilbedienstete dürfen Soldaten niemals Anweisungen erteilen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Es handelt sich um eine dienstliche Weisung; die Folgepflicht kann sich aus § 7 SG ergeben.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
+    "expl": "Zivile Beamte der Bundeswehr sind keine militärischen Vorgesetzten i.S.d. VorgV. Ihre Anordnung ist eine dienstliche Weisung; die Folgepflicht ergibt sich aus § 7 SG (treues Dienen), nicht aus § 11 SG (Gehorsam)."
   },
   {
     "cat": "VorgV",
@@ -1593,7 +1593,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit heilt den Mangel."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es liegt regelmäßig kein militärischer Befehl im Sinne der §§ 10, 11 SG vor.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
+    "expl": "Ohne Vorgesetztenverhältnis nach der VorgV liegt kein militärischer Befehl i.S.d. §§ 10, 11 SG vor – es fehlt an der Grundvoraussetzung. Deshalb ist die VorgV-Prüfung immer der erste Schritt."
   },
   {
     "cat": "VorgV",
@@ -1621,7 +1621,7 @@ const QUESTIONS = [
       "Dienstvergehen → Strafbarkeit → Verbindlichkeit"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Vorgesetztenverhältnis → Rechtmäßigkeit → Verbindlichkeit. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
+    "expl": "Prüfungsreihenfolge: 1. Vorgesetztenverhältnis (VorgV) – ohne VV kein Befehl. 2. Rechtmäßigkeit (§ 10 Abs. 4 SG – Pflicht des Befehlsgebers). 3. Verbindlichkeit (§ 11 SG – Pflicht des Empfängers)."
   },
   {
     "cat": "VorgV",
@@ -1635,7 +1635,7 @@ const QUESTIONS = [
       "Ob ein Dienstvergehen vorliegt."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Ob nach der VorgV überhaupt ein Vorgesetztenverhältnis bestand.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
+    "expl": "Zuerst ist zu prüfen, ob nach der VorgV überhaupt ein Vorgesetztenverhältnis besteht – der OFw gehört einer ANDEREN Einheit an, § 1 VorgV scheidet aus; zu prüfen wäre z.B. § 4 Abs. 1/Abs. 3 VorgV (Übungsplatz, im Dienst)."
   },
   {
     "cat": "VorgV",
@@ -1663,7 +1663,7 @@ const QUESTIONS = [
       "Er ist immer Offizier."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Seine Befehlsbefugnis beschränkt sich auf seinen fachlichen Aufgabenbereich.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
+    "expl": "§ 2 VorgV (Fachvorgesetzter): Seine Befehlsbefugnis beschränkt sich auf seinen fachlichen Aufgabenbereich (derzeit nur Sanitäts-, Geoinformations- und Militärmusikdienst). Außerhalb des Fachbereichs keine Befehlsbefugnis."
   },
   {
     "cat": "VorgV",
@@ -1677,7 +1677,7 @@ const QUESTIONS = [
       "Er regelt den Dienstgradvorgesetzten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Er regelt den unmittelbaren Vorgesetzten.. Dominanzreihenfolge: § 5 > § 3 > § 1 > § 2 > § 4 VorgV. § 6 ist Sonderfall."
+    "expl": "§ 1 VorgV regelt den unmittelbaren Vorgesetzten: Er führt direkt unterstellte Soldaten in Truppenstrukturen mit allgemeiner Befehlsbefugnis – für jeden dienstlichen Zweck, im und außer Dienst."
   },
   {
     "cat": "Befehlsrecht",
@@ -1691,7 +1691,7 @@ const QUESTIONS = [
       "Die Menschenwürde spielt im Befehlsrecht keine Rolle."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der Befehl verletzt die Menschenwürde und ist unverbindlich.."
+    "expl": "Der Befehl 'Regenwürmer essen' verletzt die Menschenwürde (Art. 1 GG) – er ist erniedrigend ohne jeden dienstlichen Zweck. Nach § 11 Abs. 1 SG muss ein solcher Befehl nicht befolgt werden (unverbindlich); zudem ist er rechtswidrig (§ 10 Abs. 4 SG)."
   },
   {
     "cat": "Befehlsrecht",
@@ -1705,7 +1705,7 @@ const QUESTIONS = [
       "Der Soldat entscheidet frei."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der Befehl kann trotz seiner Rechtswidrigkeit verbindlich sein.."
+    "expl": "Kernregel: NICHT jeder rechtswidrige Befehl ist unverbindlich! Der Verstoß gegen eine Dienstvorschrift macht den Befehl rechtswidrig (§ 10 Abs. 4 SG), aber solange dienstlicher Zweck vorliegt und weder Menschenwürde verletzt noch eine Straftat verlangt wird, bleibt er verbindlich (§ 11 SG)."
   },
   {
     "cat": "Befehlsrecht",
@@ -1719,7 +1719,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Gegenvorstellung: Recht des Untergebenen, Bedenken VOR der Ausführung zu äußern – kein Ungehorsam. Bleibt der Befehl verbindlich, muss er danach ausgeführt werden. Die Gegenvorstellung befreit nicht von der Ausführungspflicht."
+    "expl": "Nur 1, 2 und 4: Der Befehl ist möglicherweise rechtswidrig (Verwaltungsvorschrift), kann aber trotzdem verbindlich sein. Eine Gegenvorstellung ist der richtige Weg. Aussage 3 ist falsch: 'Beliebig ignorieren' darf der Soldat einen verbindlichen Befehl nie."
   },
   {
     "cat": "Befehlsrecht",
@@ -1733,7 +1733,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle."
+    "expl": "Alle Aussagen: Der Befehl, einen gefesselten Gefangenen zu schlagen, verstößt gegen Gesetze (§ 223 StGB, § 30 WStG, HVR), ist unverbindlich und darf nicht ausgeführt werden (§ 11 Abs. 2 SG). Bei offensichtlicher Rechtswidrigkeit entfällt der Schuldausschluss nach § 5 WStG."
   },
   {
     "cat": "Befehlsrecht",
@@ -1747,7 +1747,7 @@ const QUESTIONS = [
       "Der Soldat muss den Befehl immer ausführen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der dienstliche Zweck fehlt.."
+    "expl": "Es fehlt der dienstliche Zweck (§ 10 Abs. 4 SG): Privateinkäufe sind Privatangelegenheiten des Vorgesetzten. Der Befehl ist rechtswidrig und mangels dienstlichen Zwecks auch unverbindlich (§ 11 Abs. 1 SG)."
   },
   {
     "cat": "Befehlsrecht",
@@ -1761,7 +1761,7 @@ const QUESTIONS = [
       "Der Befehl betrifft ausschließlich Privatrecht."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es handelt sich um einen grundsätzlich zulässigen Präventivbefehl.."
+    "expl": "Zulässiger Präventivbefehl: Er verhindert künftige Pflichtverletzungen/Straftaten (Trunkenheitsfahrt), hat dienstlichen Zweck, stützt sich auf auch außerdienstlich geltende Pflichten (§ 17 SG) und ist verhältnismäßig."
   },
   {
     "cat": "Befehlsrecht",
@@ -1775,7 +1775,7 @@ const QUESTIONS = [
       "Nur 2–4"
     ],
     "correct": 2,
-    "expl": "Gegenvorstellung: Recht des Untergebenen, Bedenken VOR der Ausführung zu äußern – kein Ungehorsam. Bleibt der Befehl verbindlich, muss er danach ausgeführt werden. Die Gegenvorstellung befreit nicht von der Ausführungspflicht."
+    "expl": "Alle Aussagen: Gartenmähen ist Privatangelegenheit → dienstlicher Zweck fehlt → rechtswidrig → mangels dienstlichen Zwecks unverbindlich (§ 11 Abs. 1 SG). Vor endgültiger Verweigerung ist die Gegenvorstellung der korrekte Weg."
   },
   {
     "cat": "Befehlsrecht",
@@ -1789,7 +1789,7 @@ const QUESTIONS = [
       "Verhältnismäßigkeit → Rechtmäßigkeit → Vorgesetztenverhältnis"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Rechtmäßigkeit → Verbindlichkeit → Folgen der Nichtbefolgung."
+    "expl": "Nach Feststellung des Vorgesetztenverhältnisses: Rechtmäßigkeit (§ 10 Abs. 4 SG) → Verbindlichkeit (§ 11 SG) → Folgen der Nichtbefolgung (§§ 19 ff. WStG / § 7 SG). Diese Reihenfolge strukturiert jede Befehlsprüfung."
   },
   {
     "cat": "Befehlsrecht",
@@ -1803,7 +1803,7 @@ const QUESTIONS = [
       "Er schreibt zunächst eine Beschwerde."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Er erhebt zunächst eine Gegenvorstellung und weist auf seine Bedenken hin.."
+    "expl": "Richtig ist zunächst die Gegenvorstellung: Bedenken gegen den Befehl vor der Ausführung äußern. Sie ist kein Ungehorsam. Bleibt der Befehl verbindlich, muss er ausgeführt werden – es sei denn, gesetzliche Unverbindlichkeitsgründe (§ 11 SG) greifen."
   },
   {
     "cat": "Befehlsrecht",
@@ -1817,7 +1817,7 @@ const QUESTIONS = [
       "Erst nach einer Gegenvorstellung darf verweigert werden."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der Befehl darf nicht befolgt werden.."
+    "expl": "Der Befehl darf NICHT befolgt werden (§ 11 Abs. 2 SG): Die Ausführung wäre eine Straftat (Körperverletzung § 223 StGB, ggf. §§ 30, 31 WStG, Verstoß gegen HVR). Bei Ausführung droht eigene Strafbarkeit (§ 5 WStG: offensichtliche Rechtswidrigkeit)."
   },
   {
     "cat": "Befehlsrecht",
@@ -1831,7 +1831,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 3."
+    "expl": "Nur 1, 2 und 3: Reihenfolge VorgV → Rechtmäßigkeit → Verbindlichkeit ist korrekt. Aussage 4 ist die klassische Falschaussage: NICHT jeder rechtswidrige Befehl ist automatisch unverbindlich – Unverbindlichkeit setzt die Gründe des § 11 SG voraus."
   },
   {
     "cat": "Befehlsrecht",
@@ -1845,7 +1845,7 @@ const QUESTIONS = [
       "Über die Verbindlichkeit entscheidet ausschließlich das Truppendienstgericht."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Es spricht viel dafür, dass bereits der dienstliche Zweck fehlt; der Befehl ist daher rechtswidrig und regelmäßig unverbindlich.."
+    "expl": "Privates Autowaschen = Privatangelegenheit des Vorgesetzten → der dienstliche Zweck fehlt → der Befehl ist rechtswidrig (§ 10 Abs. 4 SG) und mangels dienstlichen Zwecks regelmäßig unverbindlich (§ 11 Abs. 1 SG)."
   },
   {
     "cat": "Befehlsrecht",
@@ -1859,7 +1859,7 @@ const QUESTIONS = [
       "Nur bei Offizieren."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Wenn der Eingriff in Grundrechte außer Verhältnis zum dienstlichen Zweck steht.."
+    "expl": "Unzumutbarkeit (§ 11 Abs. 1 SG): Wenn der Eingriff in Grundrechte des Soldaten außer Verhältnis zum dienstlichen Zweck steht – ein besonders schwerer Verhältnismäßigkeitsverstoß. Nicht jeder unangenehme Befehl ist unzumutbar."
   },
   {
     "cat": "Befehlsrecht",
@@ -1873,7 +1873,7 @@ const QUESTIONS = [
       "Rechtswidrige Befehle sind stets unverbindlich."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Rechtmäßigkeit betrifft den Befehlsgeber, Verbindlichkeit die Pflicht des Empfängers.."
+    "expl": "Kernunterscheidung des Befehlsrechts: Rechtmäßigkeit (§ 10 Abs. 4 SG) betrifft die Pflichten des BEFEHLSGEBERS. Verbindlichkeit (§ 11 SG) regelt die Gehorsamspflicht des EMPFÄNGERS. Rechtswidrig ≠ automatisch unverbindlich."
   },
   {
     "cat": "Befehlsrecht",
@@ -1887,7 +1887,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1 und 3."
+    "expl": "Nur 1 und 3: Gegen den dienstlichen Zweck sprechen ausschließlich private Interessen des Vorgesetzten und reine Schikane. Auftragserfüllung (2) und Gefahrenabwehr (4) sind dagegen klassische dienstliche Zwecke."
   },
   {
     "cat": "Befehlsrecht",
@@ -1901,7 +1901,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1 und 3."
+    "expl": "Nur 1 und 3: Ein strafbarer Befehl darf nicht ausgeführt werden (§ 11 Abs. 2 SG); die Befolgung kann eigene Strafbarkeit begründen (§ 5 WStG bei erkannter/offensichtlicher Rechtswidrigkeit). Aussage 2 ist falsch (strafbarer Befehl = unverbindlich), Aussage 4 ist falsch (keine Alleinverantwortung des Vorgesetzten)."
   },
   {
     "cat": "Befehlsrecht",
@@ -1929,7 +1929,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Gegenvorstellung: Recht des Untergebenen, Bedenken VOR der Ausführung zu äußern – kein Ungehorsam. Bleibt der Befehl verbindlich, muss er danach ausgeführt werden. Die Gegenvorstellung befreit nicht von der Ausführungspflicht."
+    "expl": "Nur 1–3: Die Gegenvorstellung dient dem Vorbringen von Bedenken, ersetzt keine Beschwerde (WBO) und befreit nicht automatisch von der Ausführung. Aussage 4 ist falsch: Sie ist an keine Form gebunden – auch bei mündlichen Befehlen möglich."
   },
   {
     "cat": "Befehlsrecht",
@@ -1943,7 +1943,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "§ 10 Abs. 4 SG: Rechtmäßig ist ein Befehl, wenn er den dienstlichen Zweck verfolgt und Gesetze, Dienstvorschriften sowie Völkerrecht beachtet. Rechtmäßigkeit betrifft den BEFEHLSGEBER."
+    "expl": "Alle vier gehören zur Rechtmäßigkeit (§ 10 Abs. 4 SG): Zuständigkeit des Befehlsgebers (Befehlsbefugnis nach VorgV), dienstlicher Zweck, Vereinbarkeit mit Gesetzen und Dienstvorschriften, Beachtung des Völkerrechts."
   },
   {
     "cat": "Befehlsrecht",
@@ -1957,7 +1957,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3."
+    "expl": "Nur 1–3 verletzen die Menschenwürde: Regenwürmer essen, entwürdigende Bloßstellung, körperliche Misshandlung zur 'Erziehung' – alle erniedrigend ohne dienstlichen Zweck, daher unverbindlich (§ 11 Abs. 1 SG). Frühes Antreten (4) ist eine normale dienstliche Belastung."
   },
   {
     "cat": "WDO",
@@ -1971,7 +1971,7 @@ const QUESTIONS = [
       "Falschangaben sind disziplinarrechtlich bedeutungslos."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Mit der freiwilligen Aussage greift die Wahrheitspflicht.."
+    "expl": "Mit der freiwilligen Aussage greift die Wahrheitspflicht (§ 13 Abs. 1 SG, § 32 Abs. 4 Satz 4 WDO). Bewusstes Lügen in der Vernehmung ist dann eine eigene Pflichtverletzung – zusätzlich zum ursprünglichen Vorwurf."
   },
   {
     "cat": "WDO",
@@ -1985,7 +1985,7 @@ const QUESTIONS = [
       "Gegen ihn ist sofort Arrest zu verhängen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Schweigen darf nicht negativ gewertet werden.."
+    "expl": "Das Schweigen des Beschuldigten darf nicht negativ gewertet werden – das Aussageverweigerungsrecht (§ 32 Abs. 4 Satz 3 WDO) wäre sonst wertlos. Nemo tenetur: Niemand muss sich selbst belasten."
   },
   {
     "cat": "WDO",
@@ -1999,7 +1999,7 @@ const QUESTIONS = [
       "Die Beschwerde ist unzulässig."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Vollstreckung läuft grundsätzlich weiter.."
+    "expl": "Die Beschwerde NACH Vollstreckungsbeginn hat keine hemmende Wirkung mehr – die Vollstreckung läuft grundsätzlich weiter. Nur die Disziplinarbeschwerde VOR Vollstreckungsbeginn hemmt (§ 42 Abs. 3 WDO)."
   },
   {
     "cat": "WDO",
@@ -2013,7 +2013,7 @@ const QUESTIONS = [
       "Es muss vollständig neu ermittelt werden."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die tatsächlichen Feststellungen des Urteils entfalten Bindungswirkung.."
+    "expl": "Rechtskräftige URTEILE entfalten Bindungswirkung für das Disziplinarverfahren (§ 34 Abs. 1 WDO): Die tatsächlichen Feststellungen sind zugrunde zu legen. Anders beim Strafbefehl – dieser bindet nicht."
   },
   {
     "cat": "WDO",
@@ -2027,7 +2027,7 @@ const QUESTIONS = [
       "Strafbefehle ersetzen sämtliche Ermittlungen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Strafbefehle entfalten ausdrücklich keine Bindungswirkung.."
+    "expl": "Strafbefehle entfalten ausdrücklich KEINE Bindungswirkung (§ 34 Abs. 1 WDO erfasst nur Urteile). Im Disziplinarverfahren muss der Sachverhalt eigenständig ermittelt und gewürdigt werden."
   },
   {
     "cat": "WDO",
@@ -2055,7 +2055,7 @@ const QUESTIONS = [
       "Nur Arrestmaßnahmen werden gehemmt."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Beschwerde hat hemmende Wirkung.."
+    "expl": "Die Disziplinarbeschwerde VOR Beginn der Vollstreckung hat hemmende Wirkung (§ 42 Abs. 3 WDO) – die Vollstreckung darf erst nach der Beschwerdeentscheidung beginnen. Anders die truppendienstliche Beschwerde (§ 3 Abs. 1 WBO: keine Hemmung)."
   },
   {
     "cat": "WDO",
@@ -2069,7 +2069,7 @@ const QUESTIONS = [
       "Er wird automatisch Beschuldigter."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ihm steht ein Auskunftsverweigerungsrecht zu.."
+    "expl": "Dem Zeugen steht ein Auskunftsverweigerungsrecht zu, soweit er sich durch wahrheitsgemäße Beantwortung selbst einer Straftat oder eines Dienstvergehens bezichtigen müsste (Rechtsgedanke § 55 StPO). Er muss nicht gegen sich selbst aussagen."
   },
   {
     "cat": "WDO",
@@ -2083,7 +2083,7 @@ const QUESTIONS = [
       "Er muss den militärischen Gruß leisten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Seine Vernehmung erfolgt ausschließlich freiwillig.."
+    "expl": "Zivile externe Zeugen können im Disziplinarverfahren nur FREIWILLIG vernommen werden – der DiszVorg hat ihnen gegenüber keine Zwangsbefugnisse. Anders bei Soldaten, die zur Aussage verpflichtet sind (mit Wahrheitspflicht)."
   },
   {
     "cat": "WDO",
@@ -2097,7 +2097,7 @@ const QUESTIONS = [
       "Neue Erkenntnisse bleiben unberücksichtigt."
     ],
     "correct": 2,
-    "expl": "§ 32 Abs. 5 Satz 2 WDO: Schriftform beim Schlussgehör ist ZWINGEND. Es ist das 'letzte Wort' des Beschuldigten (Art. 103 Abs. 1 GG). Kommt NACH der VP-Anhörung, NICHT gleichzeitig."
+    "expl": "Nach neuen belastenden Erkenntnissen müssen die betroffenen Verfahrensschritte wiederholt werden: erneute Ermittlung, erneute VP-Anhörung und erneutes Schlussgehör – der Beschuldigte muss zum GESAMTEN Vorwurf letztes Gehör erhalten (Art. 103 Abs. 1 GG)."
   },
   {
     "cat": "WDO",
@@ -2111,7 +2111,7 @@ const QUESTIONS = [
       "Das Verfahren endet."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Die Anhörung unterbleibt.."
+    "expl": "Lehnt der Beschuldigte die VP-Beteiligung AUSDRÜCKLICH ab, unterbleibt die Anhörung (§ 28 SBG). Die VP-Anhörung ist ein Recht des Soldaten, kein Selbstzweck – sein erklärter Wille ist zu respektieren."
   },
   {
     "cat": "WDO",
@@ -2125,7 +2125,7 @@ const QUESTIONS = [
       "Die Vertrauensperson entscheidet."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nach der Verhängung besteht grundsätzlich keine Änderungsbefugnis mehr.."
+    "expl": "Nach der Verhängung besteht grundsätzlich keine Änderungsbefugnis mehr (§ 37 Abs. 5 WDO). Der DiszVorg kann seine eigene Maßnahme nicht selbst mildern oder aufheben – Korrektur nur über Beschwerde (§ 42 WDO) oder Dienstaufsicht."
   },
   {
     "cat": "WDO",
@@ -2139,7 +2139,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 3."
+    "expl": "Nur 1, 2 und 3: Entlastende Tatsachen sind zwingend zu berücksichtigen (§ 32 Abs. 3 WDO), das rechtskräftige Strafurteil bindet (§ 34 Abs. 1 WDO), ergänzende Ermittlungen bleiben zulässig. Aussage 4 ist falsch: Eine Disziplinarmaßnahme ist nicht ausgeschlossen – DV und Straftat können parallel geahndet werden."
   },
   {
     "cat": "WDO",
@@ -2153,7 +2153,7 @@ const QUESTIONS = [
       "Das Verfahren beginnt erneut."
     ],
     "correct": 1,
-    "expl": "§ 37 Abs. 1 WDO: Zwischen Schlussgehör und Verhängung muss eine Nacht (22:00–06:00 Uhr) liegen. Verhängung darf nicht unmittelbar nach dem Schlussgehör erfolgen."
+    "expl": "Die Beschwerde wurde VOR Vollstreckungsbeginn eingelegt → hemmende Wirkung (§ 42 Abs. 3 WDO). Die Vollstreckung darf erst nach der Entscheidung über die Beschwerde beginnen."
   },
   {
     "cat": "WDO",
@@ -2195,7 +2195,7 @@ const QUESTIONS = [
       "Das Verfahren muss vollständig neu beginnen."
     ],
     "correct": 2,
-    "expl": "§ 32 Abs. 5 Satz 2 WDO: Schriftform beim Schlussgehör ist ZWINGEND. Es ist das 'letzte Wort' des Beschuldigten (Art. 103 Abs. 1 GG). Kommt NACH der VP-Anhörung, NICHT gleichzeitig."
+    "expl": "Neue belastende Erkenntnisse nach dem Schlussgehör: Es muss nachermittelt werden, anschließend sind VP-Anhörung und Schlussgehör ERNEUT durchzuführen. Der Beschuldigte muss zum vollständigen Vorwurf das letzte Wort haben (Art. 103 Abs. 1 GG)."
   },
   {
     "cat": "WDO",
@@ -2223,7 +2223,7 @@ const QUESTIONS = [
       "Der Bataillonskommandeur wird automatisch Ermittlungsführer."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Zuständigkeit wechselt automatisch.."
+    "expl": "Ist der Beschuldigte der STELLVERTRETER des DiszVorg, wechselt die Zuständigkeit automatisch von Amts wegen zum nächsthöheren DiszVorg (§ 30 Abs. 1 WDO) – hier besteht eine zu enge dienstliche Verflechtung."
   },
   {
     "cat": "WDO",
@@ -2237,7 +2237,7 @@ const QUESTIONS = [
       "Sie bitten die Vertrauensperson um eine neue Stellungnahme."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Sie können die bereits verhängte Maßnahme grundsätzlich nicht mehr selbst ändern.."
+    "expl": "Nach ordnungsgemäßer Verhängung können Sie die Maßnahme grundsätzlich nicht mehr selbst ändern (§ 37 Abs. 5 WDO) – auch nicht auf Anraten des Rechtsberaters. Änderung nur über Beschwerdeverfahren oder Dienstaufsicht des nächsthöheren DiszVorg."
   },
   {
     "cat": "WDO",
@@ -2251,7 +2251,7 @@ const QUESTIONS = [
       "Beide unterliegen ausschließlich dem Opportunitätsprinzip."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ermittlungen unterliegen dem Legalitätsprinzip, die Ahndungsentscheidung dem Opportunitätsprinzip.."
+    "expl": "Die ERMITTLUNGEN unterliegen dem Legalitätsprinzip (§ 32 Abs. 1 WDO: bei Anfangsverdacht MUSS ermittelt werden). Die AHNDUNGSENTSCHEIDUNG unterliegt dem Opportunitätsprinzip (§§ 15 Abs. 2, 35 Abs. 1 WDO: Ob und Wie im Ermessen)."
   },
   {
     "cat": "WDO",
@@ -2265,7 +2265,7 @@ const QUESTIONS = [
       "Erst die Vollstreckung stellt die Verhängung dar."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Verhängung erfolgt durch dienstliche Bekanntgabe.."
+    "expl": "Die Verhängung erfolgt durch dienstliche Bekanntgabe (§ 37 WDO): Vorlesen des Tenors und Aushändigung der Disziplinarverfügung gegen Empfangsbekenntnis. Verhängung ≠ Vollstreckung!"
   },
   {
     "cat": "WDO",
@@ -2279,7 +2279,7 @@ const QUESTIONS = [
       "Sie beginnt mit dem Schlussgehör."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Sie beginnt mit Eintritt der Unanfechtbarkeit.."
+    "expl": "Die Vollstreckungsverjährung (§ 59 WDO) beginnt mit Eintritt der UNANFECHTBARKEIT und beträgt 6 Monate. Nicht mit der Verhängung – das ist der klassische Ablenker."
   },
   {
     "cat": "WDO",
@@ -2293,7 +2293,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 1–3."
+    "expl": "Nur 1–3 sind zwingend (§ 32 Abs. 4 WDO): Eröffnung des Tatvorwurfs (Satz 2), Aussageverweigerungsrecht (Satz 3), Wahrheitspflicht bei freiwilliger Aussage (Satz 4). Der Verteidigerhinweis (4) gehört nicht zu den zwingenden Belehrungen dieser Norm."
   },
   {
     "cat": "WDO",
@@ -2307,7 +2307,7 @@ const QUESTIONS = [
       "Arrest"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Verweis."
+    "expl": "Der (einfache) Verweis gilt mit der Verhängung als vollstreckt (§ 52 Abs. 1 WDO) – ein Sonderfall: Es gibt keinen gesonderten Vollstreckungsakt, die missbilligende Feststellung selbst ist die Sanktion."
   },
   {
     "cat": "WDO",
@@ -2321,7 +2321,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Nur 1–3."
+    "expl": "Nur 1–3 (§ 28 SBG): Die VP wird zur Person des Beschuldigten, zum Sachverhalt und zur beabsichtigten Disziplinarmaßnahme gehört. Die vollständige Ermittlungsakte (4) erhält sie nicht."
   },
   {
     "cat": "WDO",
@@ -2335,7 +2335,7 @@ const QUESTIONS = [
       "Nur 2–5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle."
+    "expl": "Alle (§ 38 Abs. 1 WDO): Eigenart und Schwere des Dienstvergehens, Auswirkungen, Maß der Schuld, Beweggründe – dazu Persönlichkeit und bisherige Führung. Alle Kriterien fließen in die Bemessung ein."
   },
   {
     "cat": "WDO",
@@ -2349,7 +2349,7 @@ const QUESTIONS = [
       "Die Verhängung der Maßnahme."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Die Sachverhaltsaufklärung.."
+    "expl": "Delegierbar ist die SACHVERHALTSAUFKLÄRUNG an einen Offizier (§ 32 Abs. 2 WDO). Die Ahndungsentscheidung, das Schlussgehör (grundsätzlich) und die Verhängung bleiben beim DiszVorg persönlich."
   },
   {
     "cat": "WDO",
@@ -2363,7 +2363,7 @@ const QUESTIONS = [
       "Entlastende Tatsachen dürfen erst im Beschwerdeverfahren berücksichtigt werden."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Belastende und entlastende Umstände sind gleichermaßen zu ermitteln.."
+    "expl": "§ 32 Abs. 3 WDO: Belastende UND entlastende Umstände sind gleichermaßen zu ermitteln (Untersuchungsgrundsatz). Der entlastende Zeuge muss vernommen werden – einseitige Belastungsermittlung ist rechtswidrig."
   },
   {
     "cat": "WDO",
@@ -2377,7 +2377,7 @@ const QUESTIONS = [
       "Nur 2–4"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3."
+    "expl": "Nur 1–3 gehören zur dienstlichen Bekanntgabe (§ 37 WDO): Vorlesen des Tenors, Aushändigung der Disziplinarverfügung, Empfangsbekenntnis. Die sofortige Vollstreckung (4) gehört NICHT dazu – frühestens 1 Tag nach Verhängung (§ 49 Abs. 1 WDO)."
   },
   {
     "cat": "WBO",
@@ -2391,7 +2391,7 @@ const QUESTIONS = [
       "Der Beschwerdeführer entscheidet selbst."
     ],
     "correct": 1,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
+    "expl": "Fällt das Fristende auf Samstag, Sonntag oder Feiertag, endet die Frist am nächsten Werktag (allgemeiner Rechtsgedanke, § 193 BGB analog). Die Monatsfrist des § 6 Abs. 1 WBO verlängert sich entsprechend."
   },
   {
     "cat": "WBO",
@@ -2405,7 +2405,7 @@ const QUESTIONS = [
       "Das Truppendienstgericht entscheidet unmittelbar."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Es handelt sich um eine Kameradenbeschwerde.."
+    "expl": "Kameradenbeschwerde (§ 1 Abs. 1 WBO): Sie richtet sich gegen pflichtwidriges Verhalten eines GLEICHRANGIGEN Kameraden. Wichtig: Kein weiterer Rechtsweg zum Truppendienstgericht – anders als bei der Vorgesetztenbeschwerde."
   },
   {
     "cat": "WBO",
@@ -2419,7 +2419,7 @@ const QUESTIONS = [
       "Verwaltungsbeschwerde"
     ],
     "correct": 2,
-    "expl": "Grundregel: Immer ZUERST die Beschwerdeart bestimmen! Falsche Einordnung macht die gesamte weitere Prüfung falsch. Drei Arten: § 1 WBO (Truppendienstlich), § 23 WBO (Verwaltungsbeschwerde), § 42 WDO (Disziplinarbeschwerde)."
+    "expl": "Disziplinarbeschwerde (§ 42 WDO): Sie ist der statthafte Rechtsbehelf gegen bereits VERHÄNGTE einfache Disziplinarmaßnahmen wie die Disziplinarbuße. Frist: 1 Monat, frühestens nach der Nachtfrist einlegbar (§ 42 Abs. 3 WDO)."
   },
   {
     "cat": "WBO",
@@ -2433,7 +2433,7 @@ const QUESTIONS = [
       "Einstellung"
     ],
     "correct": 2,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
+    "expl": "Zurückweisung als unbegründet: Die Beschwerde ist ZULÄSSIG (statthaft, formgerecht, fristgerecht), aber UNBEGRÜNDET, weil die Maßnahme rechtmäßig war. Verwerfung = unzulässig; Stattgabe = zulässig UND begründet."
   },
   {
     "cat": "WBO",
@@ -2447,7 +2447,7 @@ const QUESTIONS = [
       "Die Anzahl der Soldaten spielt keine Rolle."
     ],
     "correct": 2,
-    "expl": "Kameradenbeschwerde (§ 1 WBO): Gegen pflichtwidriges Verhalten eines gleichrangigen Kameraden. Kein weiterer Rechtsweg zum TDG! Zuständig: nächster gemeinsamer DiszVorg beider Beteiligter (§ 9 Abs. 1 WBO)."
+    "expl": "Gruppenbeschwerden sind grundsätzlich unzulässig: Art. 17a GG erlaubt die Einschränkung des Petitionsrechts hinsichtlich GEMEINSAMER Beschwerden. Jeder Soldat muss seine Beschwerde einzeln einlegen."
   },
   {
     "cat": "WBO",
@@ -2475,7 +2475,7 @@ const QUESTIONS = [
       "Die Frist beträgt sechs Monate."
     ],
     "correct": 1,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
+    "expl": "Die Monatsfrist (§ 6 Abs. 1 WBO) ist nach fünf Wochen ohne besondere Gründe versäumt – die Beschwerde ist unzulässig (verfristet) und wird verworfen. Wiedereinsetzung nur bei unverschuldeter Verhinderung."
   },
   {
     "cat": "WBO",
@@ -2489,7 +2489,7 @@ const QUESTIONS = [
       "Sobald der Soldat Offizier ist."
     ],
     "correct": 2,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
+    "expl": "Begründet ist eine Beschwerde, wenn die angegriffene Maßnahme RECHTSWIDRIG war UND den Beschwerdeführer in EIGENEN Rechten verletzt. Beide Voraussetzungen müssen kumulativ vorliegen."
   },
   {
     "cat": "WBO",
@@ -2503,7 +2503,7 @@ const QUESTIONS = [
       "Nur 1 und 4"
     ],
     "correct": 2,
-    "expl": "Beschwer = Verletzung eigener Rechte des Beschwerdeführers. Allgemeines Interesse an der Angelegenheit genügt NICHT. Persönliche Betroffenheit in eigenen Rechten ist zwingend erforderlich."
+    "expl": "Alle vier gehören zur Zulässigkeit – in dieser Prüfungsreihenfolge: 1. Statthaftigkeit (richtige Beschwerdeart), 2. Form (schriftlich/zur Niederschrift, § 9 WBO), 3. Frist (1 Monat, § 6 Abs. 1 WBO), 4. Beschwer (eigene Rechtsverletzung)."
   },
   {
     "cat": "WBO",
@@ -2517,7 +2517,7 @@ const QUESTIONS = [
       "Der Bataillonskommandeur"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Der nächste gemeinsame Disziplinarvorgesetzte."
+    "expl": "Über die Kameradenbeschwerde entscheidet der nächste GEMEINSAME Disziplinarvorgesetzte beider Beteiligter (§ 9 Abs. 1 WBO) – er hat die Disziplinargewalt über Beschwerdeführer und Betroffenen."
   },
   {
     "cat": "Strafrecht",
@@ -2531,7 +2531,7 @@ const QUESTIONS = [
       "Nur Offiziere dürfen unverbindliche Befehle verweigern."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ein unverbindlicher Befehl erfüllt grundsätzlich nicht den Tatbestand des § 19 WStG.."
+    "expl": "Ein unverbindlicher Befehl erfüllt nicht den Tatbestand des § 19 WStG: Die VERBINDLICHKEIT des Befehls ist Tatbestandsvoraussetzung des Ungehorsams. Wer einen unverbindlichen Befehl nicht befolgt, macht sich nicht nach § 19 WStG strafbar."
   },
   {
     "cat": "Strafrecht",
@@ -2545,7 +2545,7 @@ const QUESTIONS = [
       "Ausschließlich der Vorgesetzte haftet."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Auch der Untergebene kann strafrechtlich verantwortlich sein.."
+    "expl": "Auch der Untergebene kann strafrechtlich verantwortlich sein: § 5 WStG schließt die Schuld nur aus, wenn er die Rechtswidrigkeit NICHT erkennt und sie NICHT offensichtlich ist. Bei einem OFFENSICHTLICH strafbaren Befehl trägt er eigene Verantwortung."
   },
   {
     "cat": "Strafrecht",
@@ -2559,7 +2559,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 0,
-    "expl": "§ 16 WStG (Fahnenflucht): Entscheidend ist die ABSICHT, sich dem Dienst dauerhaft zu entziehen – nicht die Dauer der Abwesenheit. Vollendet sobald Absicht gefasst + Entziehung beginnt."
+    "expl": "Nur 2 und 3: Entscheidend ist die ABSICHT, sich dauerhaft zu entziehen ('nie wieder zurückkehren') → § 16 WStG (Fahnenflucht) kommt in Betracht. Die Dauer allein (Aussagen 1 und 4) ist KEIN Abgrenzungskriterium zwischen § 15 und § 16 WStG."
   },
   {
     "cat": "Strafrecht",
@@ -2573,7 +2573,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle."
+    "expl": "Alle vier: § 31 WStG (entwürdigende Behandlung durch Vorgesetzten), § 185 StGB (Beleidigung), § 12 SG (Würde/Ehre des Kameraden), § 17 SG (Wohlverhalten). Straftatbestände und SG-Pflichten können nebeneinander verwirklicht sein."
   },
   {
     "cat": "Strafrecht",
@@ -2587,7 +2587,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3."
+    "expl": "Nur 1–3: § 223 StGB (Körperverletzung) und § 30 WStG (Misshandlung Untergebener) können nebeneinander erfüllt sein – § 30 WStG ist Sonderdelikt, das gerade die Vorgesetztenstellung voraussetzt. Aussage 4 ist deshalb falsch."
   },
   {
     "cat": "Strafrecht",
@@ -2601,7 +2601,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle."
+    "expl": "Alle Aussagen: Beim unverbindlichen Befehl scheidet § 19 WStG regelmäßig aus (Verbindlichkeit = Tatbestandsmerkmal). Beleidigung (§ 185 StGB) und Schlag (§ 223 StGB, ggf. § 25 WStG) sind eigene Straftaten. SG-Pflichten (§§ 7, 11, 12, 17) sind parallel zu prüfen. Straf- und Disziplinarverfahren laufen unabhängig."
   },
   {
     "cat": "Strafrecht",
@@ -2615,7 +2615,7 @@ const QUESTIONS = [
       "Der Dienstgrad."
     ],
     "correct": 2,
-    "expl": "§ 16 WStG (Fahnenflucht): Entscheidend ist die ABSICHT, sich dem Dienst dauerhaft zu entziehen – nicht die Dauer der Abwesenheit. Vollendet sobald Absicht gefasst + Entziehung beginnt."
+    "expl": "Der entscheidende Unterschied ist die FAHNENFLUCHTABSICHT: § 16 WStG setzt den Willen voraus, sich dem Wehrdienst dauerhaft (oder für einen bewaffneten Einsatz) zu entziehen. § 15 WStG (eigenmächtige Abwesenheit) kommt ohne diese Absicht aus. Die Dauer ist NICHT das Abgrenzungskriterium."
   },
   {
     "cat": "Strafrecht",
@@ -2629,7 +2629,7 @@ const QUESTIONS = [
       "Schutz vor Fahnenflucht."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Schutz vor entwürdigender Behandlung durch Vorgesetzte.."
+    "expl": "§ 31 WStG schützt Untergebene vor entwürdigender Behandlung durch Vorgesetzte – menschenwürdeverletzende Behandlung oder böswillige Diensterschwernis (Schikane). Klassisches Beispiel: erniedrigende Beschimpfungen vor der Truppe."
   },
   {
     "cat": "Strafrecht",
@@ -2643,7 +2643,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4."
+    "expl": "Nur 1, 2 und 4: Straf- und Disziplinarverfahren können parallel laufen, eine Straftat kann zugleich Dienstvergehen sein, eine Abgabe an die StA kann geboten sein (Muss-/Soll-/Kann-Abgabe). Aussage 3 ist falsch: Das Strafverfahren schließt das Disziplinarverfahren NICHT automatisch aus."
   },
   {
     "cat": "Strafrecht",
@@ -2657,7 +2657,7 @@ const QUESTIONS = [
       "Nur 1 und 4"
     ],
     "correct": 2,
-    "expl": "§ 19 WStG (Ungehorsam): Nichtbefolgung eines verbindlichen Befehls + dadurch tritt eine SCHWERE FOLGE (§ 2 Nr. 3 WStG) ein. § 20 WStG (Gehorsamsverweigerung): Nichtbefolgung durch Auflehnung oder trotz Wiederholung – keine schwere Folge erforderlich."
+    "expl": "Alle vier Voraussetzungen des § 19 WStG (Ungehorsam): militärischer Befehl (§ 2 Nr. 2 WStG), VERBINDLICHER Befehl (§ 11 SG), vorsätzliche Nichtbefolgung, erteilt durch einen militärischen Vorgesetzten. Fehlt eine Voraussetzung, scheidet § 19 WStG aus."
   },
   {
     "cat": "Fälle",
@@ -2671,7 +2671,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Alle Kriterien fließen in die Bemessung ein (§ 38 Abs. 1 WDO): Eigenart/Schwere des Dienstvergehens, Schuldmaß, Auswirkungen, Beweggründe, Persönlichkeit und bisherige Führung."
   },
   {
     "cat": "Fälle",
@@ -2685,7 +2685,7 @@ const QUESTIONS = [
       "Die Nachtfrist wurde eingehalten."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Das Schlussgehör hätte vor der Verhängung erfolgen müssen.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Der Fehler: Das Schlussgehör muss VOR der Verhängung erfolgen – es ist das letzte Wort des Beschuldigten (Art. 103 Abs. 1 GG). Richtige Reihenfolge: Ermittlungen → VP → Schlussgehör → Nachtfrist → Verhängung."
   },
   {
     "cat": "Fälle",
@@ -2699,7 +2699,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1–3: Dienstaufsichtspflicht (§ 10 Abs. 2 SG) ist verletzt, das Unterlassen ist disziplinarrechtlich relevant, ein Schaden ist NICHT erforderlich – die Pflichtverletzung liegt im Unterlassen selbst. Aussage 4 ist falsch: Auch ohne Unfall besteht die Pflichtverletzung."
   },
   {
     "cat": "Fälle",
@@ -2713,7 +2713,7 @@ const QUESTIONS = [
       "Liegt Ungehorsam vor?"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Besteht überhaupt ein Vorgesetztenverhältnis nach der VorgV?. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Zwingend zuerst: Besteht überhaupt ein Vorgesetztenverhältnis nach der VorgV? Der HptFw gehört einer ANDEREN Einheit an – § 1 VorgV scheidet aus. Ohne VV kein Befehl i.S.d. §§ 10, 11 SG. Die VorgV-Prüfung ist immer Schritt 1."
   },
   {
     "cat": "Fälle",
@@ -2727,7 +2727,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Alle Aussagen: Anfangsverdacht → Ermittlungspflicht (§ 32 Abs. 1 WDO), strafrechtliche Ermittlungen können nötig sein (§ 223 StGB, § 30 WStG – Muss-Abgabe prüfen), belastende UND entlastende Umstände ermitteln (§ 32 Abs. 3 WDO), Zeugenbeeinflussung wirkt erschwerend (§ 38 WDO), Objektivität ist Pflicht."
   },
   {
     "cat": "Fälle",
@@ -2741,7 +2741,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2–4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 2–4: Erst VorgV prüfen, dann Rechtmäßigkeit – privates Motorradputzen hat keinen dienstlichen Zweck (rechtswidrig). Merksatz: Ein rechtswidriger Befehl KANN dennoch verbindlich sein (nur hier nicht: fehlender dienstl. Zweck = unverbindlich). Aussage 1 ist falsch: Der Dienstgrad allein macht nicht 'automatisch jederzeit' befugt."
   },
   {
     "cat": "Fälle",
@@ -2755,7 +2755,7 @@ const QUESTIONS = [
       "Nach 48 Stunden liegt automatisch Fahnenflucht vor."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es kommt insbesondere auf die Rückkehrabsicht bzw. den Rückkehrwillen an.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Entscheidend ist die Rückkehrabsicht: Steht beim Verlassen fest, dauerhaft nicht zurückzukehren, liegt Fahnenfluchtabsicht vor → § 16 WStG. Mit Rückkehrwillen wäre es nur eigenmächtige Abwesenheit (§ 15 WStG)."
   },
   {
     "cat": "Fälle",
@@ -2769,7 +2769,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1,2 und 4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1, 2 und 4: Ein offensichtlich strafbarer Befehl darf nicht ausgeführt werden (§ 11 Abs. 2 SG), die Verbindlichkeit entfällt, eigene Strafbarkeit ist möglich (§ 5 WStG). Aussage 3 ist falsch: Die Verantwortung liegt NICHT ausschließlich beim Vorgesetzten."
   },
   {
     "cat": "Fälle",
@@ -2783,7 +2783,7 @@ const QUESTIONS = [
       "Ungehorsam liegt immer vor."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: §19 WStG ist regelmäßig nicht erfüllt.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "§ 19 WStG ist regelmäßig nicht erfüllt: Die Verbindlichkeit des Befehls ist Tatbestandsvoraussetzung des Ungehorsams. Die Verweigerung eines offensichtlich unverbindlichen Befehls ist nicht nach § 19 WStG strafbar."
   },
   {
     "cat": "Fälle",
@@ -2797,7 +2797,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle. Maßgebliche Normen im Fall: §19 WStG."
+    "expl": "Alle Aussagen: Mehrere SG-Pflichten (§§ 7, 12, 13), mehrere Straftatbestände (§ 185, § 223 StGB, § 25 WStG – Schlag gegen Vorgesetzten!), § 19 WStG scheidet beim unverbindlichen Befehl aus, disziplinarrechtlich ein einheitliches Dienstvergehen (§ 18 Abs. 2 WDO)."
   },
   {
     "cat": "Fälle",
@@ -2811,7 +2811,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Alle Rechtsgebiete: SG (§§ 7, 12, 13 – Pflichtverletzungen), WDO (Disziplinarverfahren), WBO (Beschwerde gegen die Maßnahme), Strafrecht (§ 223 StGB) und ggf. WStG (§ 30 WStG beim Schlag gegen Untergebenen)."
   },
   {
     "cat": "Fälle",
@@ -2825,7 +2825,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1, 2 und 4: Mehrere SG-Pflichten (§§ 7, 12, 13), strafrechtliche Konsequenzen möglich (§ 303 StGB Sachbeschädigung), Gesamtwürdigung für die Bemessung (§ 38 WDO). Aussage 3 ist falsch: Disziplinar- und Strafverfahren schließen sich NICHT aus – sie laufen parallel."
   },
   {
     "cat": "Fälle",
@@ -2839,7 +2839,7 @@ const QUESTIONS = [
       "Die Gegenvorstellung ersetzt die Beschwerde."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Entscheidend bleibt, ob gesetzliche Gründe gegen die Verbindlichkeit sprechen (z. B. Straftat oder Menschenwürde).. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Auch nach der Bestätigung bleibt entscheidend, ob GESETZLICHE Unverbindlichkeitsgründe vorliegen (§ 11 SG): Straftat, Menschenwürdeverletzung etc. Die Bestätigung durch den Vorgesetzten heilt einen unverbindlichen Befehl nicht."
   },
   {
     "cat": "Fälle",
@@ -2853,7 +2853,7 @@ const QUESTIONS = [
       "Beschwer"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Frist. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Die Frist steht NICHT an erster Stelle – zuerst kommt die Statthaftigkeit (richtige Beschwerdeart!). Reihenfolge: Statthaftigkeit → Form → Frist → Beschwer."
   },
   {
     "cat": "Fälle",
@@ -2867,7 +2867,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 3,
-    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Alle Rechtsgebiete betroffen: SG (§§ 12, 13, 17), WDO (Disziplinarverfahren wegen der Dienstvergehen), Strafrecht (§ 223 StGB Schlag, § 185 StGB Beleidigung), ggf. WStG (je nach Stellung der Beteiligten, z.B. § 25 WStG)."
   },
   {
     "cat": "Fälle",
@@ -2881,7 +2881,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1–3: Mehrere SG-Pflichten (§§ 12, 13, 17), Gesamtwürdigung, außerdienstliches Verhalten kann relevant sein (§ 17 SG). Aussage 4 ist falsch: Wegen der Einheit des Dienstvergehens (§ 18 Abs. 2 WDO) gibt es EINE Maßnahme, nicht je Pflichtverletzung eine eigene."
   },
   {
     "cat": "Fälle",
@@ -2895,7 +2895,7 @@ const QUESTIONS = [
       "Nur 1 und 2"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Alle Aussagen: Die Bestätigung macht den Befehl nicht automatisch verbindlich, ein offensichtlich strafbarer Befehl darf nie ausgeführt werden (§ 11 Abs. 2 SG), die gesetzlichen Gehorsamsgrenzen bleiben bestehen, eigene Strafbarkeit trotz Befehls möglich (§ 5 WStG)."
   },
   {
     "cat": "Fälle",
@@ -2909,7 +2909,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1–3: Schweigen darf nicht negativ gewertet werden, die Wahrheitspflicht entsteht erst bei freiwilliger Aussage (§ 32 Abs. 4 WDO), Schweigen allein ist kein Dienstvergehen. Aussage 4 ist falsch: Die Vernehmung endet nicht automatisch – weitere Ermittlungen laufen weiter."
   },
   {
     "cat": "Fälle",
@@ -2923,7 +2923,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1, 2 und 4: Das Disziplinarverfahren kann trotz Strafurteil erforderlich sein, das Urteil entfaltet Bindungswirkung (§ 34 Abs. 1 WDO), Disziplinarrecht verfolgt andere Zwecke (Dienstordnung vs. Strafe). Aussage 3 ist falsch: Das Strafurteil beendet das Disziplinarverfahren NICHT automatisch."
   },
   {
     "cat": "Fälle",
@@ -2937,7 +2937,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2–4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 2–4: Beide Aussagen sind zu würdigen, die Glaubwürdigkeit ist zu prüfen, weitere Beweise können erforderlich sein. Aussage 1 ist falsch: Der Widerruf beendet das Verfahren nicht automatisch – die Beweislage ist neu zu bewerten."
   },
   {
     "cat": "Fälle",
@@ -2951,7 +2951,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1–3: Beide Verfahren verfolgen unterschiedliche Zwecke (Strafe vs. Dienstordnung), schließen sich nicht aus, Urteilsfeststellungen können binden (§ 34 Abs. 1 WDO). Aussage 4 ist falsch: Parallelität ist gerade der Regelfall."
   },
   {
     "cat": "Fälle",
@@ -2965,7 +2965,7 @@ const QUESTIONS = [
       "Das Verfahren wird automatisch nichtig."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es ist zu prüfen, welche Auswirkungen der Verfahrensfehler auf die Rechtmäßigkeit des Verfahrens hat.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Der Verfahrensfehler (unterlassene Belehrung nach § 32 Abs. 4 WDO) ist auf seine Auswirkungen zu prüfen: Verwertbarkeit der Aussage, Rechtmäßigkeit des Verfahrens, ggf. Aufhebung im Beschwerdeweg. Nicht jeder Fehler führt automatisch zur Unwirksamkeit – aber er muss gewürdigt werden."
   },
   {
     "cat": "Fälle",
@@ -2979,7 +2979,7 @@ const QUESTIONS = [
       "Das Verfahren ist automatisch nichtig."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die neuen Erkenntnisse machen regelmäßig eine erneute Beteiligung des Beschuldigten erforderlich.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Neue belastende Erkenntnisse nach dem Schlussgehör machen regelmäßig eine ERNEUTE Beteiligung des Beschuldigten erforderlich (erneutes Schlussgehör, ggf. VP-Anhörung) – die unmittelbare Verhängung verletzt Art. 103 Abs. 1 GG (rechtliches Gehör)."
   },
   {
     "cat": "Fälle",
@@ -2993,7 +2993,7 @@ const QUESTIONS = [
       "Verhängung → Beschwerde → Ermittlungen"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ermittlungen → Vernehmung → VP → Schlussgehör → Nachtfrist → Verhängung. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Gesetzlicher Ablauf: Ermittlungen → Vernehmung (mit Belehrung) → VP-Anhörung (§ 28 SBG) → Schlussgehör (§ 32 Abs. 5 WDO) → Nachtfrist → Verhängung. Diese Reihenfolge ist zwingend einzuhalten."
   },
   {
     "cat": "Fälle",
@@ -3007,7 +3007,7 @@ const QUESTIONS = [
       "Sofort Disziplinarmaßnahme verhängen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Den Widerruf und seine Glaubhaftigkeit aufklären sowie die Beweislage insgesamt neu bewerten.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Beim Widerruf des einzigen Belastungszeugen: Widerruf und Glaubhaftigkeit BEIDER Aussagen aufklären, Beweislage insgesamt neu bewerten. In dubio pro reo: Verbleiben Zweifel, darf keine Maßnahme verhängt werden."
   },
   {
     "cat": "Fälle",
@@ -3021,7 +3021,7 @@ const QUESTIONS = [
       "Nur 1–3"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen. Maßgebliche Normen im Fall: §19 WStG."
+    "expl": "Alle Aussagen: Mehrere SG-Pflichten (§§ 10, 12, 13), Straftatbestände (§ 223 StGB, §§ 30, 31 WStG), § 19 WStG scheidet beim unverbindlichen Befehl aus, Einheit des Dienstvergehens (§ 18 Abs. 2 WDO), Parallelität von Straf- und Disziplinarverfahren."
   },
   {
     "cat": "Fälle",
@@ -3035,7 +3035,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1–3: Anfangsverdacht prüfen, bei Bejahung Ermittlungspflicht (§ 32 Abs. 1 WDO), private Bekanntschaft → Befangenheit prüfen (§ 30 Abs. 2 WDO – Wechsel nach Meldung). Aussage 4 ist falsch: Unaufschiebbare Maßnahmen (Beweissicherung) sind auch vor der Zuständigkeitsklärung möglich."
   },
   {
     "cat": "Fälle",
@@ -3049,7 +3049,7 @@ const QUESTIONS = [
       "Zunächst wird ausschließlich die Vertrauensperson angehört."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Liegt ein Anfangsverdacht vor, müssen Ermittlungen geführt werden – unabhängig von Ihrer persönlichen Einschätzung.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Das Legalitätsprinzip (§ 32 Abs. 1 WDO) gilt unabhängig von persönlichen Einschätzungen: Liegt ein Anfangsverdacht vor (glaubhafte Meldung!), MUSS ermittelt werden. Die persönliche Überzeugung 'der macht so etwas nicht' ersetzt keine Ermittlungen."
   },
   {
     "cat": "Fälle",
@@ -3063,7 +3063,7 @@ const QUESTIONS = [
       "Verfahren einstellen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nachermittlungen durchführen und anschließend VP-Anhörung sowie Schlussgehör erneut durchführen.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Neuer Zeuge nach dem Schlussgehör: Nachermittlungen durchführen, anschließend VP-Anhörung und Schlussgehör ERNEUT durchführen. Erst dann darf (nach erneuter Nachtfrist) verhängt werden."
   },
   {
     "cat": "Fälle",
@@ -3077,7 +3077,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 3,
-    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Alle Mängel liegen vor: fehlerhafte Belehrung (§ 32 Abs. 4 WDO), unterlassene VP-Beteiligung trotz Wunsch (§ 28 SBG), fehlende Wiederholung der Verfahrensschritte nach neuen Beweisen, insgesamt erhebliche Zweifel an der Ordnungsgemäßheit – die Maßnahme ist im Beschwerdeweg angreifbar."
   },
   {
     "cat": "Fälle",
@@ -3091,7 +3091,7 @@ const QUESTIONS = [
       "Geständnisse beenden jede weitere Sachverhaltsaufklärung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Belastende und entlastende Tatsachen sind mit gleicher Sorgfalt zu ermitteln.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Untersuchungsgrundsatz (§ 32 Abs. 3 WDO): Belastende und entlastende Tatsachen sind mit GLEICHER Sorgfalt zu ermitteln. Der DiszVorg ist zur Objektivität verpflichtet – er ist nicht 'Ankläger', sondern neutraler Ermittler."
   },
   {
     "cat": "Fälle",
@@ -3105,7 +3105,7 @@ const QUESTIONS = [
       "Das Völkerrecht ist zu beachten."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Jeder rechtswidrige Befehl ist automatisch unverbindlich.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "FALSCH ist: 'Jeder rechtswidrige Befehl ist automatisch unverbindlich.' Richtig: Unverbindlichkeit setzt die Gründe des § 11 SG voraus (kein dienstl. Zweck, Menschenwürde, Unzumutbarkeit, Straftat, schwerer HVR-Verstoß). Rechtswidrig ≠ unverbindlich!"
   },
   {
     "cat": "Fälle",
@@ -3119,7 +3119,7 @@ const QUESTIONS = [
       "Die Beschwer ist Zulässigkeitsvoraussetzung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Die Frist wird erst nach der Begründetheit geprüft.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "FALSCH ist: 'Die Frist wird erst nach der Begründetheit geprüft.' Richtig: Die Frist gehört zur ZULÄSSIGKEIT (Statthaftigkeit → Form → Frist → Beschwer) und wird VOR der Begründetheit geprüft."
   },
   {
     "cat": "Fälle",
@@ -3133,7 +3133,7 @@ const QUESTIONS = [
       "Die Verbindlichkeit ist gesondert zu prüfen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Rechtmäßigkeit und Verbindlichkeit sind identisch.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "FALSCH ist: 'Rechtmäßigkeit und Verbindlichkeit sind identisch.' Richtig: Rechtmäßigkeit (§ 10 Abs. 4 SG) betrifft den Befehlsgeber, Verbindlichkeit (§ 11 SG) den Empfänger. Ein rechtswidriger Befehl kann verbindlich sein."
   },
   {
     "cat": "Fälle",
@@ -3147,7 +3147,7 @@ const QUESTIONS = [
       "Die Frist gehört zur Zulässigkeitsprüfung."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Jede zulässige Beschwerde ist automatisch begründet.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "FALSCH ist: 'Jede zulässige Beschwerde ist automatisch begründet.' Richtig: Zulässigkeit und Begründetheit sind getrennt zu prüfen – eine zulässige Beschwerde kann unbegründet sein (→ Zurückweisung)."
   },
   {
     "cat": "Fälle",
@@ -3161,7 +3161,7 @@ const QUESTIONS = [
       "Die Rechtsgrundlage des Vorgesetztenverhältnisses ist stets zu prüfen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Jeder Offizier ist jederzeit Vorgesetzter aller Soldaten.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "FALSCH ist: 'Jeder Offizier ist jederzeit Vorgesetzter aller Soldaten.' Richtig: Vorgesetzteneigenschaft besteht nur nach Maßgabe der VorgV (§§ 1–6) – der Dienstgrad allein begründet kein allgemeines Vorgesetztenverhältnis."
   },
   {
     "cat": "Fälle",
@@ -3175,7 +3175,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1–3: Ein Geständnis beendet die Ermittlungen nicht automatisch, weitere Beweise und entlastende Umstände sind zu prüfen (§ 32 Abs. 3 WDO). Aussage 4 ist falsch: Das Schlussgehör entfällt NIE – es ist zwingender Verfahrensschritt."
   },
   {
     "cat": "Fälle",
@@ -3189,7 +3189,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2–4. Maßgebliche Normen im Fall: §11 SG, §10 Abs.4 SG."
+    "expl": "Nur 2–4: Nicht jeder rechtswidrige Befehl ist unverbindlich, Verbindlichkeit richtet sich nach § 11 SG, Rechtmäßigkeit nach § 10 Abs. 4 SG. Aussage 1 ist falsch: Auch ein rechtmäßiger Befehl kann im Einzelfall unverbindlich sein (z.B. Unzumutbarkeit) – die Kategorien sind nicht deckungsgleich."
   },
   {
     "cat": "Fälle",
@@ -3203,7 +3203,7 @@ const QUESTIONS = [
       "Nur 1 und 4"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Alle Aussagen: Belastende und entlastende Tatsachen ermitteln (§ 32 Abs. 3 WDO), Einlassungen des Beschuldigten würdigen, Ziel ist die objektive Sachverhaltsaufklärung – der Untersuchungsgrundsatz in vier Facetten."
   },
   {
     "cat": "Fälle",
@@ -3217,7 +3217,7 @@ const QUESTIONS = [
       "Schlussgehör → Ermittlungen → Verhängung"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Tatverdacht → Ermittlungen → Vernehmung → VP → Schlussgehör → Nachtfrist → Verhängung. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Gesetzlicher Ablauf: Tatverdacht → Ermittlungen → Vernehmung (mit Belehrung) → VP-Anhörung → Schlussgehör → Nachtfrist → Verhängung. Jeder Schritt baut auf dem vorherigen auf."
   },
   {
     "cat": "Fälle",
@@ -3231,7 +3231,7 @@ const QUESTIONS = [
       "Frist → Entscheidung → Begründetheit"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Zulässigkeit → Begründetheit → Entscheidung. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Prüfung einer Beschwerde: Zulässigkeit (Statthaftigkeit/Form/Frist/Beschwer) → Begründetheit (Rechtswidrigkeit + eigene Rechtsverletzung) → Entscheidung (Stattgabe/Zurückweisung/Verwerfung)."
   },
   {
     "cat": "Fälle",
@@ -3245,7 +3245,7 @@ const QUESTIONS = [
       "Rechtmäßigkeit → Dienstgrad → Verbindlichkeit"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Vorgesetztenverhältnis → Rechtmäßigkeit → Verbindlichkeit → Gehorsamspflicht. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Sachgerechte Reihenfolge: Vorgesetztenverhältnis (VorgV) → Rechtmäßigkeit (§ 10 Abs. 4 SG) → Verbindlichkeit (§ 11 SG) → Gehorsamspflicht/Folgen. Ohne VV keine weitere Prüfung nötig."
   },
   {
     "cat": "Fälle",
@@ -3259,7 +3259,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Alle sechs dürfen berücksichtigt werden (§ 38 Abs. 1 WDO): Schwere, Auswirkungen, Schuldmaß, Beweggründe, bisherige Führung und Persönlichkeit – die vollständige Bemessungspalette."
   },
   {
     "cat": "Fälle",
@@ -3273,7 +3273,7 @@ const QUESTIONS = [
       "Strafrecht → WBO → WDO"
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: VorgV → Rechtmäßigkeit des Befehls → Verbindlichkeit → mögliche Folgen der Nichtbefolgung. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Sachgerechter Prüfungsablauf: VorgV (besteht ein VV?) → Rechtmäßigkeit des Befehls (§ 10 Abs. 4 SG) → Verbindlichkeit (§ 11 SG) → mögliche Folgen der Nichtbefolgung (§§ 19 ff. WStG, § 7 SG)."
   },
   {
     "cat": "Fälle",
@@ -3287,7 +3287,7 @@ const QUESTIONS = [
       "Offensichtlich fehlender dienstlicher Zweck."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Verstoß gegen eine interne Verwaltungsvorschrift.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Der Verstoß gegen eine interne Verwaltungsvorschrift führt NICHT automatisch zur Unverbindlichkeit – er macht den Befehl allenfalls rechtswidrig. Unverbindlichkeit erfordert die Gründe des § 11 SG (Menschenwürde, Straftat etc.)."
   },
   {
     "cat": "Fälle",
@@ -3301,7 +3301,7 @@ const QUESTIONS = [
       "Das Verfahren ist einzustellen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Beide Aussagen sind zu würdigen und ihre Glaubhaftigkeit zu prüfen.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Beide Aussagen sind zu würdigen und ihre Glaubhaftigkeit zu prüfen (§ 32 Abs. 3 WDO – Untersuchungsgrundsatz). Weder darf nur der Belastungs- noch nur der Entlastungszeuge herangezogen werden."
   },
   {
     "cat": "Fälle",
@@ -3315,7 +3315,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 3 und 4. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1, 3 und 4: Mehrere VV können gleichzeitig bestehen (Gruppenführer § 1, Ausbildungsleiter § 5, KpChef § 1 VorgV), maßgeblich sind Rechtsgrundlage und Aufgabenbereich, der Ausbildungsleiter befiehlt nur in seinem Bereich. Aussage 2 ist falsch: Es gilt die Dominanzreihenfolge (§ 5 > § 3 > § 1 > § 2 > § 4), nicht Gleichrangigkeit."
   },
   {
     "cat": "Fälle",
@@ -3329,7 +3329,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1–3. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Nur 1–3: Der Schießleiter ist nach § 5 VorgV (besondere Anordnung) Vorgesetzter – ein Unterstellungsverhältnis nach § 1 VorgV ist NICHT erforderlich. Die Verweigerung eines verbindlichen Befehls ist ein Dienstvergehen (ggf. § 19/20 WStG). Aussage 4 ist falsch: Auch ohne Unterstellung gibt es VV (§§ 3–6 VorgV)."
   },
   {
     "cat": "Fälle",
@@ -3343,7 +3343,7 @@ const QUESTIONS = [
       "Die Vertrauensperson übernimmt."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ein Zuständigkeitswechsel kommt in Betracht.. Die im Sachverhalt genannten Normen und Voraussetzungen sind sorgfältig zu subsumieren."
+    "expl": "Ist der DiszVorg selbst ZEUGE des Vorfalls, kommt ein Zuständigkeitswechsel in Betracht (§ 30 WDO) – er kann nicht zugleich neutraler Ermittler und Beweismittel sein. Meldung an den nächsthöheren DiszVorg."
   },
   {
     "cat": "Prüfung",
@@ -3357,7 +3357,7 @@ const QUESTIONS = [
       "Erst VP anhören, dann Verdacht prüfen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Disziplinarvorgesetzter muss ermitteln.."
+    "expl": "Legalitätsprinzip (§ 32 Abs. 1 WDO): Bei Anfangsverdacht eines Dienstvergehens MUSS der Disziplinarvorgesetzte ermitteln – das 'Ob' der Ermittlung steht nicht in seinem Ermessen."
   },
   {
     "cat": "Prüfung",
@@ -3371,7 +3371,7 @@ const QUESTIONS = [
       "Nur § 17 SG ist betroffen."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Menschenwürdeverletzung; Befehl unverbindlich.."
+    "expl": "Der Befehl verletzt die Menschenwürde (Art. 1 GG) – erniedrigend ohne dienstlichen Zweck. Er ist unverbindlich (§ 11 Abs. 1 SG) und muss nicht befolgt werden; zugleich ist er rechtswidrig (§ 10 Abs. 4 SG)."
   },
   {
     "cat": "Prüfung",
@@ -3385,7 +3385,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 2–4."
+    "expl": "Nur 2–4: Die Glaubhaftigkeit des Geständnisses ist zu würdigen, entlastende Umstände bleiben zu prüfen (§ 32 Abs. 3 WDO), weitere Beweiserhebungen können nötig sein. Aussage 1 ist falsch: Ein Geständnis beendet die Ermittlungen NICHT automatisch."
   },
   {
     "cat": "Prüfung",
@@ -3399,7 +3399,7 @@ const QUESTIONS = [
       "Das Geständnis darf nach einem Widerruf nicht mehr berücksichtigt werden."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Beide Einlassungen sind im Rahmen der Beweiswürdigung zu bewerten.."
+    "expl": "Beide Einlassungen (Geständnis und Widerruf) sind im Rahmen der Beweiswürdigung zu bewerten – welche glaubhafter ist, entscheidet sich nach den Umständen (Detailreichtum, Motiv für den Widerruf, weitere Beweise)."
   },
   {
     "cat": "Prüfung",
@@ -3413,7 +3413,7 @@ const QUESTIONS = [
       "§ 4 VorgV verdrängt § 2 VorgV immer."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Seine Befugnis ist auf den Fachbereich begrenzt.."
+    "expl": "§ 2 VorgV: Die Befugnis des Fachvorgesetzten ist auf seinen FACHBEREICH begrenzt. Ein Befehl außerhalb des Fachbereichs überschreitet die Befehlsbefugnis und ist rechtswidrig."
   },
   {
     "cat": "Prüfung",
@@ -3427,7 +3427,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3."
+    "expl": "Nur 1–3: Mehrere SG-Pflichten (§§ 10, 12, 13), Strafrecht (§ 223 StGB, §§ 30, 31 WStG), erschwerende Bemessung (§ 38 WDO). Aussage 4 ist falsch: Die Zeugenbeeinflussung ist für das Verfahren sehr wohl von Bedeutung – sie wirkt erschwerend."
   },
   {
     "cat": "Prüfung",
@@ -3441,7 +3441,7 @@ const QUESTIONS = [
       "Nur Strafrecht"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: SG, WDO, WBO; WStG/Strafrecht je nach Einzelhandlung."
+    "expl": "SG (Pflichtverletzungen §§ 7, 12, 13), WDO (Disziplinarverfahren), WBO (Beschwerde). WStG/StGB je nach Einzelhandlung (die Verweigerung des UNverbindlichen Befehls ist gerade NICHT nach § 19 WStG strafbar)."
   },
   {
     "cat": "Prüfung",
@@ -3455,7 +3455,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3."
+    "expl": "Nur 1–3: Mehrere Dienstpflichten, strafrechtliche Konsequenzen (§ 223 StGB, § 30 WStG), erschwerende Bemessungswirkung. Aussage 4 ist falsch: Falschangaben beenden das Verfahren nicht – sie sind eine ZUSÄTZLICHE Pflichtverletzung (§ 13 SG)."
   },
   {
     "cat": "Prüfung",
@@ -3469,7 +3469,7 @@ const QUESTIONS = [
       "Keine, weil kein Befehl betroffen ist."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 10 Abs. 2 SG beim Gruppenführer und § 12 SG bei den Tätern.."
+    "expl": "§ 10 Abs. 2 SG beim Gruppenführer (Dienstaufsicht: Wegsehen bei Erniedrigung = Pflichtverletzung) und § 12 SG bei den Tätern (Würde des erniedrigten Kameraden)."
   },
   {
     "cat": "Prüfung",
@@ -3483,7 +3483,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 4"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen."
+    "expl": "Alle Aussagen: VorgV zuerst prüfen, der Befehl verfolgt keinen RECHTMÄSSIGEN dienstlichen Zweck (Vertuschung von Sicherheitsmängeln = Dienstwidrigkeit), die Ausführung kann strafbar sein (§ 274 StGB Urkundenunterdrückung u.a.), blinder Gehorsam schützt nicht (§ 5 WStG)."
   },
   {
     "cat": "Prüfung",
@@ -3497,7 +3497,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3."
+    "expl": "Nur 1–3: Kameradschaft deckt keine Dienstvergehen, das Schweigen kann disziplinarrechtlich relevant sein, Pflichten können zusammentreffen. Aussage 4 ist falsch: Auch ohne Schadenseintritt bleibt das Verhalten pflichtwidrig."
   },
   {
     "cat": "Prüfung",
@@ -3511,7 +3511,7 @@ const QUESTIONS = [
       "§ 31 WStG"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 16 WStG."
+    "expl": "§ 16 WStG (Fahnenflucht): Die von Anfang an bestehende Absicht, sich DAUERHAFT dem Dienst zu entziehen, ist das entscheidende Merkmal – nicht die Dauer der Abwesenheit (das wäre § 15 WStG ohne diese Absicht)."
   },
   {
     "cat": "Prüfung",
@@ -3525,7 +3525,7 @@ const QUESTIONS = [
       "Nur 1, 3 und 4"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle Aussagen."
+    "expl": "Alle Aussagen: Beweismittelvernichtung im laufenden Ermittlungsverfahren ist strafbar (§ 274 StGB u.a.), die Befehlsform allein macht nicht verbindlich, die Herkunft vom Vorgesetzten genügt nicht (§ 11 Abs. 2 SG), eigene Strafbarkeit bei Befolgung möglich (§ 5 WStG)."
   },
   {
     "cat": "Prüfung",
@@ -3539,7 +3539,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit spielt keine Rolle."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Der Soldat darf die Ausführung verweigern, wenn der Befehl auf eine Straftat gerichtet ist.."
+    "expl": "Ist der Befehl auf eine Straftat gerichtet (Beweismittelvernichtung im Ermittlungsverfahren), darf er nicht befolgt werden (§ 11 Abs. 2 SG) – die Verweigerung ist rechtmäßig und geboten."
   },
   {
     "cat": "Prüfung",
@@ -3553,7 +3553,7 @@ const QUESTIONS = [
       "Nur der Vorgesetzte ist verantwortlich."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Er darf ihn nicht ausführen.."
+    "expl": "Ein offensichtlich strafbarer Befehl darf NICHT ausgeführt werden (§ 11 Abs. 2 SG). Bei Ausführung droht eigene Strafbarkeit – der Schuldausschluss des § 5 WStG greift bei offensichtlicher Rechtswidrigkeit nicht."
   },
   {
     "cat": "Prüfung",
@@ -3567,7 +3567,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4."
+    "expl": "Nur 1, 2 und 4: Mehrere Pflichten verletzt (§§ 7, 11, 12, 17 SG), WStG zu prüfen (§ 19/20 WStG – der Befehl war rechtmäßig UND verbindlich!), Disziplinarverfahren möglich. Aussage 3 ist falsch: Es liegen MEHRERE Pflichtverletzungen vor (die disziplinarrechtlich ein DV bilden)."
   },
   {
     "cat": "Prüfung",
@@ -3581,7 +3581,7 @@ const QUESTIONS = [
       "Es liegt automatisch Fahnenflucht vor."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 7 SG ist wegen Schlechtleistung zu prüfen.."
+    "expl": "§ 7 SG wegen Schlechtleistung: Pünktliches Erscheinen genügt nicht – wer wegen Alkohols nicht dienstfähig ist, erbringt die Dienstleistung nicht ordnungsgemäß. Anwesenheit ≠ Dienstleistung."
   },
   {
     "cat": "Prüfung",
@@ -3595,7 +3595,7 @@ const QUESTIONS = [
       "§ 6 VorgV"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: § 5 VorgV."
+    "expl": "§ 5 VorgV: Die Bestellung zum Leiter einer konkreten Ausbildung ist eine besondere Anordnung – vorübergehende Unterstellung der Teilnehmer für diese Aufgabe."
   },
   {
     "cat": "Prüfung",
@@ -3609,7 +3609,7 @@ const QUESTIONS = [
       "Nur bei Verweis hemmend."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Hemmende Wirkung.."
+    "expl": "Hemmende Wirkung: Die Disziplinarbeschwerde VOR Beginn der Vollstreckung hemmt diese (§ 42 Abs. 3 WDO) – die Vollstreckung darf erst nach der Beschwerdeentscheidung beginnen."
   },
   {
     "cat": "Prüfung",
@@ -3623,7 +3623,7 @@ const QUESTIONS = [
       "Sofortige Abhilfe."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Zurückweisung als unbegründet.."
+    "expl": "Zurückweisung als unbegründet: zulässig, aber unbegründet = Zurückweisung. (Unzulässig = Verwerfung; zulässig und begründet = Stattgabe.)"
   },
   {
     "cat": "Prüfung",
@@ -3637,7 +3637,7 @@ const QUESTIONS = [
       "Nur ausdrückliche Falschaussagen sind disziplinarrechtlich bedeutsam."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es ist zu prüfen, ob dadurch die soldatische Wahrheitspflicht verletzt wurde.."
+    "expl": "Es ist zu prüfen, ob die Wahrheitspflicht (§ 13 Abs. 1 SG) verletzt wurde: Auch das bewusste VERSCHWEIGEN eines entscheidenden Umstands bei freiwilliger Aussage kann der Falschangabe gleichstehen."
   },
   {
     "cat": "Prüfung",
@@ -3651,7 +3651,7 @@ const QUESTIONS = [
       "§ 13 SG gilt nur vor Gericht."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Bei freiwilliger Aussage gilt die Wahrheitspflicht.."
+    "expl": "Bei freiwilliger Aussage nach ordnungsgemäßer Belehrung gilt die Wahrheitspflicht (§ 32 Abs. 4 Satz 4 WDO, § 13 SG). Bewusstes Lügen ist dann eine eigene, zusätzliche Pflichtverletzung."
   },
   {
     "cat": "Prüfung",
@@ -3665,7 +3665,7 @@ const QUESTIONS = [
       "Die Frist ist bedeutungslos."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Zulässigkeit ist wegen der Frist zu prüfen.."
+    "expl": "Die Zulässigkeit scheitert an der Frist: Zwei Monate überschreiten die Monatsfrist des § 6 Abs. 1 WBO deutlich. Ohne Wiedereinsetzungsgründe ist die Beschwerde als unzulässig zu verwerfen."
   },
   {
     "cat": "Prüfung",
@@ -3679,7 +3679,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit des Befehls spielt keine Rolle."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Eine Strafbarkeit nach dem Wehrstrafgesetz kann zu prüfen sein.."
+    "expl": "Bei Verweigerung eines rechtmäßigen UND verbindlichen Befehls ist eine Strafbarkeit nach dem WStG zu prüfen: § 19 WStG (Ungehorsam, wenn schwere Folge) oder § 20 WStG (Gehorsamsverweigerung durch Auflehnung/trotz Wiederholung)."
   },
   {
     "cat": "Prüfung",
@@ -3693,7 +3693,7 @@ const QUESTIONS = [
       "Unverbindlichkeit spielt keine Rolle."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: § 19 WStG ist regelmäßig nicht erfüllt.."
+    "expl": "§ 19 WStG ist regelmäßig nicht erfüllt: Die VERBINDLICHKEIT des Befehls ist Tatbestandsvoraussetzung. Die Verweigerung eines unverbindlichen Befehls ist kein strafbarer Ungehorsam."
   },
   {
     "cat": "Prüfung",
@@ -3707,7 +3707,7 @@ const QUESTIONS = [
       "Seine Befehlsbefugnis endet erst mit dem Ausscheiden aus der Bundeswehr."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Seine Befehlsbefugnis beschränkt sich grundsätzlich auf den übertragenen Aufgabenbereich.."
+    "expl": "Die Befehlsbefugnis des Ausbildungsleiters (§ 5 VorgV – besondere Anordnung) beschränkt sich auf den ÜBERTRAGENEN Aufgabenbereich: die ABC-Ausbildung. Außerhalb davon besteht keine Befugnis aus dieser Bestellung."
   },
   {
     "cat": "Prüfung",
@@ -3721,7 +3721,7 @@ const QUESTIONS = [
       "§ 8 SG gilt nur im Dienst."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Entscheidend ist regelmäßig eine äußere Manifestation.."
+    "expl": "Entscheidend ist die äußere Manifestation (§ 8 SG): Private extreme Ansichten OHNE Außenwirkung genügen regelmäßig nicht für einen Pflichtverstoß – man kann niemandem in den Kopf schauen. Erst nach außen tretendes Verhalten ist greifbar."
   },
   {
     "cat": "Prüfung",
@@ -3735,7 +3735,7 @@ const QUESTIONS = [
       "Es liegt automatisch § 19 WStG vor."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Dienstlicher Zweck fehlt.."
+    "expl": "Der dienstliche Zweck fehlt (§ 10 Abs. 4 SG): Privates Autowaschen ist eine Privatangelegenheit des Vorgesetzten. Der Befehl ist rechtswidrig und mangels dienstlichen Zwecks unverbindlich (§ 11 Abs. 1 SG)."
   },
   {
     "cat": "Prüfung",
@@ -3749,7 +3749,7 @@ const QUESTIONS = [
       "Nur WBO"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 223 StGB und § 30 WStG."
+    "expl": "§ 223 StGB (Körperverletzung) und § 30 WStG (Misshandlung Untergebener) können nebeneinander erfüllt sein – § 30 WStG ist das militärische Sonderdelikt, das gerade die Vorgesetztenstellung voraussetzt."
   },
   {
     "cat": "Prüfung",
@@ -3763,7 +3763,7 @@ const QUESTIONS = [
       "Sicherheitsverstöße sind ausschließlich Angelegenheit des Kompaniechefs."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Bereits das bewusste Unterlassen erforderlicher Maßnahmen kann dienstrechtlich relevant sein.."
+    "expl": "Bereits das bewusste UNTERLASSEN erforderlicher Maßnahmen ist dienstrechtlich relevant (§ 10 Abs. 2 SG – Dienstaufsicht). Dass 'noch nichts passiert ist', ändert nichts – die Pflichtverletzung liegt im Unterlassen selbst."
   },
   {
     "cat": "Prüfung",
@@ -3777,7 +3777,7 @@ const QUESTIONS = [
       "Gilt genauso wie ein Strafbefehl."
     ],
     "correct": 0,
-    "expl": "Richtige Antwort: Kann Bindungswirkung entfalten.."
+    "expl": "Tatsächliche Feststellungen eines rechtskräftigen StrafURTEILS können Bindungswirkung für das Disziplinarverfahren entfalten (§ 34 Abs. 1 WDO). Anders der Strafbefehl – er bindet nicht."
   },
   {
     "cat": "Prüfung",
@@ -3791,7 +3791,7 @@ const QUESTIONS = [
       "Soldaten müssen zivilen Lehrern nie folgen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Er kann dienstliche Weisungen geben; ein militärisches Vorgesetztenverhältnis folgt daraus nicht automatisch.."
+    "expl": "Der zivile Rechtslehrer kann dienstliche WEISUNGEN geben (Folgepflicht aus § 7 SG), aber ein militärisches Vorgesetztenverhältnis i.S.d. VorgV folgt daraus nicht – zivile Personen sind keine militärischen Vorgesetzten."
   },
   {
     "cat": "Prüfung",
@@ -3805,7 +3805,7 @@ const QUESTIONS = [
       "Die VP entscheidet."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Er kann sie grundsätzlich nicht mehr selbst ändern.."
+    "expl": "Nach der Verhängung kann der DiszVorg die Maßnahme grundsätzlich nicht mehr selbst ändern (§ 37 Abs. 5 WDO) – auch nicht mildern. Korrektur nur über Beschwerde (§ 42 WDO) oder Dienstaufsicht des nächsthöheren DiszVorg."
   },
   {
     "cat": "Prüfung",
@@ -3819,7 +3819,7 @@ const QUESTIONS = [
       "Einstellung"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Zurückweisung als unbegründet."
+    "expl": "Zurückweisung als unbegründet: Die zulässige, aber unbegründete Beschwerde wird zurückgewiesen. Merke: unzulässig → Verwerfung; zulässig + unbegründet → Zurückweisung; zulässig + begründet → Stattgabe."
   },
   {
     "cat": "Prüfung",
@@ -3833,7 +3833,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nur 1–3."
+    "expl": "Nur 1–3: Neue Erkenntnisse würdigen, erneutes rechtliches Gehör des Beschuldigten (Art. 103 Abs. 1 GG), VP erneut beteiligen soweit erforderlich. Aussage 4 ist falsch: Die unmittelbare Verhängung ohne erneute Beteiligung wäre verfahrensfehlerhaft."
   },
   {
     "cat": "Prüfung",
@@ -3847,7 +3847,7 @@ const QUESTIONS = [
       "erst nach Strafurteil"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: nach Ablauf der Nachtfrist."
+    "expl": "Nach dem Schlussgehör darf frühestens nach Ablauf der NACHTFRIST (eine Nacht von 22:00–06:00 Uhr, § 37 Abs. 1 WDO) verhängt werden – dem Beschuldigten bleibt eine Bedenknacht."
   },
   {
     "cat": "Prüfung",
@@ -3861,7 +3861,7 @@ const QUESTIONS = [
       "Verfahren automatisch einstellen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Nachermitteln und erforderliche Verfahrensschritte erneut durchführen.."
+    "expl": "Neuer belastender Zeuge nach dem Schlussgehör: Nachermitteln und die erforderlichen Verfahrensschritte (VP-Anhörung, Schlussgehör) ERNEUT durchführen – erst dann darf verhängt werden."
   },
   {
     "cat": "Prüfung",
@@ -3875,7 +3875,7 @@ const QUESTIONS = [
       "Erst nach Abschluss eines Strafverfahrens dürfen disziplinare Ermittlungen beginnen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Es ist zu prüfen, ob ein Dienstvergehen vorliegt; strafrechtliche Ermittlungen schließen disziplinare Ermittlungen nicht aus.."
+    "expl": "Es ist zu prüfen, ob ein Dienstvergehen vorliegt (§ 17 SG bei außerdienstlichem Verhalten mit Achtungs-/Vertrauensbezug; § 12 SG unter Kameraden). Strafrechtliche Ermittlungen (§ 223 StGB) schließen disziplinare Ermittlungen NICHT aus – Parallelität."
   },
   {
     "cat": "Prüfung",
@@ -3889,7 +3889,7 @@ const QUESTIONS = [
       "Die Verhängung heilt den Verfahrensfehler."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nach den neuen belastenden Erkenntnissen hätten die erforderlichen Verfahrensschritte vor der Verhängung erneut geprüft und gegebenenfalls durchgeführt werden müssen.."
+    "expl": "Nach neuen belastenden Erkenntnissen NACH dem Schlussgehör hätten die Verfahrensschritte (Nachermittlung, VP, erneutes Schlussgehör) vor der Verhängung erneut durchgeführt werden müssen – die sofortige Verhängung war verfahrensfehlerhaft (Art. 103 Abs. 1 GG)."
   },
   {
     "cat": "Prüfung",
@@ -3903,7 +3903,7 @@ const QUESTIONS = [
       "Nach der Verhängung dürfen keine Verfahrensfehler mehr geprüft werden."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die unterlassene Beteiligung der Vertrauensperson ist rechtlich zu prüfen und kann die Rechtmäßigkeit des Verfahrens beeinflussen.."
+    "expl": "Die unterlassene VP-Beteiligung trotz ausdrücklichen Verlangens (§ 28 SBG) ist ein Verfahrensfehler, der die Rechtmäßigkeit des Verfahrens beeinträchtigen kann – im Beschwerdeweg prüfbar und ggf. zur Aufhebung führend."
   },
   {
     "cat": "Prüfung",
@@ -3917,7 +3917,7 @@ const QUESTIONS = [
       "Das Verfahren einstellen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Den entlastenden Zeugen vernehmen und anschließend prüfen, ob weitere Verfahrensschritte – insbesondere ein erneutes Schlussgehör – erforderlich sind.."
+    "expl": "Der entlastende Zeuge ist zu vernehmen (§ 32 Abs. 3 WDO – auch Entlastendes ermitteln!). Anschließend prüfen, ob ein erneutes Schlussgehör erforderlich ist. Da noch nicht verhängt wurde, ist die Korrektur problemlos möglich."
   },
   {
     "cat": "Prüfung",
@@ -3931,7 +3931,7 @@ const QUESTIONS = [
       "Entscheidung"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Beschwerdeart / Statthaftigkeit."
+    "expl": "Zuerst: Beschwerdeart/Statthaftigkeit! Die falsche Einordnung (Disziplinar- vs. truppendienstliche vs. Verwaltungsbeschwerde) macht die gesamte weitere Prüfung falsch. Erst danach Form, Frist, Beschwer."
   },
   {
     "cat": "Prüfung",
@@ -3945,7 +3945,7 @@ const QUESTIONS = [
       "Beide Prinzipien gibt es nur im Strafrecht."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ermittlung ist Pflicht, Ahndung steht im Ermessen.."
+    "expl": "Legalität: Die ERMITTLUNG ist Pflicht (bei Anfangsverdacht, § 32 Abs. 1 WDO). Opportunität: Die AHNDUNG steht im Ermessen (§§ 15 Abs. 2, 35 Abs. 1 WDO) – Ob und Wie der Maßnahme entscheidet der DiszVorg."
   },
   {
     "cat": "Prüfung",
@@ -3959,7 +3959,7 @@ const QUESTIONS = [
       "Das Schuldmaß ist zu berücksichtigen."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Die öffentliche Meinung bestimmt die Disziplinarmaßnahme.."
+    "expl": "FALSCH ist: 'Die öffentliche Meinung bestimmt die Disziplinarmaßnahme.' Richtig: Maßgeblich sind allein die Kriterien des § 38 WDO (Schwere, Schuld, Auswirkungen, Beweggründe, Persönlichkeit, Führung) – nicht Presse oder Stimmung."
   },
   {
     "cat": "Prüfung",
@@ -3973,7 +3973,7 @@ const QUESTIONS = [
       "Die Frist gehört zur Zulässigkeitsprüfung."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Eine verspätete Beschwerde ist stets begründet.."
+    "expl": "FALSCH ist: 'Eine verspätete Beschwerde ist stets begründet.' Richtig: Eine verspätete Beschwerde ist bereits UNZULÄSSIG (Fristversäumnis) – zur Begründetheit kommt man gar nicht mehr; sie wird verworfen."
   },
   {
     "cat": "Prüfung",
@@ -3987,7 +3987,7 @@ const QUESTIONS = [
       "Ein strafbarer Befehl darf nicht befolgt werden."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Jeder rechtswidrige Befehl ist automatisch unverbindlich.."
+    "expl": "FALSCH ist: 'Jeder rechtswidrige Befehl ist automatisch unverbindlich.' Richtig: Unverbindlichkeit erfordert die Gründe des § 11 SG. Ein rechtswidriger Befehl (z.B. Verstoß gegen Dienstvorschrift) kann durchaus verbindlich sein."
   },
   {
     "cat": "Prüfung",
@@ -4001,7 +4001,7 @@ const QUESTIONS = [
       "Das Schlussgehör ist freiwillig."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nach neuen belastenden Erkenntnissen kann eine erneute Beteiligung des Beschuldigten erforderlich sein.."
+    "expl": "Richtig: Nach neuen belastenden Erkenntnissen kann eine erneute Beteiligung des Beschuldigten erforderlich sein – rechtliches Gehör (Art. 103 Abs. 1 GG) muss sich auf den GESAMTEN Vorwurf erstrecken."
   },
   {
     "cat": "Prüfung",
@@ -4015,7 +4015,7 @@ const QUESTIONS = [
       "Die Rechtmäßigkeit eines Befehls ist bedeutungslos."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Ein unverbindlicher Befehl kann grundsätzlich keinen Ungehorsam nach § 19 WStG begründen.."
+    "expl": "Richtig: Ein unverbindlicher Befehl kann grundsätzlich keinen Ungehorsam nach § 19 WStG begründen – die Verbindlichkeit ist Tatbestandsvoraussetzung des § 19 WStG."
   },
   {
     "cat": "Prüfung",
@@ -4029,7 +4029,7 @@ const QUESTIONS = [
       "Es ist stets mündlich ausreichend."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Es ist das letzte Wort des Beschuldigten vor Entscheidung.."
+    "expl": "Das Schlussgehör ist das LETZTE WORT des Beschuldigten vor der Entscheidung (Art. 103 Abs. 1 GG, § 32 Abs. 5 WDO) – schriftlich, nach der VP-Anhörung, vor Nachtfrist und Verhängung."
   },
   {
     "cat": "Prüfung",
@@ -4043,7 +4043,7 @@ const QUESTIONS = [
       "Strafbefehl ersetzt das Schlussgehör."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Strafbefehl entfaltet keine entsprechende Bindungswirkung wie ein Urteil.."
+    "expl": "Der Strafbefehl entfaltet KEINE Bindungswirkung wie ein Urteil (§ 34 Abs. 1 WDO erfasst nur rechtskräftige Urteile). Im Disziplinarverfahren muss eigenständig ermittelt werden."
   },
   {
     "cat": "Prüfung",
@@ -4057,7 +4057,7 @@ const QUESTIONS = [
       "§ 15 SG verbietet jede Parteimitgliedschaft."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Politische Betätigung ist grundsätzlich erlaubt, aber im Dienst, in Uniform oder unter Ausnutzung der Dienststellung eingeschränkt.."
+    "expl": "Politische Betätigung ist grundsätzlich erlaubt (Staatsbürger in Uniform, § 15 Abs. 1 SG) – eingeschränkt im Dienst, in Uniform oder unter Ausnutzung der Dienststellung (§ 15 Abs. 2 SG)."
   },
   {
     "cat": "Prüfung",
@@ -4071,7 +4071,7 @@ const QUESTIONS = [
       "§ 6 → § 5 → § 4 → § 3 → § 2 → § 1"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: § 5 → § 3 → § 1 → § 2 → § 4; § 6."
+    "expl": "Dominanzreihenfolge bei konkurrierenden Vorgesetztenverhältnissen: § 5 → § 3 → § 1 → § 2 → § 4 VorgV (das speziellere Verhältnis geht vor). § 6 ist Sonderfall: Er setzt voraus, dass kein anderes VV besteht."
   },
   {
     "cat": "Prüfung",
@@ -4085,7 +4085,7 @@ const QUESTIONS = [
       "Nur 1 und 5"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Alle."
+    "expl": "Alle fünf (§ 38 Abs. 1 WDO): Schwere des Dienstvergehens, Schuldmaß, Auswirkungen, Beweggründe sowie Persönlichkeit und bisherige Führung – die vollständigen Bemessungskriterien."
   },
   {
     "cat": "Prüfung",
@@ -4099,7 +4099,7 @@ const QUESTIONS = [
       "WDO → WBO → VorgV"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: VorgV → Rechtmäßigkeit → Verbindlichkeit."
+    "expl": "Sachgerechte Reihenfolge: VorgV (besteht ein Vorgesetztenverhältnis?) → Rechtmäßigkeit (§ 10 Abs. 4 SG) → Verbindlichkeit (§ 11 SG). Ohne VV erübrigt sich alles Weitere."
   },
   {
     "cat": "Prüfung",
@@ -4113,7 +4113,7 @@ const QUESTIONS = [
       "VP-Anhörung → Aussage → Belehrung"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Tatvorwurf → Belehrung → Einlassung des Beschuldigten."
+    "expl": "Richtige Reihenfolge der Beschuldigtenvernehmung (§ 32 Abs. 4 WDO): Eröffnung des Tatvorwurfs → Belehrung (Aussageverweigerungsrecht, Wahrheitspflicht) → erst dann Einlassung des Beschuldigten."
   },
   {
     "cat": "Prüfung",
@@ -4127,7 +4127,7 @@ const QUESTIONS = [
       "Bisherige Führung"
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Sympathie des Disziplinarvorgesetzten für den Soldaten."
+    "expl": "NICHT zu den Bemessungskriterien gehört die Sympathie des DiszVorg – § 38 WDO nennt nur objektive Kriterien (Schwere, Schuld, Auswirkungen, Beweggründe, Persönlichkeit, Führung). Persönliche Zu-/Abneigung ist sachfremd."
   },
   {
     "cat": "Prüfung",
@@ -4141,7 +4141,7 @@ const QUESTIONS = [
       "Entlastendes darf ignoriert werden."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Belastende und entlastende Umstände sind zu ermitteln.."
+    "expl": "§ 32 Abs. 3 WDO: Belastende UND entlastende Umstände sind gleichermaßen zu ermitteln – der Untersuchungsgrundsatz verpflichtet zur Objektivität in beide Richtungen."
   },
   {
     "cat": "Prüfung",
@@ -4155,7 +4155,7 @@ const QUESTIONS = [
       "Das Verfahren endet automatisch."
     ],
     "correct": 2,
-    "expl": "Richtige Antwort: Das entlastende Beweismittel ist in die Sachverhaltsaufklärung einzubeziehen.."
+    "expl": "Das entlastende Video ist in die Sachverhaltsaufklärung einzubeziehen (§ 32 Abs. 3 WDO). Entlastet es den Beschuldigten vollständig, ist das Verfahren einzustellen – keine Maßnahme ohne nachgewiesenes Dienstvergehen."
   },
   {
     "cat": "Prüfung",
@@ -4169,7 +4169,7 @@ const QUESTIONS = [
       "Alle"
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Nur 1, 2 und 4."
+    "expl": "Nur 1, 2 und 4: Mehrere VV können bestehen (Gruppenführer § 1, Ausbildungsleiter § 5 VorgV), die Rechtsgrundlage ist zu prüfen, widersprüchliche Befehle nach VorgV-Grundsätzen aufzulösen (Dominanz: § 5 vor § 1). Aussage 3 ist falsch: Der Soldat darf NICHT frei wählen."
   },
   {
     "cat": "Prüfung",
@@ -4183,7 +4183,7 @@ const QUESTIONS = [
       "Ohne truppendienstliche Unterstellung gibt es niemals eine Befehlsbefugnis."
     ],
     "correct": 1,
-    "expl": "Richtige Antwort: Die Eigenschaft als Disziplinarvorgesetzter ist nicht Voraussetzung für eine Befehlsbefugnis.."
+    "expl": "Die Eigenschaft als DISZIPLINARvorgesetzter ist NICHT Voraussetzung für die Befehlsbefugnis: Der Schießleiter ist nach § 5 VorgV (besondere Anordnung) Vorgesetzter – Befehlsbefugnis und Disziplinarbefugnis sind zu trennen."
   }
 
 ];
@@ -4198,7 +4198,7 @@ const CAT_STYLES = {
   WBO:          { bg:"#1E5631", light:"#E9F5EC", accent:"#2D7A45", icon:BookOpen, label:"Beschwerderecht (WBO)" },
   Fälle:        { bg:"#5D4037", light:"#FBE9E7", accent:"#8D6E63", icon:BookOpen, label:"Übungsfälle" },
   Prüfung:      { bg:"#1B5E20", light:"#E8F5E9", accent:"#388E3C", icon:Award,    label:"Prüfungsfragen" },
-};
+}
 
 function shuffle(arr) {
   const a = [...arr];
