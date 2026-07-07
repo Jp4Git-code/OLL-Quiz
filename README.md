@@ -1,10 +1,18 @@
-# Major-Fall F App
+# Wehrrecht Übung – OSLw
 
-Standalone Lern-App nur für den Major-Fall F.
+97 Fragen | Passwort: OSLw2026
 
-Passwort: `MAJOR2026`
-
-```bash
-npm install
-npm run dev
+## Struktur
 ```
+├── index.html
+├── package.json        ← feste Versionen (kein "latest"!)
+├── vite.config.js
+└── src/
+    ├── main.jsx
+    └── App.jsx
+```
+
+## WICHTIG
+- package-lock.json NICHT ins Repo
+- node_modules NICHT ins Repo
+- .gitignore anlegen mit: node_modules/ und package-lock.json
