@@ -119,11 +119,11 @@ const QUESTIONS = [
   {
     id: 9,
     type: 'text',
-    topic: 'WDO – Verhängungsfrist (Fw Schober, Tat 19.07.)',
+    topic: 'WDO – Verhängungsfrist (Fw Schober, Tat 19.07)',
     q:
       'Ihre Ermittlungen sind nun abgeschlossen. Bis wann müssten Sie spätestens eine Disziplinarmaßnahme gegen Fw Schober verhängen?\n\nBeantworten Sie die Frage unter Nennung der einschlägigen Norm. (Tatdatum: 19.07.)',
     fields: [
-      { label: 'Spätestes Datum', answer: '18.01.' },
+      { label: 'Spätestes Datum', answer: '18.01' },
       { label: 'Uhrzeit', answer: '24:00' },
       { label: 'Norm', answer: '§ 17 Abs. 2 WDO' },
     ],
@@ -131,11 +131,11 @@ const QUESTIONS = [
   {
     id: 10,
     type: 'text',
-    topic: 'WDO – Früheste Vollstreckung Ausgangsbeschränkung (Flieger Heil, Verhängung 25.07.)',
+    topic: 'WDO – Früheste Vollstreckung Ausgangsbeschränkung (Flieger Heil, Verhängung 25.07)',
     q:
-      'Da auch Flieger Heil ein Dienstvergehen begangen hat, verhängen Sie gegen ihn am 25.07. eine Ausgangsbeschränkung von sieben Tagen. Wann dürfen Sie diese Disziplinarmaßnahme frühestens vollstrecken?\n\nBeantworten Sie die Frage unter Nennung der einschlägigen Normen.',
+      'Da auch Flieger Heil ein Dienstvergehen begangen hat, verhängen Sie gegen ihn am 25.07 eine Ausgangsbeschränkung von sieben Tagen. Wann dürfen Sie diese Disziplinarmaßnahme frühestens vollstrecken?\n\nBeantworten Sie die Frage unter Nennung der einschlägigen Normen.',
     fields: [
-      { label: 'Frühestes Datum', answer: '27.07.' },
+      { label: 'Frühestes Datum', answer: '27.07' },
       { label: 'Uhrzeit', answer: '00:00' },
       { label: 'Normen', answer: '§§ 47 Abs. 1, 52 Abs. 2 WDO' },
     ],
@@ -143,13 +143,13 @@ const QUESTIONS = [
   {
     id: 11,
     type: 'text',
-    topic: 'WBO – Beschwerdefrist Flieger Heil (Verhängung 25.07.)',
+    topic: 'WBO – Beschwerdefrist Flieger Heil (Verhängung 25.07)',
     q:
       'Flieger Heil möchte sich gegen die Verhängung der Ausgangsbeschränkung beschweren. Wann ist der frühestmögliche und der späteste Zeitpunkt, zu dem die Beschwerde eingegangen sein muss?\n\nBeantworten Sie die Frage unter Nennung der einschlägigen Norm.',
     fields: [
-      { label: 'Frühestens ab (Datum)', answer: '26.07.' },
+      { label: 'Frühestens ab (Datum)', answer: '26.07' },
       { label: 'Frühestens ab (Uhrzeit)', answer: '06:00' },
-      { label: 'Spätestens bis (Datum)', answer: '25.08.' },
+      { label: 'Spätestens bis (Datum)', answer: '25.08' },
       { label: 'Spätestens bis (Uhrzeit)', answer: '24:00' },
       { label: 'Norm', answer: '§ 6 Abs. 1 WBO' },
     ],
@@ -157,11 +157,11 @@ const QUESTIONS = [
   {
     id: 12,
     type: 'text',
-    topic: 'WDO – Vollstreckungsverjährung (Flieger Heil, Rücknahme 20.08.)',
+    topic: 'WDO – Vollstreckungsverjährung (Flieger Heil, Rücknahme 20.08)',
     q:
-      'Flieger Heil zieht seine fristgerecht eingelegte Beschwerde am 20.08. wieder zurück. Bis wann muss die gegen ihn verhängte Ausgangsbeschränkung spätestens vollstreckt sein?\n\nBeantworten Sie die Frage unter Nennung der einschlägigen Norm.',
+      'Flieger Heil zieht seine fristgerecht eingelegte Beschwerde am 20.08 wieder zurück. Bis wann muss die gegen ihn verhängte Ausgangsbeschränkung spätestens vollstreckt sein?\n\nBeantworten Sie die Frage unter Nennung der einschlägigen Norm.',
     fields: [
-      { label: 'Vollstreckung spätestens bis (Datum)', answer: '25.02.' },
+      { label: 'Vollstreckung spätestens bis (Datum)', answer: '25.02' },
       { label: 'Uhrzeit', answer: '24:00' },
       { label: 'Norm', answer: '§ 57 WDO' },
     ],
@@ -185,7 +185,7 @@ const QUESTIONS = [
     type: 'multi',
     topic: 'SG – Dienstvergehen OGefr OA Müller',
     q:
-      'OGefr OA Müller erscheint am 17.03. nicht zum Dienst, wird am 20.03. mit Flugticket nach Sydney angehalten. Er weigert sich, dem Befehl des Feldjägerstreifenführers OFw Schulze zu folgen, bezeichnet ihn als „Folterknecht" und tritt ihm gegen das Schienbein.\n\nHat OGefr OA Müller durch sein Verhalten ein Dienstvergehen begangen? Kreuzen Sie die richtige(n) Antwort(en) an.',
+      'OGefr OA Müller erscheint am 17.03 nicht zum Dienst, wird am 20.03 mit Flugticket nach Sydney angehalten. Er weigert sich, dem Befehl des Feldjägerstreifenführers OFw Schulze zu folgen, bezeichnet ihn als „Folterknecht" und tritt ihm gegen das Schienbein.\n\nHat OGefr OA Müller durch sein Verhalten ein Dienstvergehen begangen? Kreuzen Sie die richtige(n) Antwort(en) an.',
     options: [
       'Er hat gegen § 7, 1. Halbsatz SG (Pflicht zum treuen Dienen) verstoßen, indem er am 17.03. entgegen des Dienstplans nicht um 07:00 Uhr zum Dienst erschienen ist, was eine Kernpflichtverletzung darstellt.',
       'Er hat gegen § 11 Abs. 1 SG (Gehorsamspflicht) verstoßen, indem er am 17.03. entgegen des Dienstplans nicht um 07:00 Uhr zum Dienst erschienen ist.',
@@ -375,7 +375,7 @@ const QUESTIONS = [
   {
     id: 101,
     type: 'text',
-    topic: 'Zeitablauf Fall 1 – Tat: 04.05.',
+    topic: 'Zeitablauf Fall 1 – Tat: 04.05',
     q: 'Die Soldatin begeht am 04.05.20xx ein Dienstvergehen. Schlussgehör (§ 32 Abs. 5 WDO) am 31.05.20xx.',
     fields: [
       { label: 'a) Früheste Verhängung (§ 37 Abs. 1 WDO) – Datum u. Uhrzeit', answer: '01.06.20xx, 06:00 Uhr' },
