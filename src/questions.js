@@ -297,7 +297,9 @@ const QUESTIONS = [
     type: 'multi',
     topic: 'VorgV – Vorgesetztenverhältnisse OLt Fuchs / Fw Peters',
     q:
-      'OLt Fuchs ist Zugführer I. Zug, 2. Kompanie und in Zweitfunktion Jugendoffizier. Fw Peters ist Gruppenführer 1. Gruppe, I. Zug, 2. Kompanie und unterstützt OLt Fuchs bei der Betreuung einer Schulklasse.\n\nKreuzen Sie alle zwischen OLt Fuchs und Fw Peters bestehenden Vorgesetztenverhältnisse an.',
+      'OLt Fuchs ist Zugführer I. Zug, 2. Kompanie im Luftwaffenausbildungsbataillon und in Zweitfunktion der Jugendoffizier des Bataillons.
+In dieser Funktion ist er gemäß Bataillonsbefehl vom 20.03. verantwortlich für die Betreuung einer Schulklasse, die den Verband am 01.04. besucht. Dabei unterstützt ihn Fw Peters, Gruppenführer 1. Gruppe, I. Zug, 2. Kompanie im Luftwaffenausbildungsbataillon bei der Betreuung der Schulklasse. Im Verlauf einer Führung im Kasernenbereich trifft Fw Peters seinen stellvertretenden Gruppenführer Uffz Lietke, der entgegen des Befehls des Bataillonskommandeurs keine Kopfbedeckung trägt und befiehlt ihm, umgehend seine Kopfbedeckung aufzusetzen.
+',
     options: [
       '§ 4 Abs. 3 VorgV',
       '§ 2 VorgV',
