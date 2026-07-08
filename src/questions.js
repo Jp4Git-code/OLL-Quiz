@@ -137,7 +137,7 @@ const QUESTIONS = [
     fields: [
       { label: 'Frühestes Datum', answer: '27.07' },
       { label: 'Uhrzeit', answer: '00:00' },
-      { label: 'Normen', answer: '§§ 47 Abs. 1, 52 Abs. 2 WDO' },
+      { label: 'Normen', answer: '§ 47 Abs. 1, 52 Abs. 2 WDO' },
     ],
   },
   {
